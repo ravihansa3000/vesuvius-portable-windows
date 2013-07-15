@@ -1,0 +1,4071 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::dirname
+15 3
+
+fl=php:internal
+fn=php::realpath
+15 213
+
+fl=php:internal
+fn=php::dirname
+13 0
+
+fl=php:internal
+fn=php::realpath
+13 17
+
+fl=php:internal
+fn=php::dirname
+14 0
+
+fl=php:internal
+fn=php::realpath
+14 87
+
+fl=php:internal
+fn=php::dirname
+16 0
+
+fl=php:internal
+fn=php::realpath
+16 83
+
+fl=php:internal
+fn=php::dirname
+17 0
+
+fl=php:internal
+fn=php::realpath
+17 91
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+1 233
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+13 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+13 17
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+14 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+14 87
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+16 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+16 83
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+17 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+17 91
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+1 0
+
+fl=php:internal
+fn=php::getenv
+18 8
+
+fl=php:internal
+fn=php::copy
+21 1049
+
+fl=php:internal
+fn=php::fopen
+23 63
+
+fl=php:internal
+fn=php::fopen
+24 176
+
+fl=php:internal
+fn=php::fgets
+26 128
+
+fl=php:internal
+fn=php::trim
+27 5
+
+fl=php:internal
+fn=php::substr
+27 4
+
+fl=php:internal
+fn=php::fwrite
+28 128
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 13
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 36
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 13
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 25
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 13
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 2
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 15
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 18
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 14
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 13
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 13
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 94
+
+fl=php:internal
+fn=php::fgets
+26 5
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 15
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 9
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 13
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 14
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 1
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 16
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 10
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 1
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 1
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 12
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 0
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 14
+
+fl=php:internal
+fn=php::fgets
+26 0
+
+fl=php:internal
+fn=php::trim
+27 1
+
+fl=php:internal
+fn=php::substr
+27 0
+
+fl=php:internal
+fn=php::strpos
+27 0
+
+fl=php:internal
+fn=php::fwrite
+28 11
+
+fl=php:internal
+fn=php::fgets
+26 16
+
+fl=php:internal
+fn=php::fclose
+32 30
+
+fl=php:internal
+fn=php::fclose
+33 72
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+fn=clean_host
+14 11983
+cfl=php:internal
+cfn=php::getenv
+calls=1 0 0
+18 8
+cfl=php:internal
+cfn=php::copy
+calls=1 0 0
+21 1049
+cfl=php:internal
+cfn=php::fopen
+calls=1 0 0
+23 63
+cfl=php:internal
+cfn=php::fopen
+calls=1 0 0
+24 176
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 128
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 5
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 4
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 128
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 13
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 36
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 13
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 25
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 13
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 2
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 15
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 18
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 14
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 13
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 13
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 94
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 5
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 15
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 9
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 13
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 14
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 16
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 10
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 12
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 14
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+27 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::strpos
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::fwrite
+calls=1 0 0
+28 11
+cfl=php:internal
+cfn=php::fgets
+calls=1 0 0
+26 16
+cfl=php:internal
+cfn=php::fclose
+calls=1 0 0
+32 30
+cfl=php:internal
+cfn=php::fclose
+calls=1 0 0
+33 72
+
+fl=php:internal
+fn=php::popen
+19 10217
+
+fl=php:internal
+fn=php::pclose
+19 29551
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+fn=clean_vesuvius_proc
+14 168
+cfl=php:internal
+cfn=php::popen
+calls=1 0 0
+19 10217
+cfl=php:internal
+cfn=php::pclose
+calls=1 0 0
+19 29551
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php
+fn={main}
+
+summary: 58091
+
+1 2265
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+15 3
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+15 213
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+calls=1 0 0
+15 514
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+calls=1 0 0
+16 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+calls=1 0 0
+17 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+cfn=clean_host
+calls=1 0 0
+22 15154
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+cfn=clean_vesuvius_proc
+calls=1 0 0
+23 39937
+

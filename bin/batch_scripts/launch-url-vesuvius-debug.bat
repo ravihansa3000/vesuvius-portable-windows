@@ -1,0 +1,1 @@
+start http://localhost/debug.php?XDEBUG_SESSION_START=xdebug

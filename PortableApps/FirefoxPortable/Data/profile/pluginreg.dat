@@ -1,0 +1,377 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.15|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+npGoogleUpdate3.dll|$
+C:\Program Files (x86)\Google\Update\1.3.21.153\npGoogleUpdate3.dll|$
+1.3.21.153|$
+1373621622023|0|5|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+npGoogleUpdate3.dll|$
+C:\Users\Akila\AppData\Local\Google\Update\1.3.21.149\npGoogleUpdate3.dll|$
+1.3.21.149|$
+1372860473928|0|5|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+npgtpo3dautoplugin.dll|$
+C:\Users\Akila\AppData\Roaming\Mozilla\plugins\npgtpo3dautoplugin.dll|$
+0.1.44.29|$
+1372738634000|0|5|$
+Google Talk Plugin Video Accelerator version:0.1.44.29|$
+Google Talk Plugin Video Accelerator|$
+1
+0|application/vnd.gtpo3d.auto|||$
+npo1d.dll|$
+C:\Users\Akila\AppData\Roaming\Mozilla\plugins\npo1d.dll|$
+4.2.1.14031|$
+1372738626000|0|5|$
+Version 4.2.1.14031|$
+Google Talk Plugin Video Renderer|$
+1
+0|application/o1d|Google Talk Plugin Video Renderer|o1d|$
+npgoogletalk.dll|$
+C:\Users\Akila\AppData\Roaming\Mozilla\plugins\npgoogletalk.dll|$
+4.2.1.14031|$
+1372738618000|0|5|$
+Version 4.2.1.14031|$
+Google Talk Plugin|$
+1
+0|application/googletalk|Google voice and video chat|googletalk|$
+npqtplugin5.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin5.dll|$
+7.7.4.0|$
+1372660665969|0|5|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.4|$
+7
+0|application/x-mpeg|AMC media|amc|$
+1|video/mp4|MPEG-4 media|mp4|$
+2|audio/mp4|MPEG-4 media|mp4|$
+3|audio/x-m4a|AAC audio|m4a|$
+4|audio/x-m4p|AAC audio|m4p|$
+5|audio/x-m4b|AAC audio book|m4b|$
+6|video/x-m4v|Video|m4v|$
+npqtplugin4.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin4.dll|$
+7.7.4.0|$
+1372660665040|0|5|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.4|$
+7
+0|audio/mpeg|MPEG audio|mpeg,mpg,m1s,m1a,mp2,mpm,mpa,m2a|$
+1|audio/x-mpeg|MPEG audio|mpeg,mpg,m1s,m1a,mp2,mpm,mpa,m2a|$
+2|video/3gpp|3GPP media|3gp,3gpp|$
+3|audio/3gpp|3GPP media|3gp,3gpp|$
+4|video/3gpp2|3GPP2 media|3g2,3gp2|$
+5|audio/3gpp2|3GPP2 media|3g2,3gp2|$
+6|video/sd-video|SD video|sdv|$
+npqtplugin3.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin3.dll|$
+7.7.4.0|$
+1372660664647|0|5|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.4|$
+5
+0|audio/x-aac|AAC audio|aac,adts|$
+1|audio/x-caf|CAF audio|caf|$
+2|audio/x-ac3|AC3 audio|ac3|$
+3|video/x-mpeg|MPEG media|mpeg,mpg,m1s,m1v,m1a,m75,m15,mp2,mpm,mpv,mpa|$
+4|video/mpeg|MPEG media|mpeg,mpg,m1s,m1v,m1a,m75,m15,mp2,mpm,mpv,mpa|$
+npqtplugin2.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin2.dll|$
+7.7.4.0|$
+1372660664289|0|5|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.4|$
+8
+0|audio/aiff|AIFF audio|aiff,aif,aifc,cdda|$
+1|audio/x-aiff|AIFF audio|aiff,aif,aifc,cdda|$
+2|audio/basic|uLaw/AU audio|au,snd,ulw|$
+3|audio/mid|MIDI|mid,midi,smf,kar|$
+4|audio/vnd.qcelp|QUALCOMM PureVoice audio|qcp|$
+5|audio/x-gsm|GSM audio|gsm|$
+6|audio/AMR|AMR audio|AMR|$
+7|audio/aac|AAC audio|aac,adts|$
+npqtplugin.dll|$
+C:\Program Files (x86)\QuickTime\Plugins\npqtplugin.dll|$
+7.7.4.0|$
+1372660663156|0|5|$
+The QuickTime Plugin allows you to view a wide variety of multimedia content in Web pages. For more information, visit the <A HREF=http://www.apple.com/quicktime/>QuickTime</A> Web site.|$
+QuickTime Plug-in 7.7.4|$
+7
+0|application/sdp|SDP stream descriptor|sdp|$
+1|application/x-sdp|SDP stream descriptor|sdp|$
+2|application/x-rtsp|RTSP stream descriptor|rtsp,rts|$
+3|video/quicktime|QuickTime Movie|mov,qt,mqv|$
+4|video/flc|AutoDesk Animator|flc,fli,cel|$
+5|audio/x-wav|WAVE audio|wav,bwf|$
+6|audio/wav|WAVE audio|wav,bwf|$
+npjp2.dll|$
+C:\Program Files (x86)\Java\jre7\bin\plugin2\npjp2.dll|$
+10.25.2.16|$
+1371053908000|0|5|$
+Next Generation Java Plug-in 10.25.2 for Mozilla browsers|$
+Java(TM) Platform SE 7 U25|$
+38
+0|application/x-java-applet|Java Applet||$
+1|application/x-java-bean|JavaBeans||$
+2|application/x-java-vm|||$
+3|application/x-java-applet;version=1.1.1|||$
+4|application/x-java-bean;version=1.1.1|||$
+5|application/x-java-applet;version=1.1|||$
+6|application/x-java-bean;version=1.1|||$
+7|application/x-java-applet;version=1.2|||$
+8|application/x-java-bean;version=1.2|||$
+9|application/x-java-applet;version=1.1.3|||$
+10|application/x-java-bean;version=1.1.3|||$
+11|application/x-java-applet;version=1.1.2|||$
+12|application/x-java-bean;version=1.1.2|||$
+13|application/x-java-applet;version=1.3|||$
+14|application/x-java-bean;version=1.3|||$
+15|application/x-java-applet;version=1.2.2|||$
+16|application/x-java-bean;version=1.2.2|||$
+17|application/x-java-applet;version=1.2.1|||$
+18|application/x-java-bean;version=1.2.1|||$
+19|application/x-java-applet;version=1.3.1|||$
+20|application/x-java-bean;version=1.3.1|||$
+21|application/x-java-applet;version=1.4|||$
+22|application/x-java-bean;version=1.4|||$
+23|application/x-java-applet;version=1.4.1|||$
+24|application/x-java-bean;version=1.4.1|||$
+25|application/x-java-applet;version=1.4.2|||$
+26|application/x-java-bean;version=1.4.2|||$
+27|application/x-java-applet;version=1.5|||$
+28|application/x-java-bean;version=1.5|||$
+29|application/x-java-applet;version=1.6|||$
+30|application/x-java-bean;version=1.6|||$
+31|application/x-java-applet;version=1.7|||$
+32|application/x-java-bean;version=1.7|||$
+33|application/x-java-applet;jpi-version=1.7.0_25|||$
+34|application/x-java-bean;jpi-version=1.7.0_25|||$
+35|application/x-java-vm-npruntime|||$
+36|application/x-java-applet;deploy=10.25.2|||$
+37|application/x-java-applet;javafx=2.2.25|||$
+npDeployJava1.dll|$
+C:\Windows\SysWOW64\npDeployJava1.dll|$
+10.25.2.16|$
+1371053903000|0|5|$
+NPRuntime Script Plug-in Library for Java(TM) Deploy|$
+Java Deployment Toolkit 7.0.250.16|$
+1
+0|application/java-deployment-toolkit|||$
+NPSWF32_11_7_700_224.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_11_7_700_224.dll|$
+11.7.700.224|$
+1371008434902|0|5|$
+Shockwave Flash 11.7 r700|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
+11.0.3.37|$
+1368268650000|0|5|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.03|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
+11.0.3.37|$
+1368268648000|0|5|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.03|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+npdivx32.dll|$
+C:\Program Files (x86)\DivX\DivX Plus Web Player\npdivx32.dll|$
+2.3.1.51|$
+1367829998000|0|5|$
+DivX Plus Web Player version 2.3.1.51|$
+DivX Plus Web Player|$
+2
+0|video/divxdps|DivX Plus Streaming Video Files|smil|$
+1|video/divx|DivX Video Files|divx,div|$
+npNokiaSuiteEnabler.dll|$
+C:\Program Files (x86)\Nokia\Nokia Suite\npNokiaSuiteEnabler.dll|$
+1.0.0.1|$
+1366316190000|0|5|$
+Nokia Suite Enabler Plugin|$
+Nokia Suite Enabler Plugin|$
+1
+0|application/x-enabler-nokiasuite|||$
+npitunes.dll|$
+C:\Program Files (x86)\iTunes\Mozilla Plugins\npitunes.dll|$
+1.0.1.1|$
+1365372094000|0|5|$
+iTunes Detector Plug-in|$
+iTunes Application Detector|$
+1
+0|application/itunes-plugin|This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.||$
+NPWLPG.dll|$
+C:\Program Files (x86)\Windows Live\Photo Gallery\NPWLPG.dll|$
+16.4.3508.205|$
+1360085168000|0|5|$
+NPWLPG|$
+Photo Gallery|$
+2
+0|application/x-wlpg3-detect|Photo Gallery|wlpg|$
+1|application/x-wlpg-detect|Photo Gallery|wlpg|$
+npctrl.dll|$
+C:\Program Files (x86)\Microsoft Silverlight\5.1.20125.0\npctrl.dll|$
+5.1.20125.0|$
+1359038376000|0|5|$
+5.1.20125.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+npvlc.dll|$
+C:\Program Files (x86)\VideoLAN\VLC\npvlc.dll|$
+2.0.2.0|$
+1355357578000|0|5|$
+VLC media player Web Plugin 2.0.2|$
+VLC Web Plugin|$
+44
+0|audio/mpeg|MPEG audio|mp2,mp3,mpga,mpega|$
+1|audio/x-mpeg|MPEG audio|mp2,mp3,mpga,mpega|$
+2|video/mpeg|MPEG video|mpg,mpeg,mpe|$
+3|video/x-mpeg|MPEG video|mpg,mpeg,mpe|$
+4|video/mpeg-system|MPEG video|mpg,mpeg,mpe,vob|$
+5|video/x-mpeg-system|MPEG video|mpg,mpeg,mpe,vob|$
+6|audio/mp4|MPEG-4 audio|aac,mp4,mpg4|$
+7|audio/x-m4a|MPEG-4 audio|m4a|$
+8|video/mp4|MPEG-4 video|mp4,mpg4|$
+9|application/mpeg4-iod|MPEG-4 video|mp4,mpg4|$
+10|application/mpeg4-muxcodetable|MPEG-4 video|mp4,mpg4|$
+11|video/x-m4v|MPEG-4 video|m4v|$
+12|video/x-msvideo|AVI video|avi|$
+13|application/ogg|Ogg stream|ogg|$
+14|video/ogg|Ogg video|ogv|$
+15|application/x-ogg|Ogg stream|ogg|$
+16|application/x-vlc-plugin|VLC plug-in||$
+17|video/x-ms-asf-plugin|Windows Media Video|asf,asx|$
+18|video/x-ms-asf|Windows Media Video|asf,asx|$
+19|application/x-mplayer2|Windows Media||$
+20|video/x-ms-wmv|Windows Media|wmv|$
+21|video/x-ms-wvx|Windows Media Video|wvx|$
+22|audio/x-ms-wma|Windows Media Audio|wma|$
+23|application/x-google-vlc-plugin|Google VLC plug-in||$
+24|audio/wav|WAV audio|wav|$
+25|audio/x-wav|WAV audio|wav|$
+26|audio/3gpp|3GPP audio|3gp,3gpp|$
+27|video/3gpp|3GPP video|3gp,3gpp|$
+28|audio/3gpp2|3GPP2 audio|3g2,3gpp2|$
+29|video/3gpp2|3GPP2 video|3g2,3gpp2|$
+30|video/divx|DivX video|divx|$
+31|video/flv|FLV video|flv|$
+32|video/x-flv|FLV video|flv|$
+33|application/x-matroska|Matroska video|mkv|$
+34|video/x-matroska|Matroska video|mkv|$
+35|audio/x-matroska|Matroska audio|mka|$
+36|application/xspf+xml|Playlist xspf|xspf|$
+37|audio/x-mpegurl|MPEG audio|m3u|$
+38|video/webm|WebM video|webm|$
+39|audio/webm|WebM audio|webm|$
+40|application/vnd.rn-realmedia|Real Media File|rm|$
+41|audio/x-realaudio|Real Media Audio|ra|$
+42|audio/amr|AMR audio|amr|$
+43|audio/x-flac|FLAC audio|flac|$
+NPSPWRAP.DLL|$
+C:\PROGRA~2\MICROS~2\Office15\NPSPWRAP.DLL|$
+15.0.4420.1017|$
+1349104092000|0|5|$
+The plugin allows you to have a better experience with Microsoft SharePoint|$
+Microsoft Office 2013|$
+2
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+1|application/x-sharepoint-uc|||$
+npnitromozilla.dll|$
+C:\Program Files (x86)\Nitro PDF\Professional 7\npnitromozilla.dll|$
+7.5.0.22|$
+1343231298000|0|5|$
+Nitro PDF Plug-in for Firefox and Chrome|$
+Nitro PDF Plug-In|$
+1
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+NPWPIDetector.dll|$
+C:\Program Files\Microsoft\Web Platform Installer\NPWPIDetector.dll|$
+1.1.0.5|$
+1315479454000|0|5|$
+wpidetector|$
+WPI Detector 1.5|$
+1
+0|application/wpi-plugin|||$
+nprjplug.dll|$
+C:\Program Files (x86)\Real\RealPlayer\Netscape6\nprjplug.dll|$
+1.0.3.69|$
+1309966191187|0|5|$
+RealJukebox Netscape Plugin|$
+RealJukebox NS Plugin|$
+1
+0|none|RealJukebox NS Plugin File|none|$
+nppl3260.dll|$
+C:\Program Files (x86)\Real\RealPlayer\Netscape6\nppl3260.dll|$
+6.0.12.69|$
+1309966183278|0|5|$
+RealPlayer(tm) LiveConnect-Enabled Plug-In|$
+RealPlayer(tm) G2 LiveConnect-Enabled Plug-In (32-bit) |$
+1
+0|audio/x-pn-realaudio-plugin|RealPlayer|rpm|$
+nprpjplug.dll|$
+C:\Program Files (x86)\Real\RealPlayer\Netscape6\nprpjplug.dll|$
+6.0.12.69|$
+1309966180760|0|5|$
+6.0.12.69|$
+RealPlayer Version Plugin|$
+1
+0|application/vnd.rn-realplayer-javascript|RealPlayer Version Plugin|rpj|$
+npovshelper.dll|$
+C:\Program Files (x86)\DivX\DivX OVS Helper\npovshelper.dll|$
+1.1.0.6|$
+1308592296000|0|5|$
+DivX VOD Helper Plug-in|$
+DivX VOD Helper Plug-in|$
+1
+0|application/x-divxovshelper|||$
+npYState.dll|$
+C:\Program Files (x86)\Yahoo!\Shared\npYState.dll|$
+1.0.0.7|$
+1308191114000|0|5|$
+Yahoo Application State Plugin version 1.0.0.7|$
+Yahoo Application State Plugin|$
+1
+0|application/x-vnd.yahoo.applicationState|npYState|npYState|$
+
+[INVALID]
+C:\Windows\SysWOW64\npmproxy.dll|$
+1247534171654|$
+C:\Program Files (x86)\Microsoft Silverlight\5.1.20125.0\npctrlui.dll|$
+1359038376000|$
+C:\Program Files (x86)\Nitro PDF\Professional 7\npdf.dll|$
+1343231346000|$
+C:\Program Files (x86)\Nitro PDF\Professional 7\npnitroie.dll|$
+1343231298000|$

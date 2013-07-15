@@ -1,0 +1,301 @@
+<start>
+	<files>
+		<file name="Launch in Default Browser">
+			<path>batch_scripts\launch-url-vesuvius.bat</path>
+			<icon>icons\vesuvius.ico</icon>
+			<runcount>25</runcount>
+			<rundate>2013/07/15 19:44:57</rundate>
+		</file>
+		<file name="Stop Vesuvius Portable">
+			<path>stop-vesuvius.exe</path>
+			<icon>icons\stop.ico</icon>
+			<runcount>101</runcount>
+			<rundate>2013/07/15 21:44:45</rundate>
+		</file>
+		<file name="Launch in Mozilla Firefox">
+			<path>..\PortableApps\FirefoxPortable\FirefoxPortable.exe</path>
+			<runcount>7</runcount>
+			<rundate>2013/07/12 23:02:56</rundate>
+		</file>
+		<file name="Restart Vesuvius Portable">
+			<path>restart-vesuvius.exe</path>
+			<runcount>110</runcount>
+			<rundate>2013/07/15 19:19:56</rundate>
+		</file>
+		<file name="Re-setup Vesuvius Portable">
+			<path>resetup-vesuvius.exe</path>
+			<icon>icons\resetup.ico</icon>
+			<runcount>30</runcount>
+			<rundate>2013/07/15 18:08:20</rundate>
+		</file>
+		<file name="View Owner Details">
+			<path>batch_scripts\launch-url-view-owner.bat</path>
+			<icon>icons\view-owner.ico</icon>
+			<runcount>2</runcount>
+			<rundate>2013/07/15 21:46:39</rundate>
+		</file>
+		<file name="Help">
+			<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+			<parameters>README.txt</parameters>
+			<directory>..\</directory>
+			<icon>icons\help.ico</icon>
+			<runcount>9</runcount>
+			<rundate>2013/07/15 21:51:23</rundate>
+		</file>
+		<separator>
+		</separator>
+		<file name="Portable Server Admin">
+			<path>batch_scripts\launch-url-UniApanel.bat</path>
+			<icon>icons\admin.ico</icon>
+			<runcount>7</runcount>
+			<rundate>2013/07/12 18:25:21</rundate>
+		</file>
+		<file name="Check Server Status">
+			<path>check-ports.exe</path>
+			<icon>icons\status.ico</icon>
+			<runcount>23</runcount>
+			<rundate>2013/07/15 21:31:48</rundate>
+		</file>
+		<separator>
+		</separator>
+		<files name="Development Tools">
+			<icon>icons\development.ico</icon>
+			<file name="Launch IDE/Debugger">
+				<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+				<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php</parameters>
+				<directory>..\</directory>
+				<runcount>13</runcount>
+				<rundate>2013/06/09 13:41:52</rundate>
+			</file>
+			<file name="Debug in Default Browser">
+				<path>batch_scripts\launch-url-vesuvius-debug.bat</path>
+				<icon>icons\browser.ico</icon>
+				<runcount>10</runcount>
+				<rundate>2013/07/14 10:47:52</rundate>
+			</file>
+			<file name="Debug in Firefox Portable">
+				<path>..\PortableApps\FirefoxPortable\FirefoxPortable.exe</path>
+				<parameters>http://localhost/debug.php?XDEBUG_SESSION_START=xdebug</parameters>
+				<runcount>6</runcount>
+				<rundate>2013/07/12 23:09:27</rundate>
+			</file>
+			<file name="Launch phpMyAdmin">
+				<path>batch_scripts\launch-url-phpmyadmin.bat</path>
+				<icon>icons\phpmyadmin.ico</icon>
+				<runcount>16</runcount>
+				<rundate>2013/07/14 23:37:39</rundate>
+			</file>
+			<separator>
+			</separator>
+			<files name="View Configuration">
+				<icon>icons\view-config.ico</icon>
+				<file name="View Apache Configuration">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>PortableApps\SahanaFoundation.org\usr\local\apache2\conf\httpd.conf</parameters>
+					<directory>..\</directory>
+					<runcount>9</runcount>
+					<rundate>2013/07/15 21:49:24</rundate>
+				</file>
+				<file name="View Apache SSL Configuration">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>PortableApps\SahanaFoundation.org\usr\local\apache2\conf\ssl.conf</parameters>
+					<directory>..\</directory>
+					<runcount>4</runcount>
+					<rundate>2013/07/15 21:49:29</rundate>
+				</file>
+				<file name="View PHP Configuration">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>PortableApps\SahanaFoundation.org\usr\local\php\php.ini</parameters>
+					<directory>..\</directory>
+					<runcount>3</runcount>
+					<rundate>2013/07/15 21:49:51</rundate>
+				</file>
+				<file name="View Vesuvius Configuration">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf</parameters>
+					<directory>..\</directory>
+					<runcount>8</runcount>
+					<rundate>2013/07/15 21:50:02</rundate>
+				</file>
+				<file name="View Windows hosts file">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>&#x25;system&#x25;\drivers\etc\hosts</parameters>
+					<runcount>10</runcount>
+					<rundate>2013/07/15 21:50:18</rundate>
+				</file>
+			</files>
+			<separator>
+			</separator>
+			<files name="View Logs">
+				<icon>icons\logs.ico</icon>
+				<file name="View Apache Logs">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>PortableApps\SahanaFoundation.org\usr\local\apache2\logs</parameters>
+					<directory>..\</directory>
+					<runcount>9</runcount>
+					<rundate>2013/07/15 21:50:50</rundate>
+				</file>
+				<file name="View PHP Error Log">
+					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
+					<parameters>PortableApps\SahanaFoundation.org\usr\local\php\php_errors.log</parameters>
+					<directory>..\</directory>
+					<runcount>7</runcount>
+					<rundate>2013/07/15 21:50:44</rundate>
+				</file>
+			</files>
+		</files>
+	</files>
+	<notes>
+		<note name="Help">
+			<text>Login details:
+
+Username: root
+Password: Vesuvius2012</text>
+		</note>
+	</notes>
+	<colors>
+		<color name="0">
+			<value>A0A0FFh</value>
+		</color>
+		<color name="1">
+			<value>A0C0FFh</value>
+		</color>
+		<color name="2">
+			<value>A0FFFFh</value>
+		</color>
+		<color name="3">
+			<value>A0FFA0h</value>
+		</color>
+		<color name="4">
+			<value>FFA0A0h</value>
+		</color>
+	</colors>
+	<configurationfile>
+		<backupmode>pbmTemporary</backupmode>
+	</configurationfile>
+	<execution>
+		<count>70</count>
+		<overalltime>136:03:23.511</overalltime>
+	</execution>
+	<general>
+		<executionaction>0</executionaction>
+		<language>english</language>
+		<singleclick>False</singleclick>
+	</general>
+	<history>
+		<usernames>
+		</usernames>
+	</history>
+	<info>
+		<visible>True</visible>
+	</info>
+	<menu>
+		<hotkeysvisible>True</hotkeysvisible>
+	</menu>
+	<mouse>
+		<sensors>
+			<bottom>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottom>
+			<bottomleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomleft>
+			<bottomright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</bottomright>
+			<cornersize>20</cornersize>
+			<left>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</left>
+			<monitor>1</monitor>
+			<right>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</right>
+			<top>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</top>
+			<topleft>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topleft>
+			<topright>
+				<leftaction>0</leftaction>
+				<rightaction>0</rightaction>
+			</topright>
+		</sensors>
+	</mouse>
+	<note>
+		<alarm>
+			<notify>
+				<autoclose>False</autoclose>
+				<duration>10</duration>
+				<sound></sound>
+			</notify>
+			<recenttime>2013/06/08 10:33:31</recenttime>
+		</alarm>
+		<defaultcolor>A0FFFFh</defaultcolor>
+		<style>0</style>
+		<visible>True</visible>
+		<wordbreak>1</wordbreak>
+	</note>
+	<panel>
+		<closemode>0</closemode>
+		<hotkey>False</hotkey>
+		<hotkeyclose>True</hotkeyclose>
+		<hotkeycode>15</hotkeycode>
+		<hotkeymodifier>7</hotkeymodifier>
+		<pageindex>0</pageindex>
+		<position>0</position>
+		<showonstartup>True</showonstartup>
+		<staticsize>False</staticsize>
+		<title>Vesuvius Portable - Dashboard</title>
+	</panel>
+	<search>
+		<allusersstartmenu>True</allusersstartmenu>
+		<colorize>True</colorize>
+		<colors>
+			<allusersstartmenu>0080FFh</allusersstartmenu>
+			<currentuserstartmenu>40A000h</currentuserstartmenu>
+			<pstart>FF4040h</pstart>
+		</colors>
+		<currentuserstartmenu>True</currentuserstartmenu>
+		<includemode>0</includemode>
+		<pstart>True</pstart>
+		<sort>0</sort>
+	</search>
+	<style>
+		<additionaltextcolor>000000h</additionaltextcolor>
+		<backgroundimage></backgroundimage>
+		<captioncolor>000000h</captioncolor>
+		<iconsize>1</iconsize>
+		<iteminfomode>0</iteminfomode>
+	</style>
+	<tray>
+		<doubleclick>1</doubleclick>
+		<hotkey>False</hotkey>
+		<hotkeycode>12</hotkeycode>
+		<hotkeymodifier>7</hotkeymodifier>
+		<hover>0</hover>
+		<iconimage>2</iconimage>
+		<iconvisibility>0</iconvisibility>
+		<leftclick>2</leftclick>
+	</tray>
+	<window>
+		<main>
+			<position>
+				<x>952</x>
+				<y>451</y>
+			</position>
+			<size>
+				<x>313</x>
+				<y>519</y>
+			</size>
+		</main>
+	</window>
+</start>

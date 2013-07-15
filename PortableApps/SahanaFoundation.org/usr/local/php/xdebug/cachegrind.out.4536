@@ -1,0 +1,831 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\certificate_and_key_gen.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::dirname
+16 9
+
+fl=php:internal
+fn=php::explode
+16 10
+
+fl=php:internal
+fn=php::preg_replace
+18 26
+
+fl=php:internal
+fn=php::dirname
+48 5
+
+fl=php:internal
+fn=php::explode
+48 8
+
+fl=php:internal
+fn=php::preg_replace
+50 20
+
+fl=php:internal
+fn=php::substr
+52 5
+
+fl=php:internal
+fn=php::substr
+53 2
+
+fl=php:internal
+fn=php::define
+56 6
+
+fl=php:internal
+fn=php::define
+60 5
+
+fl=php:internal
+fn=php::define
+61 7
+
+fl=php:internal
+fn=php::define
+63 5
+
+fl=php:internal
+fn=php::define
+64 6
+
+fl=php:internal
+fn=php::define
+65 5
+
+fl=php:internal
+fn=php::define
+66 10
+
+fl=php:internal
+fn=php::define
+67 5
+
+fl=php:internal
+fn=php::define
+68 6
+
+fl=php:internal
+fn=php::define
+69 7
+
+fl=php:internal
+fn=php::define
+70 6
+
+fl=php:internal
+fn=php::define
+72 5
+
+fl=php:internal
+fn=php::define
+73 6
+
+fl=php:internal
+fn=php::define
+74 5
+
+fl=php:internal
+fn=php::define
+76 6
+
+fl=php:internal
+fn=php::define
+77 5
+
+fl=php:internal
+fn=php::define
+78 6
+
+fl=php:internal
+fn=php::define
+79 5
+
+fl=php:internal
+fn=php::define
+80 5
+
+fl=php:internal
+fn=php::define
+81 5
+
+fl=php:internal
+fn=php::define
+85 5
+
+fl=php:internal
+fn=php::define
+86 5
+
+fl=php:internal
+fn=php::define
+87 5
+
+fl=php:internal
+fn=php::define
+88 5
+
+fl=php:internal
+fn=php::define
+89 6
+
+fl=php:internal
+fn=php::define
+90 6
+
+fl=php:internal
+fn=php::define
+91 7
+
+fl=php:internal
+fn=php::define
+92 7
+
+fl=php:internal
+fn=php::define
+93 5
+
+fl=php:internal
+fn=php::define
+96 6
+
+fl=php:internal
+fn=php::define
+97 5
+
+fl=php:internal
+fn=php::define
+98 5
+
+fl=php:internal
+fn=php::define
+99 7
+
+fl=php:internal
+fn=php::define
+101 7
+
+fl=php:internal
+fn=php::define
+102 7
+
+fl=php:internal
+fn=php::define
+105 5
+
+fl=php:internal
+fn=php::define
+106 5
+
+fl=php:internal
+fn=php::define
+107 5
+
+fl=php:internal
+fn=php::define
+109 5
+
+fl=php:internal
+fn=php::define
+110 6
+
+fl=php:internal
+fn=php::define
+111 5
+
+fl=php:internal
+fn=php::define
+114 5
+
+fl=php:internal
+fn=php::define
+117 5
+
+fl=php:internal
+fn=php::define
+118 5
+
+fl=php:internal
+fn=php::define
+121 6
+
+fl=php:internal
+fn=php::define
+122 6
+
+fl=php:internal
+fn=php::define
+123 5
+
+fl=php:internal
+fn=php::define
+126 6
+
+fl=php:internal
+fn=php::define
+127 10
+
+fl=php:internal
+fn=php::define
+128 5
+
+fl=php:internal
+fn=php::define
+130 5
+
+fl=php:internal
+fn=php::define
+131 5
+
+fl=php:internal
+fn=php::define
+134 5
+
+fl=php:internal
+fn=php::define
+137 8
+
+fl=php:internal
+fn=php::define
+138 6
+
+fl=php:internal
+fn=php::define
+139 5
+
+fl=php:internal
+fn=php::define
+140 5
+
+fl=php:internal
+fn=php::define
+142 8
+
+fl=php:internal
+fn=php::define
+143 6
+
+fl=php:internal
+fn=php::define
+144 5
+
+fl=php:internal
+fn=php::define
+147 5
+
+fl=php:internal
+fn=php::define
+148 6
+
+fl=php:internal
+fn=php::define
+149 5
+
+fl=php:internal
+fn=php::define
+150 5
+
+fl=php:internal
+fn=php::define
+151 6
+
+fl=php:internal
+fn=php::define
+154 8
+
+fl=php:internal
+fn=php::define
+155 5
+
+fl=php:internal
+fn=php::define
+158 5
+
+fl=php:internal
+fn=php::define
+159 5
+
+fl=php:internal
+fn=php::define
+161 5
+
+fl=php:internal
+fn=php::define
+162 5
+
+fl=php:internal
+fn=php::define
+163 7
+
+fl=php:internal
+fn=php::define
+164 5
+
+fl=php:internal
+fn=php::file_get_contents
+168 1003
+
+fl=php:internal
+fn=php::define
+169 8
+
+fl=php:internal
+fn=php::define
+184 5
+
+fl=php:internal
+fn=php::define
+185 5
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\config.inc.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\config.inc.php
+1 8198
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+48 5
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+48 8
+cfl=php:internal
+cfn=php::preg_replace
+calls=1 0 0
+50 20
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+52 5
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+53 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+56 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+60 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+61 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+63 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+64 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+65 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+66 10
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+67 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+68 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+69 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+70 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+72 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+73 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+74 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+76 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+77 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+78 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+79 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+80 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+81 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+85 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+86 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+87 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+88 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+89 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+90 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+91 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+92 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+93 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+96 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+97 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+98 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+99 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+101 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+102 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+105 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+106 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+107 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+109 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+110 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+111 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+114 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+117 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+118 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+121 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+122 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+123 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+126 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+127 10
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+128 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+130 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+131 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+134 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+137 8
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+138 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+139 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+140 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+142 8
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+143 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+144 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+147 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+148 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+149 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+150 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+151 6
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+154 8
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+155 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+158 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+159 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+161 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+162 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+163 7
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+164 5
+cfl=php:internal
+cfn=php::file_get_contents
+calls=1 0 0
+168 1003
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+169 8
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+184 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+185 5
+
+fl=php:internal
+fn=php::file_get_contents
+28 470
+
+fl=php:internal
+fn=php::getenv
+31 20
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\config.inc.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\config.inc.php
+1 2887
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+16 9
+cfl=php:internal
+cfn=php::explode
+calls=1 0 0
+16 10
+cfl=php:internal
+cfn=php::preg_replace
+calls=1 0 0
+18 26
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\config.inc.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\config.inc.php
+calls=1 0 0
+21 9733
+cfl=php:internal
+cfn=php::file_get_contents
+calls=1 0 0
+28 470
+cfl=php:internal
+cfn=php::getenv
+calls=1 0 0
+31 20
+
+fl=php:internal
+fn=php::file_get_contents
+14 859
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\lang\English.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\lang\English.php
+1 264
+
+fl=php:internal
+fn=php::file_get_contents
+13 944
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\.version
+fn=include::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\.version
+1 10
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\header.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\header.php
+1 2312
+cfl=php:internal
+cfn=php::file_get_contents
+calls=1 0 0
+13 944
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\.version
+cfn=include::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\.version
+calls=1 0 0
+19 10
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\secure.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\secure.php
+1 185
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\functions.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\functions.php
+1 8
+
+fl=php:internal
+fn=php::basename
+19 14
+
+fl=php:internal
+fn=php::file_get_contents
+433 215
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\functions.php
+fn=get_apache_tracker
+432 43
+cfl=php:internal
+cfn=php::file_get_contents
+calls=1 0 0
+433 215
+
+fl=php:internal
+fn=php::exec
+38 27470082
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\code.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\code.php
+1 15
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\footer.php
+fn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\footer.php
+1 967
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\code.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\code.php
+calls=1 0 0
+2 15
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\certificate_and_key_gen.php
+fn={main}
+
+summary: 27496132
+
+1 7049
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\config.inc.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\config.inc.php
+calls=1 0 0
+13 13157
+cfl=php:internal
+cfn=php::file_get_contents
+calls=1 0 0
+14 859
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\lang\English.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\lang\English.php
+calls=1 0 0
+14 264
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\header.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\header.php
+calls=1 0 0
+15 3268
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\secure.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\secure.php
+calls=1 0 0
+16 185
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\functions.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\functions.php
+calls=1 0 0
+17 8
+cfl=php:internal
+cfn=php::basename
+calls=1 0 0
+19 14
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\unicon\main\includes\functions.php
+cfn=get_apache_tracker
+calls=1 0 0
+23 258
+cfl=php:internal
+cfn=php::exec
+calls=1 0 0
+38 27470082
+cfl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\footer.php
+cfn=include_once::C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\home\admin\www\includes\footer.php
+calls=1 0 0
+65 982
+

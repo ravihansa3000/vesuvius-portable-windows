@@ -1,0 +1,55 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\home\admin\www\phpinfo.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::ob_start
+26 1
+
+fl=php:internal
+fn=php::phpinfo
+59 3437
+
+fl=php:internal
+fn=php::ob_get_clean
+63 77
+
+fl=php:internal
+fn=php::implode
+95 4
+
+fl=php:internal
+fn=php::str_replace
+95 417
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\home\admin\www\phpinfo.php
+fn={main}
+
+summary: 9902
+
+1 5964
+cfl=php:internal
+cfn=php::ob_start
+calls=1 0 0
+26 1
+cfl=php:internal
+cfn=php::phpinfo
+calls=1 0 0
+59 3437
+cfl=php:internal
+cfn=php::ob_get_clean
+calls=1 0 0
+63 77
+cfl=php:internal
+cfn=php::implode
+calls=1 0 0
+95 4
+cfl=php:internal
+cfn=php::str_replace
+calls=1 0 0
+95 417
+

@@ -1,0 +1,807 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::dirname
+13 8
+
+fl=php:internal
+fn=php::realpath
+13 240
+
+fl=php:internal
+fn=php::define
+14 5
+
+fl=php:internal
+fn=php::define
+15 1
+
+fl=php:internal
+fn=php::define
+16 1
+
+fl=php:internal
+fn=php::define
+17 0
+
+fl=php:internal
+fn=php::define
+18 1
+
+fl=php:internal
+fn=php::dirname
+20 0
+
+fl=php:internal
+fn=php::realpath
+20 20
+
+fl=php:internal
+fn=php::dirname
+21 0
+
+fl=php:internal
+fn=php::realpath
+21 97
+
+fl=php:internal
+fn=php::dirname
+23 0
+
+fl=php:internal
+fn=php::realpath
+23 95
+
+fl=php:internal
+fn=php::dirname
+24 0
+
+fl=php:internal
+fn=php::realpath
+24 88
+
+fl=php:internal
+fn=php::getenv
+38 6
+
+fl=php:internal
+fn=php::dirname
+40 0
+
+fl=php:internal
+fn=php::realpath
+40 17
+
+fl=php:internal
+fn=php::dirname
+41 0
+
+fl=php:internal
+fn=php::realpath
+41 15
+
+fl=php:internal
+fn=php::dirname
+49 0
+
+fl=php:internal
+fn=php::get_include_path
+50 3
+
+fl=php:internal
+fn=php::set_include_path
+50 2
+
+fl=php:internal
+fn=php::error_reporting
+51 4
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+1 572
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+14 5
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+15 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+16 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+17 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+18 1
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+20 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+20 20
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+21 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+21 97
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+23 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+23 95
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+24 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+24 88
+cfl=php:internal
+cfn=php::getenv
+calls=1 0 0
+38 6
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+40 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+40 17
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+41 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+41 15
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+49 0
+cfl=php:internal
+cfn=php::get_include_path
+calls=1 0 0
+50 3
+cfl=php:internal
+cfn=php::set_include_path
+calls=1 0 0
+50 2
+cfl=php:internal
+cfn=php::error_reporting
+calls=1 0 0
+51 4
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\stop_vesuvius_process.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\stop_vesuvius_process.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+1 0
+
+fl=php:internal
+fn=php::error_reporting
+22 5
+
+fl=php:internal
+fn=php::extension_loaded
+24 1
+
+fl=php:internal
+fn=php::define
+25 2
+
+fl=php:internal
+fn=php::define
+26 0
+
+fl=php:internal
+fn=php::define
+27 0
+
+fl=php:internal
+fn=php::define
+28 0
+
+fl=php:internal
+fn=php::define
+29 0
+
+fl=php:internal
+fn=php::define
+34 0
+
+fl=php:internal
+fn=php::function_exists
+36 5
+
+fl=php:internal
+fn=php::zend_version
+37 1
+
+fl=php:internal
+fn=php::version_compare
+37 10
+
+fl=php:internal
+fn=php::define
+37 1
+
+fl=php:internal
+fn=php::substr
+39 2
+
+fl=php:internal
+fn=php::define
+40 1
+
+fl=php:internal
+fn=php::define
+41 2
+
+fl=php:internal
+fn=php::define
+42 0
+
+fl=php:internal
+fn=php::ini_set
+55 3
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR5.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR5.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR.php
+1 936
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+25 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+27 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+28 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+29 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+34 0
+cfl=php:internal
+cfn=php::function_exists
+calls=1 0 0
+36 5
+cfl=php:internal
+cfn=php::zend_version
+calls=1 0 0
+37 1
+cfl=php:internal
+cfn=php::version_compare
+calls=1 0 0
+37 10
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+37 1
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+39 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+40 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+41 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+42 0
+cfl=php:internal
+cfn=php::ini_set
+calls=1 0 0
+55 3
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR5.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR5.php
+calls=1 0 0
+730 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR\Exception.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR\Exception.php
+1 2
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter\Default.filter.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter\Default.filter.php
+1 4
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Common.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Common.php
+1 1
+
+fl=php:internal
+fn=php::define
+10 2
+
+fl=php:internal
+fn=php::define
+11 0
+
+fl=php:internal
+fn=php::define
+12 0
+
+fl=php:internal
+fn=php::define
+13 1
+
+fl=php:internal
+fn=php::define
+14 0
+
+fl=php:internal
+fn=php::define
+15 0
+
+fl=php:internal
+fn=php::define
+16 0
+
+fl=php:internal
+fn=php::define
+17 0
+
+fl=php:internal
+fn=php::define
+19 1
+
+fl=php:internal
+fn=php::define
+20 0
+
+fl=php:internal
+fn=php::define
+23 0
+
+fl=php:internal
+fn=php::define
+24 0
+
+fl=php:internal
+fn=php::define
+25 1
+
+fl=php:internal
+fn=php::define
+26 0
+
+fl=php:internal
+fn=php::define
+27 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Log.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Log.php
+1 209
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+10 2
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+11 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+12 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+13 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+14 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+15 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+16 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+17 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+19 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+20 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+23 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+24 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+25 1
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+26 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+27 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Exception.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Exception.php
+1 4
+
+fl=php:internal
+fn=php::define
+44 4
+
+fl=php:internal
+fn=php::pack
+45 8
+
+fl=php:internal
+fn=php::define
+45 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Archive\Tar.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Archive\Tar.php
+1 229
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+44 4
+cfl=php:internal
+cfn=php::pack
+calls=1 0 0
+45 8
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+45 1
+
+fl=php:internal
+fn=php::stream_wrapper_register
+195 5
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper\Tarz.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper\Tarz.php
+1 6856
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Archive\Tar.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Archive\Tar.php
+calls=1 0 0
+26 243
+cfl=php:internal
+cfn=php::stream_wrapper_register
+calls=1 0 0
+195 5
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper.php
+fn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper.php
+1 1154
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper\Tarz.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper\Tarz.php
+calls=1 0 0
+52 7106
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier.php
+1 13262
+cfl=php:internal
+cfn=php::error_reporting
+calls=1 0 0
+22 5
+cfl=php:internal
+cfn=php::extension_loaded
+calls=1 0 0
+24 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR.php
+calls=1 0 0
+27 971
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR\Exception.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\PEAR\Exception.php
+calls=1 0 0
+28 2
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter.php
+calls=1 0 0
+32 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter\Default.filter.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Filter\Default.filter.php
+calls=1 0 0
+36 4
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Common.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Common.php
+calls=1 0 0
+40 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Log.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Log.php
+calls=1 0 0
+44 226
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Exception.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Exception.php
+calls=1 0 0
+48 4
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper.php
+cfn=include_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\StreamWrapper.php
+calls=1 0 0
+52 8260
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Decorator.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Decorator.php
+1 6
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch\Output.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch\Output.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch.php
+1 1376
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Decorator.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Decorator.php
+calls=1 0 0
+26 6
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch\Output.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch\Output.php
+calls=1 0 0
+30 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+1 6850
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier.php
+calls=1 0 0
+13 22742
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\PEAR\Beautifier\Batch.php
+calls=1 0 0
+14 1384
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+53 104
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+1 20
+
+fl=php:internal
+fn=php::trim
+58 1
+
+fl=php:internal
+fn=php::trim
+58 0
+
+fl=php:internal
+fn=php::substr
+58 0
+
+fl=php:internal
+fn=php::file_exists
+68 41
+
+fl=php:internal
+fn=php::array_push
+70 1
+
+fl=php:internal
+fn=php::header
+23 8
+
+fl=php:internal
+fn=php::file_exists
+47 77
+
+fl=php:internal
+fn=php::file_exists
+55 64
+
+fl=php:internal
+fn=php::file_exists
+63 61
+
+fl=php:internal
+fn=php::file_exists
+71 61
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+fn=shn_theme_head
+14 97
+cfl=php:internal
+cfn=php::header
+calls=1 0 0
+23 8
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+47 77
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+55 64
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+63 61
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+71 61
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+fn=shn_theme_body_error
+97 14
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+fn=shn_theme_footer
+14 31
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php
+fn={main}
+
+summary: 40364
+
+1 7601
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+13 8
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+13 240
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+calls=1 0 0
+13 939
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\stop_vesuvius_process.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\stop_vesuvius_process.php
+calls=1 0 0
+14 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+calls=1 0 0
+15 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+calls=1 0 0
+16 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+calls=1 0 0
+17 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+calls=1 0 0
+18 30977
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+calls=1 0 0
+19 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+calls=1 0 0
+20 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+calls=1 0 0
+21 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+53 104
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+calls=1 0 0
+57 20
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+58 1
+cfl=php:internal
+cfn=php::trim
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::substr
+calls=1 0 0
+58 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+68 41
+cfl=php:internal
+cfn=php::array_push
+calls=1 0 0
+70 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+cfn=shn_theme_head
+calls=1 0 0
+118 370
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+cfn=shn_theme_body_error
+calls=1 0 0
+119 14
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+cfn=shn_theme_footer
+calls=1 0 0
+125 31
+

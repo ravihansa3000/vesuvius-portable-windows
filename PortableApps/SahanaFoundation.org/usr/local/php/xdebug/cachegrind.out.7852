@@ -1,0 +1,319 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::dirname
+13 5
+
+fl=php:internal
+fn=php::realpath
+13 275
+
+fl=php:internal
+fn=php::define
+14 4
+
+fl=php:internal
+fn=php::define
+15 0
+
+fl=php:internal
+fn=php::define
+16 0
+
+fl=php:internal
+fn=php::define
+17 0
+
+fl=php:internal
+fn=php::dirname
+19 0
+
+fl=php:internal
+fn=php::realpath
+19 20
+
+fl=php:internal
+fn=php::dirname
+20 0
+
+fl=php:internal
+fn=php::realpath
+20 102
+
+fl=php:internal
+fn=php::dirname
+22 0
+
+fl=php:internal
+fn=php::realpath
+22 96
+
+fl=php:internal
+fn=php::dirname
+23 0
+
+fl=php:internal
+fn=php::realpath
+23 92
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+1 329
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+14 4
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+15 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+16 0
+cfl=php:internal
+cfn=php::define
+calls=1 0 0
+17 0
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+19 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+19 20
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+20 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+20 102
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+22 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+22 96
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+23 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+23 92
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+1 2
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+1 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+1 1
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+fn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+1 0
+
+fl=php:internal
+fn=php::file_exists
+36 149
+
+fl=php:internal
+fn=php::com->com
+15 11466
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+fn=getSystemUUID
+14 85958
+cfl=php:internal
+cfn=php::com->com
+calls=1 0 0
+15 11466
+
+fl=php:internal
+fn=php::file_exists
+59 39
+
+fl=php:internal
+fn=php::file_get_contents
+62 138
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+fn=getLastRecordedUUID
+57 61
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+59 39
+cfl=php:internal
+cfn=php::file_get_contents
+calls=1 0 0
+62 138
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+fn=isUUIDMatch
+49 101
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+cfn=getSystemUUID
+calls=1 0 0
+50 97424
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+cfn=getLastRecordedUUID
+calls=1 0 0
+50 240
+
+fl=php:internal
+fn=php::header
+17 8
+
+fl=php:internal
+fn=php::file_exists
+37 86
+
+fl=php:internal
+fn=php::file_exists
+45 83
+
+fl=php:internal
+fn=php::file_exists
+53 61
+
+fl=php:internal
+fn=php::file_exists
+61 59
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+fn=shn_theme_head
+14 147
+cfl=php:internal
+cfn=php::header
+calls=1 0 0
+17 8
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+37 86
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+45 83
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+53 61
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+61 59
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+fn=shn_theme_body_register_form
+84 0
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+fn=shn_theme_footer
+14 21
+
+fl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php
+fn={main}
+
+summary: 102839
+
+1 3514
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+13 5
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+13 275
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\main.inc.php
+calls=1 0 0
+13 650
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_vesuvius_proc.php
+calls=1 0 0
+14 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\clean_host.php
+calls=1 0 0
+15 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+calls=1 0 0
+16 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_owner_reg.php
+calls=1 0 0
+17 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_portableconfig.php
+calls=1 0 0
+18 2
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+calls=1 0 0
+19 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+calls=1 0 0
+20 1
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+cfn=require_once::D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+calls=1 0 0
+21 0
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+36 149
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\lib_uuid.php
+cfn=isUUIDMatch
+calls=1 0 0
+41 97766
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\head.php
+cfn=shn_theme_head
+calls=1 0 0
+52 446
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php
+cfn=shn_theme_body_register_form
+calls=1 0 0
+76 0
+cfl=D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\footer.php
+cfn=shn_theme_footer
+calls=1 0 0
+82 21
+

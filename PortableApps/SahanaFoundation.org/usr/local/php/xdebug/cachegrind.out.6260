@@ -1,0 +1,191 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::dirname
+13 2
+
+fl=php:internal
+fn=php::realpath
+13 36
+
+fl=php:internal
+fn=php::dirname
+14 0
+
+fl=php:internal
+fn=php::realpath
+14 30
+
+fl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\main.inc
+fn=require_once::C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\main.inc
+1 130
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+13 2
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+13 36
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+14 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+14 30
+
+fl=php:internal
+fn=php::file_exists
+15 39
+
+fl=php:internal
+fn=php::dirname
+78 0
+
+fl=php:internal
+fn=php::realpath
+78 32
+
+fl=php:internal
+fn=php::dirname
+79 0
+
+fl=php:internal
+fn=php::realpath
+79 29
+
+fl=php:internal
+fn=php::dirname
+80 0
+
+fl=php:internal
+fn=php::realpath
+80 29
+
+fl=php:internal
+fn=php::dirname
+81 0
+
+fl=php:internal
+fn=php::realpath
+81 30
+
+fl=php:internal
+fn=php::file_exists
+83 42
+
+fl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\index.php
+fn=resetup_sahana_conf
+75 236
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+78 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+78 32
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+79 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+79 29
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+80 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+80 29
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+81 0
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+81 30
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+83 42
+
+fl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+fn=require_once::C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+1 20
+
+fl=php:internal
+fn=php::file_exists
+61 36
+
+fl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\portable.conf
+fn=require_once::C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\portable.conf
+1 5
+
+fl=php:internal
+fn=php::file_exists
+70 34
+
+fl=php:internal
+fn=php::file_exists
+251 30
+
+fl=php:internal
+fn=php::file_exists
+280 30
+
+fl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\index.php
+fn={main}
+
+summary: 1645
+
+1 842
+cfl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\main.inc
+cfn=require_once::C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\main.inc
+calls=1 0 0
+13 200
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+15 39
+cfl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\index.php
+cfn=resetup_sahana_conf
+calls=1 0 0
+16 403
+cfl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+cfn=require_once::C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf
+calls=1 0 0
+17 20
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+61 36
+cfl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\portable.conf
+cfn=require_once::C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\portable.conf
+calls=1 0 0
+62 5
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+70 34
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+251 30
+cfl=php:internal
+cfn=php::file_exists
+calls=1 0 0
+280 30
+

@@ -1,0 +1,36 @@
+###############################################################################
+# File name: run_on_drive_w.txt
+# Created By: The Uniform Server Development Team
+# V 1.0 7-7-2011
+###############################################################################
+
+ If you wish to run Uniform Server from a folder containing spaces in its path.
+
+ Copy files run_on_drive_w.bat and remove_drive_w.bat to folder UniServer.
+ To start servers. From folder UniServer double click file run_on_drive_w.bat
+
+ Using this file creates a virtual drive named W mapping folder UniServer to
+ its root (top level). This eliminates spaces at the expense of using a free
+ drive letter.
+
+ The above method is suitable only for running servers as a standard program.
+ Do NOT use this method when installing servers as a service.
+
+ Note 1:
+ Virtual drive letter assignments are permanent, until either explicitly
+ released or after a PC restart. To explicitly release drive letter first stop
+ Uniform Server and from folder UniServer run the following batch file:
+ remove_drive_w.bat
+
+ Note 2:
+ To change default drive letter "w" edit the following two files:
+
+ Edit run_on_drive_w.bat Replace “W:” with “x:” where x is the new drive letter
+ Edit remove_drive_w.bat Replace “W:” with “x:” where x is the new drive letter
+ Ensure "x" has not been already assigned.
+
+                                  --- End ---
+
+
+
+

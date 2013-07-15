@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<vesuvius-portable>
+  <owner_name>test</owner_name>
+  <portable_id>testx</portable_id>
+  <organization>test</organization>
+  <parent_base_uuid>sahana.org/</parent_base_uuid>
+  <owner_email>tt@t.t</owner_email>
+  <portable_base_uuid>sahana.org.testx/</portable_base_uuid>
+</vesuvius-portable>

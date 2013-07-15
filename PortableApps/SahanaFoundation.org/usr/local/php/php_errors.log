@@ -1,0 +1,480 @@
+[15-Jul-2013 13:34:26] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:34:26] PHP Stack trace:
+[15-Jul-2013 13:34:26] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:26] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:26] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:26] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:26] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:26] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:26] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:26] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:26] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:26] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:34:26] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:34:26] PHP Stack trace:
+[15-Jul-2013 13:34:26] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:26] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:26] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:26] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:26] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:26] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:26] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:26] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:26] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:26] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:34:27] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:34:27] PHP Stack trace:
+[15-Jul-2013 13:34:27] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:27] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:27] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:27] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:27] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:27] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:27] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:27] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:27] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:27] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:34:27] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:34:27] PHP Stack trace:
+[15-Jul-2013 13:34:27] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:27] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:27] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:27] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:27] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:27] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:27] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:27] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:27] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:27] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:34:37] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:34:37] PHP Stack trace:
+[15-Jul-2013 13:34:37] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:37] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:37] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:37] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:37] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:37] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:37] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:37] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:37] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:37] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:34:37] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:34:37] PHP Stack trace:
+[15-Jul-2013 13:34:37] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:37] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:37] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:37] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:37] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:37] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:37] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:37] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:37] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:37] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:34:38] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:34:38] PHP Stack trace:
+[15-Jul-2013 13:34:38] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:38] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:38] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:38] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:38] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:38] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:38] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:38] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:38] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:38] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:34:38] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:34:38] PHP Stack trace:
+[15-Jul-2013 13:34:38] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:34:38] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:34:38] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:34:38] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:34:38] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:34:38] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:34:38] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:34:38] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:34:38] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:34:38] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:35:15] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:35:15] PHP Stack trace:
+[15-Jul-2013 13:35:15] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:15] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:15] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:15] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:15] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:15] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:15] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:15] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:15] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:15] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:35:15] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:35:15] PHP Stack trace:
+[15-Jul-2013 13:35:15] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:15] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:15] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:15] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:15] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:15] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:15] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:15] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:15] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:15] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:35:15] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:35:15] PHP Stack trace:
+[15-Jul-2013 13:35:15] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:15] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:15] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:15] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:15] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:15] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:15] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:15] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:15] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:15] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:35:15] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:35:15] PHP Stack trace:
+[15-Jul-2013 13:35:15] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:15] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:15] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:15] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:15] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:15] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:15] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:15] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:15] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:15] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:35:53] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:35:53] PHP Stack trace:
+[15-Jul-2013 13:35:53] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:53] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:53] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:53] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:53] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:53] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:53] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:53] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:53] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:53] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:35:53] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:35:53] PHP Stack trace:
+[15-Jul-2013 13:35:53] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:53] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:53] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:53] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:53] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:53] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:53] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:53] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:53] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:53] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 13:35:54] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 13:35:54] PHP Stack trace:
+[15-Jul-2013 13:35:54] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:54] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:54] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:54] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:54] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:54] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:54] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:54] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:54] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:54] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 13:35:54] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 13:35:54] PHP Stack trace:
+[15-Jul-2013 13:35:54] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 13:35:54] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 13:35:54] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 13:35:54] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 13:35:54] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 13:35:54] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 13:35:54] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 13:35:54] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 13:35:54] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 13:35:54] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 14:35:01] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 14:35:01] PHP Stack trace:
+[15-Jul-2013 14:35:01] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:35:01] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:35:01] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:35:01] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:35:01] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:35:01] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:35:01] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:35:01] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:35:02] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:35:02] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 14:35:02] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 14:35:02] PHP Stack trace:
+[15-Jul-2013 14:35:02] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:35:02] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:35:02] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:35:02] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:35:02] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:35:02] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:35:02] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:35:02] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:35:02] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:35:02] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 14:35:02] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 14:35:02] PHP Stack trace:
+[15-Jul-2013 14:35:02] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:35:02] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:35:02] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:35:02] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:35:02] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:35:02] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:35:02] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:35:02] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:35:02] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:35:02] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 14:35:02] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 14:35:02] PHP Stack trace:
+[15-Jul-2013 14:35:02] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:35:02] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:35:02] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:35:02] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:35:02] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:35:02] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:35:02] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:35:02] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:35:02] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:35:02] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 14:50:01] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 14:50:01] PHP Stack trace:
+[15-Jul-2013 14:50:01] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:50:01] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:50:01] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:50:01] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:50:01] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:50:01] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:50:01] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:50:01] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:50:01] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:50:01] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 14:50:01] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 14:50:01] PHP Stack trace:
+[15-Jul-2013 14:50:01] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:50:01] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:50:01] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:50:01] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:50:01] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:50:01] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:50:01] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:50:01] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:50:01] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:50:01] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 14:50:02] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 14:50:02] PHP Stack trace:
+[15-Jul-2013 14:50:02] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:50:02] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:50:02] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:50:02] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:50:02] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:50:02] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:50:02] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:50:02] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:50:02] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:50:02] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 14:50:02] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 14:50:02] PHP Stack trace:
+[15-Jul-2013 14:50:02] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 14:50:02] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 14:50:02] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 14:50:02] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 14:50:02] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 14:50:02] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 14:50:02] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 14:50:02] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 14:50:02] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 14:50:02] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 15:14:58] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 15:14:58] PHP Stack trace:
+[15-Jul-2013 15:14:58] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 15:14:58] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 15:14:58] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 15:14:58] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 15:14:58] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 15:14:58] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 15:14:58] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 15:14:58] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 15:14:58] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 15:14:58] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 15:14:58] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 15:14:58] PHP Stack trace:
+[15-Jul-2013 15:14:58] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 15:14:58] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 15:14:58] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 15:14:58] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 15:14:58] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 15:14:58] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 15:14:58] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 15:14:58] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 15:14:58] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 15:14:58] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 15:14:58] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 15:14:58] PHP Stack trace:
+[15-Jul-2013 15:14:58] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 15:14:58] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 15:14:58] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 15:14:58] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 15:14:58] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 15:14:58] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 15:14:58] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 15:14:58] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 15:14:58] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 15:14:58] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 15:14:58] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 15:14:58] PHP Stack trace:
+[15-Jul-2013 15:14:58] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 15:14:58] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 15:14:58] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 15:14:58] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 15:14:58] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 15:14:58] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 15:14:58] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 15:14:58] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 15:14:58] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 15:14:58] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 17:01:37] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 17:01:38] PHP Stack trace:
+[15-Jul-2013 17:01:38] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:01:38] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:01:38] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:01:38] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:01:38] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:01:38] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:01:38] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:01:38] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:01:38] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:01:38] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 17:01:38] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 17:01:38] PHP Stack trace:
+[15-Jul-2013 17:01:38] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:01:38] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:01:38] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:01:38] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:01:38] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:01:38] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:01:38] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:01:38] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:01:38] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:01:38] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 17:01:39] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 17:01:39] PHP Stack trace:
+[15-Jul-2013 17:01:39] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:01:39] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:01:39] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:01:39] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:01:39] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:01:39] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:01:39] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:01:39] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:01:39] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:01:39] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 17:01:39] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 17:01:39] PHP Stack trace:
+[15-Jul-2013 17:01:39] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:01:39] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:01:39] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:01:39] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:01:39] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:01:39] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:01:39] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:01:39] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:01:39] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:01:39] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 17:07:33] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 17:07:33] PHP Stack trace:
+[15-Jul-2013 17:07:33] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:07:33] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:07:33] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:07:33] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:07:33] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:07:33] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:07:33] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:07:33] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:07:33] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:07:33] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 17:07:33] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 17:07:33] PHP Stack trace:
+[15-Jul-2013 17:07:33] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:07:33] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:07:33] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:07:33] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:07:33] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:07:33] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:07:33] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:07:33] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:07:33] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:07:33] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 17:07:34] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 17:07:34] PHP Stack trace:
+[15-Jul-2013 17:07:34] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:07:34] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:07:34] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:07:34] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:07:34] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:07:34] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:07:34] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:07:34] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:07:34] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:07:34] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 17:07:34] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 17:07:34] PHP Stack trace:
+[15-Jul-2013 17:07:34] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:07:34] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:07:34] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:07:34] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:07:34] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:07:34] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:07:34] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:07:34] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:07:34] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:07:34] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 17:14:27] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 17:14:27] PHP Stack trace:
+[15-Jul-2013 17:14:27] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:14:27] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:14:27] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:14:27] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:14:27] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:14:27] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:14:27] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:14:27] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:14:27] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:14:27] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 17:14:27] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 17:14:27] PHP Stack trace:
+[15-Jul-2013 17:14:27] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:14:27] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:14:27] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:14:27] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:14:27] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:14:27] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:14:27] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:14:27] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:14:27] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:14:27] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[15-Jul-2013 17:14:28] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
+[15-Jul-2013 17:14:28] PHP Stack trace:
+[15-Jul-2013 17:14:28] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:14:28] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:14:28] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:14:28] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:14:28] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:14:28] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:14:28] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:14:28] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:14:28] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:14:28] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
+[15-Jul-2013 17:14:28] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
+[15-Jul-2013 17:14:28] PHP Stack trace:
+[15-Jul-2013 17:14:28] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:0
+[15-Jul-2013 17:14:28] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\redirect.php:26
+[15-Jul-2013 17:14:28] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
+[15-Jul-2013 17:14:28] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
+[15-Jul-2013 17:14:28] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
+[15-Jul-2013 17:14:28] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
+[15-Jul-2013 17:14:28] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
+[15-Jul-2013 17:14:28] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
+[15-Jul-2013 17:14:28] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
+[15-Jul-2013 17:14:28] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256

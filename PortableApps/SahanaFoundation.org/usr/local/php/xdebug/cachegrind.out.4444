@@ -1,0 +1,47 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\clean_vesuvius_proc.php
+part: 1
+positions: line
+
+events: Time
+
+fl=php:internal
+fn=php::dirname
+15 3
+
+fl=php:internal
+fn=php::realpath
+15 43
+
+fl=php:internal
+fn=php::popen
+20 9422
+
+fl=php:internal
+fn=php::pclose
+20 27038
+
+fl=C:\Users\Akila\Downloads\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\clean_vesuvius_proc.php
+fn={main}
+
+summary: 36751
+
+1 244
+cfl=php:internal
+cfn=php::dirname
+calls=1 0 0
+15 3
+cfl=php:internal
+cfn=php::realpath
+calls=1 0 0
+15 43
+cfl=php:internal
+cfn=php::popen
+calls=1 0 0
+20 9422
+cfl=php:internal
+cfn=php::pclose
+calls=1 0 0
+20 27038
+

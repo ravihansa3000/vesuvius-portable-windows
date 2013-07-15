@@ -1,0 +1,15 @@
+version: 1
+creator: xdebug 2.2.3
+cmd: C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\www\local\index.php
+part: 1
+positions: line
+
+events: Time
+
+fl=C:\Users\Akila\Desktop\VesuviusPortable\PortableApps\SahanaFoundation.org\www\local\index.php
+fn={main}
+
+summary: 24
+
+1 24
+

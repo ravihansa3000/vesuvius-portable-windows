@@ -1,0 +1,51 @@
+#######################################################################
+# File name: openssl.cnf
+# Created By: The Uniform Server Development Team
+# Edited Last By: Mike Gleaves (ric) 
+# V 1.0 28-1-2011
+# Uses OpenSSL 
+########################################################################
+#
+# OpenSSL configuration file.
+#
+ 
+# Establish working directory.
+ 
+dir                 = .
+ 
+[req]
+default_bits                    = 2048          # Size of keys
+default_keyfile                 = key.pem       # name of generated keys
+default_md                      = sha1          # message digest algorithm
+string_mask                     = nombstr       # permitted characters
+distinguished_name              = req_distinguished_name
+req_extensions                  = v3_req
+ 
+[req_distinguished_name]
+#---- Variable name ------    ---------  Prompt string ---------
+countryName                     = lk
+countryName_min                 = 2
+countryName_max                 = 2
+
+stateOrProvinceName             = state
+localityName                    = locality
+
+0.organizationName              = Sahana                  # O  Organization Name
+organizationalUnitName          = Unit   # OU Organization Unit
+emailAddress                    = user@localhost
+emailAddress_max                = 40
+commonName                      = localhost # CN Common Name
+commonName_max                  = 64
+ 
+# Default values for the above, requires less typing.
+#----- Variable name ----     ----------- Value ------------
+
+0.organizationName_default      = UniServer
+organizationalUnitName_default	= Secure demo
+localityName_default            = Cambs
+stateOrProvinceName_default     = Cambridge
+countryName_default             = UK
+ 
+[v3_req]
+basicConstraints                = CA:FALSE
+subjectKeyIdentifier            = hash
