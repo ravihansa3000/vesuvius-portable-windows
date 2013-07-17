@@ -37,6 +37,7 @@ function beautify_phpfile($file){
 		// Save the file
 		$oBeautifier->save();
 	}catch(Exception $oExp) {
+		add_error("PHPBeautifier Exception: ".var_dump($oExp));
 		return false;
 	}	
 	unlink($file);
@@ -55,6 +56,7 @@ function setup_sahana_conf(){
 	$base_uuid = $host_entry . "/";
 	
 	if (!beautify_phpfile($global['sahana.conf_file'])){
+		add_error("Could not format " . $global['sahana.conf_file']);
 		return false;
 	}
 	$tmp_sahana_conf_file = $global['portable.tmp_dir'] . '/tmp_sahana.conf';
@@ -127,12 +129,11 @@ function setup_sahana_conf(){
 	*** Note - Since Apache virtual host for Vesuvius web app is the default 
 			   virtual host, Vesuvius can be accessed through loopback IP
 */
-function setupWinHostsFile(&$err_list){
+function setupWinHostsFile(){
 	global $global;
 	$host_entry = get_host_entry();
 	if ($host_entry === false){
-		$global['portable.state'] = STATE_ERROR;
-		array_push($err_list, "Could not retrieve host entry! Please download a fresh copy and try again.");
+		add_error("Could not retrieve host entry! Please download a fresh copy and try again.");		
 	}else{
 		clean_host();
 		$win_host_file = $global['portable.win_host_file'];
@@ -146,13 +147,12 @@ function setupWinHostsFile(&$err_list){
 			$line = PHP_EOL . "127.0.0.1     " . $host_entry . $global['portable.host_entry_tag'] . PHP_EOL;
 		}	
 		if (!file_put_contents($win_host_file, $line, FILE_APPEND)){
-			$global['portable.state'] = STATE_ERROR;
-			array_push($err_list, "Could not add entries to Windows hosts file!");
+			add_error("Could not add entries to Windows hosts file!");			
 		}	
 	}
 }
 /* Create a new admin user account for the owner */
-function createVesuviusAdminAccount($form_data, &$err_list){
+function createVesuviusAdminAccount($form_data){
 	global $global, $conf;
 	$global['approot'] = $global['sahana.approot'] . '/';
 	$conf['db_name'] = $global['portable.dbname'];
@@ -185,8 +185,7 @@ function createVesuviusAdminAccount($form_data, &$err_list){
 	if(($res == null) || ($res->EOF)) {
 		//
 	} else {
-		$global['portable.state'] = STATE_ERROR;
-		array_push($err_list, $db->ErrorMsg());
+		add_error("Failed to delete persion_uuid records: ".$db->ErrorMsg());
 		return false;
 	}
 	
@@ -199,8 +198,7 @@ function createVesuviusAdminAccount($form_data, &$err_list){
 	if(($res == null) || ($res->EOF)) {
 		//
 	} else {
-		$global['portable.state'] = STATE_ERROR;
-		array_push($err_list, $db->ErrorMsg());
+		add_error("Failed to delete user roles records: ".$db->ErrorMsg());
 		return false;
 	}
 	
@@ -213,8 +211,7 @@ function createVesuviusAdminAccount($form_data, &$err_list){
 	if(($res == null) || ($res->EOF)) {
 		//
 	} else {
-		$global['portable.state'] = STATE_ERROR;
-		array_push($err_list, $db->ErrorMsg());
+		add_error("Failed to delete users records: ".$db->ErrorMsg());
 		return false;
 	}
 	
@@ -228,14 +225,12 @@ function createVesuviusAdminAccount($form_data, &$err_list){
 	if(($res == null) || ($res->EOF)) {
 		//
 	} else {
-		$global['portable.state'] = STATE_ERROR;
-		array_push($err_list, $db->ErrorMsg());
+		add_error("Failed to delete contact email records: ".$db->ErrorMsg());
 		return false;
 	}
 	
 	if(shn_auth_add_user($given_name, $family_name, $user_name, $password, $role, $pid, null, $email) == false) {
-		$global['portable.state'] = STATE_ERROR;
-		array_push($err_list, "Could not add admin user to the database");	
+		add_error("Failed to create admin user");		
 		return false;
 	}else{
 		// ok!
@@ -345,6 +340,7 @@ function create_portable_conf($form_data){
 		
 	$res = $doc->save($global['portable.conf_file']);
 	if ($res === false){
+		add_error("Could not create portable configuration! Please download a fresh copy and try again.");
 		return false;
 	}else{
 		return true;

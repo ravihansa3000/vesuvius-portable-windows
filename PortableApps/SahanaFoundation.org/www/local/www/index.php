@@ -41,18 +41,16 @@ if (isset($_GET['action']) && $_GET['action'] === "CHECK_VESUVIUS_STATUS"){
 }
 /************ End Action requests ******************************/
 
-
-$err_list = array(); // error list container
+// Global error list container
+$global['error_list'] = array();
 
 // Step 1 - Validate sahana.conf file
 if (!file_exists($global['sahana.conf_file'])){
-	$global['portable.state'] = STATE_ERROR; 
-	array_push($err_list, "sahana.conf file is missing! Please download a fresh copy and try again.");
+	add_error("sahana.conf file is missing! Please download a fresh copy and try again.");	
 }else{
 	require_once($global['sahana.conf_file']); // we need this to get default parent base_uuid value
 	if (trim($conf['base_uuid']) === '' || trim($conf['base_uuid']) === '/' || substr($conf['base_uuid'], -1) !== '/'){
-		$global['portable.state'] = STATE_ERROR; 
-		array_push($err_list, "Invalid sahana.conf file! Please download a fresh copy and try again.");
+		add_error("Invalid sahana.conf file! Please download a fresh copy and try again.");		
 	}else{
 		$global['sahana.base_uuid'] = $conf['base_uuid'];
 	}	
@@ -60,18 +58,18 @@ if (!file_exists($global['sahana.conf_file'])){
 
 // Step 2 - Check whether host_uuid file exists
 if (!file_exists($global['portable.host_uuid_file'])){
-	$global['portable.state'] = STATE_ERROR; 
-	array_push($err_list, "host_uuid file is missing! Please download a fresh copy and try again.");
+	add_error("host_uuid file is missing! Please download a fresh copy and try again.");	
 }
 
 // Step 3 - Check whether Vesuvius Portable is registered by the owner
 if ($global['portable.state'] !==  STATE_ERROR && isUUIDMatch() ){
 	if (!file_exists($global['portable.conf_file'])){ // portable configuration file must exist
-		$global['portable.state'] = STATE_ERROR; 
-		array_push($err_list, "portable.xml file is missing! Please download a fresh copy and try again.");
+		add_error($global['portable.conf_file'] . " file is missing! Please download a fresh copy and try again.");		
 	}else{
 		$global['portable.state'] = STATE_READY;
-		setupWinHostsFile($err_list); // Add mapping from base_uuid domain to loopback IP in Windows hosts file
+		// Add mapping from base_uuid domain to loopback IP in Windows hosts file
+		setupWinHostsFile(); 
+		
 		if ($global['portable.state'] !==  STATE_ERROR){
 			$host_entry = get_host_entry(); // Get Vesuvius base_uuid
 			header('Location: http://'.$host_entry); // redirect to Vesuvius home page
@@ -85,17 +83,21 @@ if ($global['portable.state'] !==  STATE_ERROR && isUUIDMatch() ){
 if ($global['portable.state'] ===  STATE_MACHINEMOVE && isset($_POST['submit']) ){ // registration form is submitted
 	$res = validateRegistrationForm(); // Validate user input
 	if ($res === true){
-		$form_data = populateFormData(); // Get validated user submitted form data from $_POST
-		if (!create_portable_conf($form_data)){ // Create portable configuration file
-			$global['portable.state'] = STATE_ERROR;
-			array_push($err_list, "Could not create portable configuration! Please download a fresh copy and try again.");
-		}
-		if (!setup_sahana_conf()){ // Modify sahana.conf with new base_uuid and server parameters
-			$global['portable.state'] = STATE_ERROR;
-			array_push($err_list, "Could not setup Sahana configuration! Please download a fresh copy and try again.");
-		}		
-		setupWinHostsFile($err_list); // Add mapping from base_uuid domain to loopback IP in Windows hosts file
-		createVesuviusAdminAccount($form_data, $err_list); // Create an admin account in Vesuvius for the owner
+		// Get validated user submitted form data from $_POST
+		$form_data = populateFormData();
+		
+		// Create portable configuration file
+		create_portable_conf($form_data);
+		
+		// Modify sahana.conf with new base_uuid and server parameters
+		setup_sahana_conf(); 
+		
+		// Add mapping from base_uuid domain to loopback IP in Windows hosts file
+		setupWinHostsFile(); 
+		
+		// Create an admin account in Vesuvius for the owner
+		createVesuviusAdminAccount($form_data); 
+		
 		if ($global['portable.state'] !==  STATE_ERROR){			
 			createHostUUID();
 			$host_entry = get_host_entry();			
@@ -114,5 +116,16 @@ if ($global['portable.state'] ===  STATE_MACHINEMOVE && isset($_POST['submit']) 
 // Something has gone wrong, display encountered error messages
 if ($global['portable.state'] ===  STATE_ERROR){	
 	shn_theme_head();	
-	shn_theme_body_error($err_list);
+	shn_theme_body_error();
+}
+
+
+function add_error($error){
+	global $global; 
+	$global['portable.state'] = STATE_ERROR; 
+	if(is_array($error)){
+		array_push($global['error_list'], $error);
+	}else{
+		$global['error_list'][] = $error;
+	}
 }

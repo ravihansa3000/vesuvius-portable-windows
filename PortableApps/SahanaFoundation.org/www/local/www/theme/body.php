@@ -102,45 +102,10 @@ function shn_theme_body_register_form_errors($error_list){
 		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
+</html>
 <?php
 }
 
-function shn_theme_body_error($err_list){
-?><body>
-	<div id="container">
-		<div id="header" class="clearfix">
-			<div id="leftHeaderLogo"><a href="#"><img id="leftHeaderLogoImg" src="theme/img/pl.png" alt="People Locator Logo"></a><sup id="suplogo" style="font-size: 120%; color: #34689A;">&#0153;</sup>
-			</div>
-			<div id="rightHeaderLogo"><a href="#"><img src="theme/img/NLMlogoSmall.gif" alt="United States National Library of Medicine Logo"></a>
-			</div>
-		</div>
-		<div id="headerText">
-			<h1>Sahana Vesuvius<sup>&#0153;</sup></h1>
-			<h3>&nbsp;</h3>
-			<h4>U.S. National Library of Medicine</h4>
-			<h4>Lister Hill National Center for Biomedical Communications</h4>
-		</div>
-		<div id="wrapper" class="clearfix">
-
-			<!-- Left hand side menus & login form -->
-			<div id="content" class="clearfix">
-				<div style="padding: 20px 0px 0px 36px;">
-					<h3>Failed to initialize Vesuvius. Vesuvius Portable encountered following errors,</h3>	
-					<br/>
-					<? 
-						foreach ($err_list as $err){
-							echo "<li>" . $err . "</li>";
-						}
-					?>
-				</div>
-			</div><!-- /content -->			
-		</div><!-- /wrapper -->		
-		
-		<? shn_theme_footer(); // Print HTML Footer ?>
-	</div>
-</body>
-<?php
-}
 
 function shn_theme_body_register_form(){
 	global $global;
@@ -229,6 +194,7 @@ function shn_theme_body_register_form(){
 		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
+</html>
 <?php
 }
 
@@ -256,8 +222,10 @@ function shn_theme_body_block(){
 				</div>
 			</div><!-- /content -->
 		</div><!-- /wrapper -->		
+		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
+</html>
 <?php
 }
 function shn_theme_body_view_owner(){
@@ -325,7 +293,48 @@ function shn_theme_body_view_owner(){
 				</div>
 			</div><!-- /content -->
 		</div><!-- /wrapper -->		
+		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
+</html>
 <?
+}
+
+function shn_theme_body_error(){
+	global $global; 
+?><body>
+	<div id="container">
+		<div id="header" class="clearfix">
+			<div id="leftHeaderLogo"><a href="#"><img id="leftHeaderLogoImg" src="theme/img/pl.png" alt="People Locator Logo"></a><sup id="suplogo" style="font-size: 120%; color: #34689A;">&#0153;</sup>
+			</div>
+			<div id="rightHeaderLogo"><a href="#"><img src="theme/img/NLMlogoSmall.gif" alt="United States National Library of Medicine Logo"></a>
+			</div>
+		</div>
+		<div id="headerText">
+			<h1>Sahana Vesuvius<sup>&#0153;</sup></h1>
+			<h3>&nbsp;</h3>
+			<h4>U.S. National Library of Medicine</h4>
+			<h4>Lister Hill National Center for Biomedical Communications</h4>
+		</div>
+		<div id="wrapper" class="clearfix">
+
+			<!-- Left hand side menus & login form -->
+			<div id="content" class="clearfix">
+				<div style="padding: 20px 0px 0px 36px;">
+					<h3>Failed to initialize Vesuvius. Vesuvius Portable encountered following errors,</h3>	
+					<br/>
+					<? 
+						foreach ($global['portable.state'] as $err){
+							echo "<li>" . $err . "</li>";
+						}
+					?>
+				</div>
+			</div><!-- /content -->			
+		</div><!-- /wrapper -->		
+		
+		<? shn_theme_footer(); // Print HTML Footer ?>
+	</div>
+</body>
+</html>
+<?php
 }
