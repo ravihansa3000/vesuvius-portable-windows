@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <vesuvius-portable>
-  <owner_name>test</owner_name>
+  <owner_name>Akila</owner_name>
   <portable_id>testx</portable_id>
   <organization>test</organization>
   <parent_base_uuid>sahana.org/</parent_base_uuid>

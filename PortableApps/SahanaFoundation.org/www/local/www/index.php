@@ -85,7 +85,7 @@ if ($global['portable.state'] !==  STATE_ERROR && isUUIDMatch() ){
 if ($global['portable.state'] ===  STATE_MACHINEMOVE && isset($_POST['submit']) ){ // registration form is submitted
 	$res = validateRegistrationForm(); // Validate user input
 	if ($res === true){
-		$form_data = populateFormData(); // Get validated user submitted form data
+		$form_data = populateFormData(); // Get validated user submitted form data from $_POST
 		if (!create_portable_conf($form_data)){ // Create portable configuration file
 			$global['portable.state'] = STATE_ERROR;
 			array_push($err_list, "Could not create portable configuration! Please download a fresh copy and try again.");
@@ -95,6 +95,7 @@ if ($global['portable.state'] ===  STATE_MACHINEMOVE && isset($_POST['submit']) 
 			array_push($err_list, "Could not setup Sahana configuration! Please download a fresh copy and try again.");
 		}		
 		setupWinHostsFile($err_list); // Add mapping from base_uuid domain to loopback IP in Windows hosts file
+		createVesuviusAdminAccount($form_data, $err_list); // Create an admin account in Vesuvius for the owner
 		if ($global['portable.state'] !==  STATE_ERROR){			
 			createHostUUID();
 			$host_entry = get_host_entry();			
@@ -115,5 +116,3 @@ if ($global['portable.state'] ===  STATE_ERROR){
 	shn_theme_head();	
 	shn_theme_body_error($err_list);
 }
-
-shn_theme_footer(); // Print HTML Footer

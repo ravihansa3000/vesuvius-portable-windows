@@ -97,6 +97,33 @@
 		$validation_passed = false;
 		array_push($invalid_fields, "owner_email");
 	}
+	
+	// validate user_name field
+	if (isset($_POST['user_name'])){
+		$user_name = htmlspecialchars(trim($_POST['user_name']));
+		if (preg_match('/[^A-Za-z0-9]/', $user_name)  || strlen($user_name) < 5  || strlen($user_name) > 15 ){
+			$validation_passed = false;
+			array_push($invalid_fields, "user_name");
+		}
+	}else{
+		$validation_passed = false;
+		array_push($invalid_fields, "user_name");
+	}
+	
+	// validate password field
+	if (isset($_POST['password']) && isset($_POST['password_re'])){
+		$password = htmlspecialchars(trim($_POST['password']));
+		$password_re = htmlspecialchars(trim($_POST['password_re']));
+		if ($password !== $password_re || preg_match('/[^A-Za-z0-9]/', $password)  || strlen($password) < 8  || strlen($password) > 15 ){
+			$validation_passed = false;
+			array_push($invalid_fields, "password");
+			array_push($invalid_fields, "password_re");
+		}
+	}else{
+		$validation_passed = false;
+		array_push($invalid_fields, "password");
+		array_push($invalid_fields, "password_re");
+	}
  
 	if ($validation_passed){
 		return true;
@@ -112,6 +139,8 @@ function populateFormData(){
 	$organization = htmlspecialchars(trim($_POST['organization']));
 	$parent_base_uuid = htmlspecialchars(trim($_POST['parent_base_uuid']));	
 	$owner_email = htmlspecialchars(trim($_POST['owner_email']));
+	$user_name = htmlspecialchars(trim($_POST['user_name']));
+	$password = htmlspecialchars(trim($_POST['password']));
 	
 	$arr = explode("/", $parent_base_uuid, 2);
 	$domain_name = $arr[0];
@@ -123,7 +152,9 @@ function populateFormData(){
 		'organization' => $organization,
 		'parent_base_uuid' => $parent_base_uuid,
 		'owner_email' => $owner_email,
-		'portable_base_uuid' => $portable_base_uuid
+		'portable_base_uuid' => $portable_base_uuid,
+		'user_name' => $user_name,
+		'password' => $password
 	);
 	return $form_data;
 }

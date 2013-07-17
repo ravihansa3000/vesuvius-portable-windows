@@ -18,6 +18,7 @@ function shn_theme_body_register_form_errors($error_list){
 	$organization = htmlspecialchars(trim($_POST['organization']));
 	$parent_base_uuid = htmlspecialchars(trim($_POST['parent_base_uuid']));
 	$owner_email = htmlspecialchars(trim($_POST['owner_email']));
+	$user_name = htmlspecialchars(trim($_POST['user_name']));
 	
 	$err_style = "style='color: red;'";
 	
@@ -46,7 +47,7 @@ function shn_theme_body_register_form_errors($error_list){
 					<br/>
 					<h4>Please check the field(s) marked in red</h4>
 				</div>
-				<div style="margin-top: 50px;">
+				<div>
 					<form name="input" action="index.php" method="POST">
 					<table id="regform" >
 						 <tr>
@@ -75,17 +76,30 @@ function shn_theme_body_register_form_errors($error_list){
 							<td>Enter your email address</td>
 						 </tr>
 						 <tr>
-							<td><input type="hidden" name="submit"></td>
+							<td <? if (in_array("user_name", $error_list)) echo $err_style; ?> >Username</td>
+							<td><input type="text" name="user_name" value="<? echo $user_name; ?>" size="40"></td>
+							<td>Username to access Vesuvius (only alphanumericals, length: Max - 15, Min - 5)</td>
 						 </tr>
 						 <tr>
+							<td <? if (in_array("password", $error_list)) echo $err_style; ?> >Password</td>
+							<td><input type="password" name="password" value="" size="40"></td>
+							<td>Password to access Vesuvius (only alphanumericals, length: Max - 15, Min - 8)</td>
+						 </tr>
+						 <tr>
+							<td <? if (in_array("password_re", $error_list)) echo $err_style; ?> >Re-enter Password</td>
+							<td><input type="password" name="password_re" value="" size="40"></td>
+							<td>Enter the password again to verify</td>
+						 </tr>						 
+						 <tr>
 							<td></td>
-							<td><input style="margin-top: 25px; font-size: 14px; font-weight: bold;" type="submit" name="submit" value="   Submit   "></td>
+							<td><input style="margin-top: 10px; font-size: 14px; font-weight: bold;" type="submit" name="submit" value="   Submit   "></td>
 						 </tr>
 					</table>
 					</form>
 				</div>
 			</div><!-- /content -->
 		</div><!-- /wrapper -->		
+		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
 <?php
@@ -119,8 +133,10 @@ function shn_theme_body_error($err_list){
 						}
 					?>
 				</div>
-			</div><!-- /content -->
+			</div><!-- /content -->			
 		</div><!-- /wrapper -->		
+		
+		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
 <?php
@@ -135,7 +151,7 @@ function shn_theme_body_register_form(){
 	$parent_base_uuid = ($portable_conf_data === false) ? $global['sahana.base_uuid'] : $portable_conf_data['parent_base_uuid'];
 	$owner_email = ($portable_conf_data === false) ? '' : $portable_conf_data['owner_email'];
 	
-?><body>
+?><body >
 	<div id="container">
 		<div id="header" class="clearfix">
 			<div id="leftHeaderLogo"><a href="#"><img id="leftHeaderLogoImg" src="theme/img/pl.png" alt="People Locator Logo"></a><sup id="suplogo" style="font-size: 120%; color: #34689A;">&#0153;</sup>
@@ -149,7 +165,7 @@ function shn_theme_body_register_form(){
 			<h4>U.S. National Library of Medicine</h4>
 			<h4>Lister Hill National Center for Biomedical Communications</h4>
 		</div>
-		<div id="wrapper" class="clearfix">
+		<div id="wrapper" class="clearfix" >
 
 			<!-- Left hand side menus & login form -->
 			<div id="content" class="clearfix">
@@ -158,7 +174,7 @@ function shn_theme_body_register_form(){
 					<br/>
 					<h4>This will help to trace back data to its source</h4>
 				</div>
-				<div style="margin-top: 50px;">
+				<div>
 					<form name="input" action="index.php" method="POST">
 					<table id="regform" >
 						 <tr>
@@ -187,17 +203,30 @@ function shn_theme_body_register_form(){
 							<td>Enter your email address</td>
 						 </tr>
 						 <tr>
-							<td><input type="hidden" name="submit"></td>
+							<td>Username</td>
+							<td><input type="text" name="user_name" value="" size="40"></td>
+							<td>Username to access Vesuvius (only alphanumericals, length: Max - 15, Min - 5)</td>
 						 </tr>
 						 <tr>
+							<td>Password</td>
+							<td><input type="password" name="password" value="" size="40"></td>
+							<td>Password to access Vesuvius (only alphanumericals, length: Max - 15, Min - 8)</td>
+						 </tr>
+						 <tr>
+							<td>Re-enter Password</td>
+							<td><input type="password" name="password_re" value="" size="40"></td>
 							<td></td>
-							<td><input style="margin-top: 25px; font-size: 14px; font-weight: bold;" type="submit" name="submit" value="   Submit   "></td>
+						 </tr>						 
+						 <tr>
+							<td></td>
+							<td><input style="margin-top: 10px; font-size: 14px; font-weight: bold;" type="submit" name="submit" value="   Submit   "></td>
 						 </tr>
 					</table>
 					</form>
 				</div>
 			</div><!-- /content -->
-		</div><!-- /wrapper -->		
+		</div><!-- /wrapper -->	
+		<? shn_theme_footer(); // Print HTML Footer ?>
 	</div>
 </body>
 <?php

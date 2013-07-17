@@ -294,7 +294,7 @@ div#loginform {
 	color: #fff;
 }
 
-div#content { margin: 30px 20px; padding: 0px 32px 0px 32px; /*min-height: 400px;*/}
+div#content { margin: 30px 20px 143px 10px; padding: 0px 32px 0px 32px; /*min-height: 400px;*/}
 div#content h1, div#content h2 {
 	color: #34689a; font-size: 16px; font-weight: bolder; margin: 10px 0px 10px 0px; padding: 0px; text-align: left;
 }
