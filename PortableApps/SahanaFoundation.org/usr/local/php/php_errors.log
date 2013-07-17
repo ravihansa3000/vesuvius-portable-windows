@@ -1,72 +1,66 @@
-[17-Jul-2013 14:18:12] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
-[17-Jul-2013 14:18:12] PHP Stack trace:
-[17-Jul-2013 14:18:12] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
-[17-Jul-2013 14:18:12] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:26
-[17-Jul-2013 14:18:12] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
-[17-Jul-2013 14:18:12] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
-[17-Jul-2013 14:18:12] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
-[17-Jul-2013 14:18:12] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
-[17-Jul-2013 14:18:12] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
-[17-Jul-2013 14:18:12] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
-[17-Jul-2013 14:18:12] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
-[17-Jul-2013 14:18:12] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
-[17-Jul-2013 14:18:12] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
-[17-Jul-2013 14:18:12] PHP Stack trace:
-[17-Jul-2013 14:18:12] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
-[17-Jul-2013 14:18:12] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:26
-[17-Jul-2013 14:18:12] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
-[17-Jul-2013 14:18:12] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
-[17-Jul-2013 14:18:12] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
-[17-Jul-2013 14:18:12] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
-[17-Jul-2013 14:18:12] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
-[17-Jul-2013 14:18:12] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
-[17-Jul-2013 14:18:12] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
-[17-Jul-2013 14:18:12] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
-[17-Jul-2013 14:18:12] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
-[17-Jul-2013 14:18:12] PHP Stack trace:
-[17-Jul-2013 14:18:12] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
-[17-Jul-2013 14:18:12] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:26
-[17-Jul-2013 14:18:12] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
-[17-Jul-2013 14:18:12] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
-[17-Jul-2013 14:18:12] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
-[17-Jul-2013 14:18:12] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
-[17-Jul-2013 14:18:12] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
-[17-Jul-2013 14:18:12] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
-[17-Jul-2013 14:18:12] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
-[17-Jul-2013 14:18:12] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
-[17-Jul-2013 14:18:12] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
-[17-Jul-2013 14:18:12] PHP Stack trace:
-[17-Jul-2013 14:18:12] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
-[17-Jul-2013 14:18:12] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:26
-[17-Jul-2013 14:18:12] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
-[17-Jul-2013 14:18:12] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
-[17-Jul-2013 14:18:12] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
-[17-Jul-2013 14:18:12] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
-[17-Jul-2013 14:18:12] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
-[17-Jul-2013 14:18:12] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
-[17-Jul-2013 14:18:12] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
-[17-Jul-2013 14:18:12] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
-[17-Jul-2013 14:18:26] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 72
-[17-Jul-2013 14:18:26] PHP Stack trace:
-[17-Jul-2013 14:18:26] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
-[17-Jul-2013 14:18:26] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:26
-[17-Jul-2013 14:18:26] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
-[17-Jul-2013 14:18:26] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
-[17-Jul-2013 14:18:26] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
-[17-Jul-2013 14:18:26] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
-[17-Jul-2013 14:18:26] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
-[17-Jul-2013 14:18:26] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
-[17-Jul-2013 14:18:26] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
-[17-Jul-2013 14:18:26] PHP  10. _get_reader() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:255
-[17-Jul-2013 14:18:26] PHP Notice:  Use of undefined constant LC_MESSAGES - assumed 'LC_MESSAGES' in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc on line 100
-[17-Jul-2013 14:18:26] PHP Stack trace:
-[17-Jul-2013 14:18:26] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
-[17-Jul-2013 14:18:26] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:26
-[17-Jul-2013 14:18:26] PHP   3. shn_config_load_in_order() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:67
-[17-Jul-2013 14:18:26] PHP   4. shn_config_module_conf_fetch() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:26
-[17-Jul-2013 14:18:26] PHP   5. include_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_config.inc:86
-[17-Jul-2013 14:18:26] PHP   6. _t() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\admin\conf.inc:15
-[17-Jul-2013 14:18:26] PHP   7. __() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:413
-[17-Jul-2013 14:18:26] PHP   8. _pgettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:312
-[17-Jul-2013 14:18:26] PHP   9. _gettext() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:293
-[17-Jul-2013 14:18:26] PHP  10. _get_reader_g() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_locale\gettext.inc:256
+[17-Jul-2013 14:27:17] PHP Warning:  filemtime(): stat failed for D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res/../www/tmp/pfif_logs/import.out in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 202
+[17-Jul-2013 14:27:17] PHP Stack trace:
+[17-Jul-2013 14:27:17] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[17-Jul-2013 14:27:17] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:28
+[17-Jul-2013 14:27:17] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:79
+[17-Jul-2013 14:27:17] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:251
+[17-Jul-2013 14:27:17] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[17-Jul-2013 14:27:17] PHP   6. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[17-Jul-2013 14:27:17] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[17-Jul-2013 14:27:17] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[17-Jul-2013 14:27:17] PHP   9. filemtime() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:202
+[17-Jul-2013 14:27:17] PHP Warning:  filemtime(): stat failed for D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res/../www/tmp/pfif_logs/export.out in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 203
+[17-Jul-2013 14:27:17] PHP Stack trace:
+[17-Jul-2013 14:27:17] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[17-Jul-2013 14:27:17] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:28
+[17-Jul-2013 14:27:17] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:79
+[17-Jul-2013 14:27:17] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:251
+[17-Jul-2013 14:27:17] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[17-Jul-2013 14:27:17] PHP   6. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[17-Jul-2013 14:27:17] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[17-Jul-2013 14:27:17] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[17-Jul-2013 14:27:17] PHP   9. filemtime() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:203
+[17-Jul-2013 14:27:17] PHP Warning:  filesize(): stat failed for D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res/../www/tmp/pfif_logs/export.err in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 210
+[17-Jul-2013 14:27:17] PHP Stack trace:
+[17-Jul-2013 14:27:17] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[17-Jul-2013 14:27:17] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:28
+[17-Jul-2013 14:27:17] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:79
+[17-Jul-2013 14:27:17] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:251
+[17-Jul-2013 14:27:17] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[17-Jul-2013 14:27:17] PHP   6. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[17-Jul-2013 14:27:17] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[17-Jul-2013 14:27:17] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[17-Jul-2013 14:27:17] PHP   9. filesize() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:210
+[17-Jul-2013 14:27:17] PHP Warning:  filesize(): stat failed for D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res/../www/tmp/pfif_logs/import.err in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 210
+[17-Jul-2013 14:27:17] PHP Stack trace:
+[17-Jul-2013 14:27:17] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[17-Jul-2013 14:27:17] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:28
+[17-Jul-2013 14:27:17] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:79
+[17-Jul-2013 14:27:17] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:251
+[17-Jul-2013 14:27:17] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[17-Jul-2013 14:27:17] PHP   6. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[17-Jul-2013 14:27:17] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[17-Jul-2013 14:27:17] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[17-Jul-2013 14:27:17] PHP   9. filesize() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:210
+[17-Jul-2013 14:27:17] PHP Warning:  filemtime(): stat failed for D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res/../www/tmp/pfif_logs/import.err in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 214
+[17-Jul-2013 14:27:17] PHP Stack trace:
+[17-Jul-2013 14:27:17] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[17-Jul-2013 14:27:17] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:28
+[17-Jul-2013 14:27:17] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:79
+[17-Jul-2013 14:27:17] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:251
+[17-Jul-2013 14:27:17] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[17-Jul-2013 14:27:17] PHP   6. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[17-Jul-2013 14:27:17] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[17-Jul-2013 14:27:17] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[17-Jul-2013 14:27:17] PHP   9. filemtime() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:214
+[17-Jul-2013 14:27:17] PHP Warning:  filemtime(): stat failed for D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res/../www/tmp/pfif_logs/export.err in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 215
+[17-Jul-2013 14:27:17] PHP Stack trace:
+[17-Jul-2013 14:27:17] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[17-Jul-2013 14:27:17] PHP   2. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:28
+[17-Jul-2013 14:27:17] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:79
+[17-Jul-2013 14:27:17] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:251
+[17-Jul-2013 14:27:17] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[17-Jul-2013 14:27:17] PHP   6. require_once() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[17-Jul-2013 14:27:17] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[17-Jul-2013 14:27:17] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[17-Jul-2013 14:27:17] PHP   9. filemtime() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:215

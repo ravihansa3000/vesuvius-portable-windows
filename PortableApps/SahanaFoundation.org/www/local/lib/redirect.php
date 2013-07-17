@@ -23,6 +23,8 @@ if (file_exists($global['sahana.conf_file']) && file_exists($global['portable.co
 		exit();
 	}else{
 		// Access URL is correct, load Vesuvius main script
+		error_reporting(E_ALL & ~E_DEPRECATED);
+		define('LC_MESSAGES', 6);
 		require_once(realpath(dirname(__FILE__).'/../../').'/vesuvius/www/index.php');
 	}		
 }else{
