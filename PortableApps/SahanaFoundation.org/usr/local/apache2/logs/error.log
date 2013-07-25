@@ -1,0 +1,20 @@
+[Thu Jul 25 16:55:55 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Thu Jul 25 16:55:55 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Thu Jul 25 16:55:56 2013] [notice] Parent: Created child process 5264
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Child process is running
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Acquired the start mutex.
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Starting 250 worker threads.
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Starting thread to listen on port 443.
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Starting thread to listen on port 443.
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Starting thread to listen on port 80.
+[Thu Jul 25 16:55:57 2013] [notice] Child 5264: Starting thread to listen on port 80.
+[Thu Jul 25 16:57:51 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Thu Jul 25 16:57:51 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Thu Jul 25 16:57:51 2013] [notice] Parent: Created child process 5588
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Child process is running
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Acquired the start mutex.
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Starting 250 worker threads.
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Starting thread to listen on port 443.
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Starting thread to listen on port 443.
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Starting thread to listen on port 80.
+[Thu Jul 25 16:57:53 2013] [notice] Child 5588: Starting thread to listen on port 80.

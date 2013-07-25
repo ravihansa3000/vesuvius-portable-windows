@@ -19,9 +19,8 @@ define("STATE_INVALID_INPUT", -2);
  
 $global['portable.approot']  = realpath(dirname(__FILE__).'/../');
 $global['sahana.approot']  = realpath(dirname(__FILE__).'/../../vesuvius/');
-
 $global['portable.tmp_dir']  = realpath(dirname(__FILE__).'/../tmp/');
-$global['portable.control_dir']  = realpath(dirname(__FILE__).'/../../../alternative_control/');
+$global['portable.openssl_dir']  = realpath(dirname(__FILE__).'/../../../../../bin/openssl');
 
 $global['portable.mysqldump.exe']  = $global['portable.approot'].'/../../usr/local/mysql/bin/mysqldump.exe';
 $global['portable.mysql.exe']  = $global['portable.approot'].'/../../usr/local/mysql/bin/mysql.exe';
@@ -36,10 +35,6 @@ $global['portable.title'] = "Vesuvius Portable";
 $global['portable.state'] = STATE_NEW;
 $global['portable.host_entry_tag'] = "   # Vesuvius Portable base_uuid entry";
 $global['portable.win_host_file'] = getenv('systemroot').'/system32/drivers/etc/hosts';
-
-$global['portable.vhost_conf_file'] = realpath(dirname(__FILE__)).'/../../../usr/local/apache2/conf/vesuvius-vhost.conf';
-$global['portable.ssl_conf_file'] = realpath(dirname(__FILE__)).'/../../../usr/local/apache2/conf/vesuvius-ssl.conf';
-
 
 $global['sahana.conf_file'] = $global['sahana.approot'].'/conf/sahana.conf';
 $global['portable.conf_file'] = $global['portable.approot'].'/conf/portable.xml';

@@ -9,8 +9,8 @@
 		<file name="Stop Vesuvius Portable">
 			<path>stop-vesuvius.exe</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>104</runcount>
-			<rundate>2013/07/17 23:30:55</rundate>
+			<runcount>106</runcount>
+			<rundate>2013/07/25 17:01:45</rundate>
 		</file>
 		<file name="Launch in Mozilla Firefox">
 			<path>..\PortableApps\FirefoxPortable\FirefoxPortable.exe</path>
@@ -179,8 +179,8 @@ Password: Vesuvius2012</text>
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>71</count>
-		<overalltime>145:41:07.527</overalltime>
+		<count>72</count>
+		<overalltime>145:44:56.767</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>

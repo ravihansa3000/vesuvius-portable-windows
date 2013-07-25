@@ -30,7 +30,7 @@ if (!clean_host()){
 if (!isUUIDMatch()){	
 	$success = true;
 	run_location_tracker();   // Have servers moved if moved update configuration accordingly							  
-	chdir(dirname(__FILE__)); // Change wd to this files location
+	chdir(dirname(__FILE__)."/../openssl"); // Change wd to this files location
 	// Check folders exist if not create
 	$crt_folder = US_USR."/local/apache2/server_certs";
 	if(!is_dir($crt_folder )) {
@@ -40,15 +40,15 @@ if (!isUUIDMatch()){
 	putenv("OPENSSL_CONF=.\openssl.cnf");
 	putenv("RANDFILE=.rnd");
 	// Create a new RSA private key
-	exec('openssl req -newkey rsa:2048 -batch -nodes -out vesuvius-www.csr -keyout vesuvius-www.key -subj "/C=US/ST=NY/L=Brooklyn/O=Sahana Software Foundation/emailAddress=admin@sahanafoundation.org/CN=vesuvius-www" ', $output, $return_var);	
+	exec('openssl.exe req -newkey rsa:2048 -batch -nodes -out vesuvius-www.csr -keyout vesuvius-www.key -subj "/C=US/ST=NY/L=Brooklyn/O=Sahana Software Foundation/emailAddress=admin@sahanafoundation.org/CN=vesuvius-www" ', $output, $return_var);	
 	if ($return_var !== 0){
-		file_put_contents($output_file, "openssl error: " . serialize($output) . PHP_EOL , FILE_APPEND);
+		file_put_contents($output_file, "openssl returned error: " . $return_var . "::: ". serialize($output) . PHP_EOL , FILE_APPEND);
 		$success = false;
 	}
 	// Create a self-signed certificate
-	exec('openssl x509 -in vesuvius-www.csr -out vesuvius-www.crt -req -signkey vesuvius-www.key -days 3650', $output, $return_var);	
+	exec('openssl.exe x509 -in vesuvius-www.csr -out vesuvius-www.crt -req -signkey vesuvius-www.key -days 3650', $output, $return_var);	
 	if ($return_var !== 0){
-		file_put_contents($output_file, "openssl error: " . serialize($output) . PHP_EOL , FILE_APPEND);
+		file_put_contents($output_file, "openssl returned error: ". $return_var . ":::" . serialize($output) . PHP_EOL , FILE_APPEND);
 		$success = false;
 	}
 	putenv("OPENSSL_CONF=");
