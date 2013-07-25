@@ -8,12 +8,12 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0725
  */
 require_once ('Beautifier.php');
 require_once ('Beautifier/Batch.php');
 
-/* Format sahana.conf php script for processing */
+/* Format php script for processing */
 function beautify_phpfile($file){
 	try{
 		// Create the instance
@@ -37,11 +37,35 @@ function beautify_phpfile($file){
 		// Save the file
 		$oBeautifier->save();
 	}catch(Exception $oExp) {
-		add_error("PHPBeautifier Exception: ".var_dump($oExp));
+		add_error("PHPBeautifier Exception Thrown");
 		return false;
 	}	
 	unlink($file);
 	rename($file . '.out', $file);	
+	return true;
+}
+
+/* Set RewriteBase to '/' */
+function setup_vesuvius_htaccess(){
+	global $global;
+	$vesuvius_htaccess_file = $global['sahana.approot'] . '/www/.htaccess';
+	$tmp_htaccess_file = $global['portable.tmp_dir'] . '/tmp_htaccess';
+	copy($vesuvius_htaccess_file, $tmp_htaccess_file);
+	$sh = fopen($tmp_htaccess_file, 'r');
+	$th = fopen($vesuvius_htaccess_file, 'w');
+	if (!($sh && $th)){
+		return false;
+	}
+	while (($buffer = fgets($sh)) !== false) {
+		$buffer = trim($buffer);
+		if (substr($buffer,0,1) !== '#' && substr($buffer,0,1) !== '/' && strpos($buffer, "RewriteBase") !== false) {
+			$buffer = 'RewriteBase /' . PHP_EOL;
+		}
+		fwrite($th, $buffer . PHP_EOL);
+	}
+	fclose($sh);
+	fclose($th);
+	unlink($tmp_htaccess_file);
 	return true;
 }
 

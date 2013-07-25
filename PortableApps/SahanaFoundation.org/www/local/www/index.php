@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0725
  */
 
 require_once(realpath(dirname(__FILE__).'/../').'/lib/main.inc.php');
@@ -91,6 +91,9 @@ if ($global['portable.state'] ===  STATE_MACHINEMOVE && isset($_POST['submit']) 
 		
 		// Modify sahana.conf with new base_uuid and server parameters
 		setup_sahana_conf(); 
+		
+		// Modify .htaccess RewriteBase to '/'
+		setup_vesuvius_htaccess();
 		
 		// Add mapping from base_uuid domain to loopback IP in Windows hosts file
 		setupWinHostsFile(); 

@@ -1,0 +1,4 @@
+::1 - - [17/Jul/2013:23:30:39 +0530] "GET /index.php?action=CHECK_VESUVIUS_STATUS HTTP/1.1" 200 7 "-" "-"
+::1 - - [17/Jul/2013:23:30:46 +0530] "GET / HTTP/1.1" 302 20 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36"
+127.0.0.1 - - [17/Jul/2013:23:30:46 +0530] "GET / HTTP/1.1" 200 2247 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36"
+127.0.0.1 - - [17/Jul/2013:23:30:47 +0530] "GET /index.php?stream=text&mod=xst&act=help HTTP/1.1" 200 49 "http://sahana.org.testx/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36"

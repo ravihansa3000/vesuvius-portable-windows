@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0725
  */
 
 require_once(realpath(dirname(__FILE__).'/../../').'/PortableApps/SahanaFoundation.org/www/local/lib/main.inc.php');
@@ -47,21 +47,21 @@ if (file_exists($global['portable.db_dump_file'])){ // db dump file must exist
 		exec($global['portable.mysql.exe'] . ' --user='.$global['portable.dbuser'].' --password='.$global['portable.dbpasswd'].' --host='.$global['portable.host'].' --port='.$global['portable.dbport'].' --execute="DROP DATABASE IF EXISTS '.$global['portable.dbname'].';" 2>>'.$std_err_file, $output, $return_var);
 		
 		if ($return_var !== 0){ // return value should be 0 on success
-			file_put_contents($output_file, "Error: " . var_dump($output) . PHP_EOL , FILE_APPEND);
+			file_put_contents($output_file, "Error: " . serialize($output) . PHP_EOL , FILE_APPEND);
 		}
 		
 		/* Create a new database */
 		exec($global['portable.mysql.exe'] . ' --user='.$global['portable.dbuser'].' --password='.$global['portable.dbpasswd'].' --host='.$global['portable.host'].' --port='.$global['portable.dbport'].' --execute="CREATE DATABASE '.$global['portable.dbname'].';" 2>>'.$std_err_file, $output, $return_var);
 		
 		if ($return_var !== 0){ // return value should be 0 on success
-			file_put_contents($output_file, "Error: " . var_dump($output) . PHP_EOL , FILE_APPEND);
+			file_put_contents($output_file, "Error: " . serialize($output) . PHP_EOL , FILE_APPEND);
 		}
 		
 		/* Execute queries in database dump file */
 		exec($global['portable.mysql.exe'] . ' --user='.$global['portable.dbuser'].' --password='.$global['portable.dbpasswd'].' --host='.$global['portable.host'].' --port='.$global['portable.dbport'].' '.$global['portable.dbname'].' < ' . $tmp_dbdump . ' 2>>'.$std_err_file, $output, $return_var);
 
 		if ($return_var !== 0){ // return value should be 0 on success
-			file_put_contents($output_file, "Error: " . var_dump($output) . PHP_EOL , FILE_APPEND);
+			file_put_contents($output_file, "Error: " . serialize($output) . PHP_EOL , FILE_APPEND);
 		}
 		
 		if (file_exists($output_file) && file_get_contents($output_file) === ""){

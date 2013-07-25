@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0725
  */
 
 require_once(realpath(dirname(__FILE__).'/../../').'/PortableApps/SahanaFoundation.org/www/local/lib/main.inc.php');
@@ -42,13 +42,13 @@ if (!isUUIDMatch()){
 	// Create a new RSA private key
 	exec('openssl req -newkey rsa:2048 -batch -nodes -out vesuvius-www.csr -keyout vesuvius-www.key -subj "/C=US/ST=NY/L=Brooklyn/O=Sahana Software Foundation/emailAddress=admin@sahanafoundation.org/CN=vesuvius-www" ', $output, $return_var);	
 	if ($return_var !== 0){
-		file_put_contents($output_file, "openssl error: " . var_dump($output) . PHP_EOL , FILE_APPEND);
+		file_put_contents($output_file, "openssl error: " . serialize($output) . PHP_EOL , FILE_APPEND);
 		$success = false;
 	}
 	// Create a self-signed certificate
 	exec('openssl x509 -in vesuvius-www.csr -out vesuvius-www.crt -req -signkey vesuvius-www.key -days 3650', $output, $return_var);	
 	if ($return_var !== 0){
-		file_put_contents($output_file, "openssl error: " . var_dump($output) . PHP_EOL , FILE_APPEND);
+		file_put_contents($output_file, "openssl error: " . serialize($output) . PHP_EOL , FILE_APPEND);
 		$success = false;
 	}
 	putenv("OPENSSL_CONF=");
