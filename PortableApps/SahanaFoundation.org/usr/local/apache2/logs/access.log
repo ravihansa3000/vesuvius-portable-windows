@@ -1,2 +1,0 @@
-::1 - - [08/Aug/2013:16:29:05 +0530] "GET / HTTP/1.1" 200 2430 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
-::1 - - [08/Aug/2013:16:29:05 +0530] "GET /theme/sahana.css HTTP/1.1" 304 - "http://localhost/" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
