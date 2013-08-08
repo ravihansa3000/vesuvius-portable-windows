@@ -32,16 +32,16 @@
 		array_push($invalid_fields, "owner_name");
 	}
 	
-	// validate portable_id field
-	if (isset($_POST['portable_id'])){
-		$portable_id = htmlspecialchars(trim($_POST['portable_id']));
-		if (preg_match('/[^A-Za-z0-9]/', $portable_id)  || strlen($portable_id) < 5  || strlen($portable_id) > 8 ){
+	// validate portable_desc field
+	if (isset($_POST['portable_desc'])){
+		$portable_desc = htmlspecialchars(trim($_POST['portable_desc']));
+		if (strlen($portable_desc) > 50 ){
 			$validation_passed = false;
-			array_push($invalid_fields, "portable_id");
+			array_push($invalid_fields, "portable_desc");
 		}
 	}else{
 		$validation_passed = false;
-		array_push($invalid_fields, "portable_id");
+		array_push($invalid_fields, "portable_desc");
 	}
 	
 	// validate organization field
@@ -135,20 +135,18 @@
  /* Get validated user submitted registration data */
 function populateFormData(){	
 	$owner_name = htmlspecialchars(trim($_POST['owner_name']));
-	$portable_id = htmlspecialchars(trim($_POST['portable_id']));
+	$portable_desc = htmlspecialchars(trim($_POST['portable_desc']));
 	$organization = htmlspecialchars(trim($_POST['organization']));
 	$parent_base_uuid = htmlspecialchars(trim($_POST['parent_base_uuid']));	
 	$owner_email = htmlspecialchars(trim($_POST['owner_email']));
 	$user_name = htmlspecialchars(trim($_POST['user_name']));
 	$password = htmlspecialchars(trim($_POST['password']));
 	
-	$arr = explode("/", $parent_base_uuid, 2);
-	$domain_name = $arr[0];
-	$portable_base_uuid = $domain_name . "." . $portable_id . "/";
+	$portable_base_uuid = php_uname("n") . "/"; // get Windows machine name
 	
 	$form_data = array(
 		'owner_name' => $owner_name, 
-		'portable_id' => $portable_id, 
+		'portable_desc' => $portable_desc, 
 		'organization' => $organization,
 		'parent_base_uuid' => $parent_base_uuid,
 		'owner_email' => $owner_email,

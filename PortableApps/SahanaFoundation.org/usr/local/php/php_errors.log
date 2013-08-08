@@ -1,0 +1,4 @@
+[08-Aug-2013 11:59:05] PHP Notice:  Undefined index: portable_id in D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\theme\body.php on line 19
+[08-Aug-2013 11:59:05] PHP Stack trace:
+[08-Aug-2013 11:59:05] PHP   1. {main}() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php:0
+[08-Aug-2013 11:59:05] PHP   2. shn_theme_body_register_form() D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\www\index.php:108

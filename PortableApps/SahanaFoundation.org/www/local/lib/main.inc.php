@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0808
  */
  
 
@@ -31,10 +31,7 @@ $global['portable.dbport'] = "3306";
 $global['portable.dbname'] = "sahana";
 $global['portable.dbpasswd'] = "sahana@Portable";
 $global['portable.title'] = "Vesuvius Portable";
-
 $global['portable.state'] = STATE_NEW;
-$global['portable.host_entry_tag'] = "   # Vesuvius Portable base_uuid entry";
-$global['portable.win_host_file'] = getenv('systemroot').'/system32/drivers/etc/hosts';
 
 $global['sahana.conf_file'] = $global['sahana.approot'].'/conf/sahana.conf';
 $global['portable.conf_file'] = $global['portable.approot'].'/conf/portable.xml';
@@ -43,4 +40,3 @@ $global['portable.db_dump_file'] = $global['portable.approot'].'/db_dump/vesuviu
 
 $pear_path = dirname(__FILE__) . '/PEAR';
 set_include_path(get_include_path() . PATH_SEPARATOR . $pear_path);
-error_reporting(E_ALL & ~E_DEPRECATED);
