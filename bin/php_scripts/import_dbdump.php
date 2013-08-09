@@ -8,15 +8,17 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0809
+ * @lastModified 2013.0810
  */
 require_once(realpath(dirname(__FILE__) . '/../../') . '/PortableApps/SahanaFoundation.org/www/local/lib/main.inc.php');
 chdir(dirname(__FILE__)); // Change wd to this files location
 
 $output_file = realpath(dirname(__FILE__) . '/../logs') . '/import_error_log.txt';
 $std_err_file = "..\logs\import_error_log.txt";
-$dbdump_file_tmp = dirname(__FILE__) . "/dbdump.tmp";
-$dbdump_file = $global['portable.db_dump_file'];
+$dbdump_file = realpath($global['portable.db_dump_file']);
+$dbdump_file_tmp = $dbdump_file . ".tmp";
+$mysql_exec = '"' . $global['portable.mysql.bin'] . '\mysql.exe"';
+
 if (file_exists($output_file)) {
     unlink($output_file);
 }
@@ -26,7 +28,7 @@ if (file_exists($global['portable.host_uuid_file'])) {
     exit();
 }
 
-if (file_exists($global['portable.db_dump_file'])) { // db dump file must exist    
+if (file_exists($dbdump_file)) { // db dump file must exist    
     /* Remove any DEFINER entries to avoid any MySQL permission issues */
     copy($dbdump_file, $dbdump_file_tmp);
     $pattern = "/DEFINER[ ]*=[ ]*[^*\s]*/i";
@@ -40,24 +42,22 @@ if (file_exists($global['portable.db_dump_file'])) { // db dump file must exist
         fclose($sh);
         fclose($th);
 
-        /* execute SQL queries in database dump file */
-
-        /* First drop the database if it already exists */
-        exec($global['portable.mysql.exe'] . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' --execute="DROP DATABASE IF EXISTS ' . $global['portable.dbname'] . ';" 2>>' . $std_err_file, $output, $return_var);
+        /* Drop the database if it already exists */
+        exec($mysql_exec . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' --execute="DROP DATABASE IF EXISTS ' . $global['portable.dbname'] . ';" 2>>' . $std_err_file, $output, $return_var);
 
         if ($return_var !== 0) { // return value should be 0 on success
             file_put_contents($output_file, "Error: " . serialize($output) . PHP_EOL, FILE_APPEND);
         }
 
         /* Create a new database */
-        exec($global['portable.mysql.exe'] . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' --execute="CREATE DATABASE ' . $global['portable.dbname'] . ';" 2>>' . $std_err_file, $output, $return_var);
+        exec($mysql_exec . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' --execute="CREATE DATABASE ' . $global['portable.dbname'] . ';" 2>>' . $std_err_file, $output, $return_var);
 
         if ($return_var !== 0) { // return value should be 0 on success
             file_put_contents($output_file, "Error: " . serialize($output) . PHP_EOL, FILE_APPEND);
         }
 
         /* Execute queries in database dump file */
-        exec($global['portable.mysql.exe'] . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' ' . $global['portable.dbname'] . ' < ' . $dbdump_file . ' 2>>' . $std_err_file, $output, $return_var);
+        exec($mysql_exec . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' ' . $global['portable.dbname'] . ' < "' . $dbdump_file . '" 2>>' . $std_err_file, $output, $return_var);
 
         if ($return_var !== 0) { // return value should be 0 on success
             file_put_contents($output_file, "Error: " . serialize($output) . PHP_EOL, FILE_APPEND);
