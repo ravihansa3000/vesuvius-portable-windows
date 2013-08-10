@@ -74,6 +74,7 @@
         <GUIConfig name="URL">2</GUIConfig>
         <GUIConfig name="globalOverride" fg="no" bg="no" font="no" fontSize="no" bold="no" italic="no" underline="no" />
         <GUIConfig name="auto-completion" autoCAction="0" triggerFromNbChar="1" funcParams="no" />
+        <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="sessionExt"></GUIConfig>
         <GUIConfig name="SmartHighLight">yes</GUIConfig>
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
@@ -84,8 +85,8 @@
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="stylerTheme" path="D:\Sahana\vesuvius-portable\PortableApps\Notepad++Portable\App\Notepad++\stylers.xml" />
+        <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
-            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
@@ -95,16 +96,7 @@
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\conf\httpd.conf" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\php\php.ini" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\conf\ssl.conf" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\conf\sahana.conf" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\php\php_errors.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\error_ssl.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\error.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\access_ssl.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\access.log" />
-        <File filename="C:\Windows\system32\drivers\etc\hosts" />
+        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />

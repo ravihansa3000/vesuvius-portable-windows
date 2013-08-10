@@ -114,7 +114,7 @@
 	if (isset($_POST['password']) && isset($_POST['password_re'])){
 		$password = htmlspecialchars(trim($_POST['password']));
 		$password_re = htmlspecialchars(trim($_POST['password_re']));
-		if ($password !== $password_re || preg_match('/[^A-Za-z0-9]/', $password)  || strlen($password) < 8  || strlen($password) > 15 ){
+		if ($password !== $password_re || preg_match('/[^A-Za-z0-9]/', $password)  || strlen($password) < 5  || strlen($password) > 15 ){
 			$validation_passed = false;
 			array_push($invalid_fields, "password");
 			array_push($invalid_fields, "password_re");
@@ -142,7 +142,7 @@ function populateFormData(){
 	$user_name = htmlspecialchars(trim($_POST['user_name']));
 	$password = htmlspecialchars(trim($_POST['password']));
 	
-	$portable_base_uuid = php_uname("n") . "/"; // get Windows machine name
+	$portable_base_uuid = get_win_machine_name() . "/"; // get Windows machine name
 	
 	$form_data = array(
 		'owner_name' => $owner_name, 

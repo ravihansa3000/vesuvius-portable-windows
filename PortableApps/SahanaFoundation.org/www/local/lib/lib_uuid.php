@@ -13,10 +13,17 @@
 /* Return value - Windows machine specific UUID string */
 function getSystemUUID() {
     $obj = new COM('winmgmts://localhost/root/CIMV2');
-    $items = $obj->ExecQuery("SELECT * from Win32_ComputerSystemProduct");
-
-    foreach ($items as $item) {
-        $sys_uuid = $item->UUID;
+    if (!$obj) {
+        return -1;
+    }
+    $sys_uuid = -1;
+    try {
+        $items = $obj->ExecQuery("SELECT * from Win32_ComputerSystemProduct");
+        foreach ($items as $item) {
+            $sys_uuid = $item->UUID;
+        }
+    } catch (Exception $e) {
+        
     }
     return $sys_uuid;
 }

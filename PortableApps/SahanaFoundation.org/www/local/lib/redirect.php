@@ -13,7 +13,7 @@ require_once(realpath(dirname(__FILE__) . '/../') . '/lib/main.inc.php');
 require_once(realpath(dirname(__FILE__) . '/../') . '/lib/lib_uuid.php');
 
 // First check whether Vesuvius Portable is registered
-if (file_exists($global['sahana.conf_file']) && file_exists($global['portable.conf_file']) && file_exists($global['portable.host_uuid_file']) && isUUIDMatch()) {
+if (file_exists($global['sahana.conf_file']) && file_exists($global['portable.conf_file']) && file_exists($global['portable.host_uuid_file'])) {
     if (!defined('LC_MESSAGES'))
         define('LC_MESSAGES', 6);
     require_once(realpath(dirname(__FILE__) . '/../../') . '/vesuvius/www/index.php');

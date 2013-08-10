@@ -21,7 +21,7 @@ require_once($global['portable.approot'] . "/www/theme/footer.php");
 /* * *****  Block access to Vesuvius from external devices if not registered by the owner ****** */
 if ($_SERVER['REMOTE_ADDR'] !== '127.0.0.1' && $_SERVER['REMOTE_ADDR'] !== '::1') {
     if (file_exists($global['portable.conf_file']) && isUUIDMatch()) {
-        $host_entry = get_host_entry();
+        $host_entry = get_win_machine_name();
         header('Location: http://' . $host_entry);
         exit();
     } else {
@@ -66,7 +66,7 @@ if ($global['portable.state'] !== STATE_ERROR && isUUIDMatch()) {
         add_error($global['portable.conf_file'] . " file is missing! Please download a fresh copy and try again.");
     } else {
         $global['portable.state'] = STATE_READY;
-        $host_entry = get_host_entry();
+        $host_entry = get_win_machine_name();
         header('Location: http://' . $host_entry); // redirect to Vesuvius home page
         exit();
     }
@@ -88,20 +88,29 @@ if ($global['portable.state'] === STATE_MACHINEMOVE && isset($_POST['submit'])) 
         setup_sahana_conf();
 
         // Modify .htaccess RewriteBase to '/'
-        setup_vesuvius_htaccess();       
+        setup_vesuvius_htaccess();
 
         // Create an admin account in Vesuvius for the owner
         createVesuviusAdminAccount($form_data);
 
         if ($global['portable.state'] !== STATE_ERROR) {
             createHostUUID();
-            $host_entry = get_host_entry();
+            $host_entry = get_win_machine_name();
             header('Location: http://' . $host_entry);
+            exit();
         }
     } else { // user input validation failed, prompt user with invalid fields
         $global['portable.state'] = STATE_INVALID_INPUT;
         shn_theme_head();
         shn_theme_body_register_form($res);
+    }
+} else if ($global['portable.state'] === STATE_MACHINEMOVE && isset($_POST['skip']) && file_exists($global['portable.conf_file'])) {
+    setup_sahana_conf();
+    if ($global['portable.state'] !== STATE_ERROR) {
+        createHostUUID();
+        $host_entry = get_win_machine_name();
+        header('Location: http://' . $host_entry);
+        exit();
     }
 } else if ($global['portable.state'] === STATE_MACHINEMOVE) { // prompt the user with registration form
     shn_theme_head();

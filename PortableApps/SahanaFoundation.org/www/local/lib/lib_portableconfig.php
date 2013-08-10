@@ -75,7 +75,7 @@ function setup_vesuvius_htaccess() {
 
 function setup_sahana_conf() {
     global $global;
-    $host_entry = get_host_entry();
+    $host_entry = get_win_machine_name();
 
     if ($host_entry === false) {
         return false;
@@ -173,9 +173,8 @@ function createVesuviusAdminAccount($form_data) {
     $password = $form_data['password'];
     $role = 1;
     $email = $form_data['owner_email'];
-    $pid = getSystemUUID();
-
-    // delete any existing person_uuid records for current system uuid
+    $pid = 1; // Root user
+    // delete any existing person_uuid records for Root
     $q = "
 			DELETE FROM person_uuid 
 			WHERE p_uuid='" . $pid . "';
@@ -241,19 +240,8 @@ function createVesuviusAdminAccount($form_data) {
  * Note - Vesuvius base_uuid is Windows machine name with a trailing forward slash
  */
 
-function get_host_entry() {
-    global $global;
-    if (!file_exists($global['portable.conf_file'])) {
-        return false;
-    }
-    $doc = new DOMDocument();
-    $doc->load($global['portable.conf_file']);
-
-    $portable_base_uuids = $doc->getElementsByTagName("portable_base_uuid");
-    $portable_base_uuid = $portable_base_uuids->item(0)->nodeValue;
-
-    $host_entry = substr($portable_base_uuid, 0, -1);
-    return $host_entry;
+function get_win_machine_name() {
+    return php_uname("n");
 }
 
 /* Return value - Array with portable configuration data if it exists 

@@ -57,14 +57,22 @@ if ($hasConflicts) {
     $results = array();
     $unique_pids = array_unique($conflicts);
     $obj = new COM('winmgmts://localhost/root/CIMV2');
-    array_push($results, "Process Name  \t\t Process ID");
-
-    foreach ($unique_pids as $pid) {
-        $items = $obj->ExecQuery("SELECT * from Win32_Process WHERE ProcessId=" . $pid);
-        foreach ($items as $item) {
-            array_push($results, $item->Name . " \t\t " . $pid);
+    if (!$obj) {
+        array_push($results, "Unable to retrieve process names.");
+    } else {
+        array_push($results, "Process Name  \t\t Process ID");
+        try {
+            foreach ($unique_pids as $pid) {
+                $items = $obj->ExecQuery("SELECT * from Win32_Process WHERE ProcessId=" . $pid);
+                foreach ($items as $item) {
+                    array_push($results, $item->Name . " \t\t " . $pid);
+                }
+            }
+        } catch (Exception $ex) {
+            array_push($results, "Unable to retrieve process names.");
         }
     }
+
     // log conflicting processes
     file_put_contents($output_file_conflicts, implode(PHP_EOL, $results));
 } 

@@ -16,7 +16,7 @@ function shn_theme_body_register_form($error_list) {
     if ($error_list === false) {
         $portable_conf_data = get_portable_conf_data();
         $owner_name = ($portable_conf_data === false) ? '' : $portable_conf_data['owner_name'];
-        $portable_desc = ($portable_conf_data === false) ? '' : $portable_conf_data['portable_id'];
+        $portable_desc = ($portable_conf_data === false) ? '' : $portable_conf_data['portable_desc'];
         $organization = ($portable_conf_data === false) ? '' : $portable_conf_data['organization'];
         $parent_base_uuid = ($portable_conf_data === false) ? $global['sahana.base_uuid'] : $portable_conf_data['parent_base_uuid'];
         $owner_email = ($portable_conf_data === false) ? '' : $portable_conf_data['owner_email'];
@@ -94,7 +94,7 @@ function shn_theme_body_register_form($error_list) {
                                 <tr>
                                     <td <? if ($error_list !== false && in_array("password", $error_list)) echo $err_style; ?> >Password</td>
                                     <td><input type="password" name="password" value="" size="40"></td>
-                                    <td>Password to access Vesuvius (only alphanumericals, length: Max - 15, Min - 8)</td>
+                                    <td>Password to access Vesuvius (only alphanumericals, length: Max - 15, Min - 5)</td>
                                 </tr>
                                 <tr>
                                     <td <? if ($error_list !== false && in_array("password_re", $error_list)) echo $err_style; ?> >Re-enter Password</td>
@@ -103,7 +103,12 @@ function shn_theme_body_register_form($error_list) {
                                 </tr>						 
                                 <tr>
                                     <td></td>
-                                    <td><input style="margin-top: 10px; font-size: 14px; font-weight: bold;" type="submit" name="submit" value="   Submit   "></td>
+                                    <td>
+                                        <input class="styleTehButton" style="margin: 10px;" type="submit" name="submit" value="   Submit   ">
+                                        <? if ($portable_conf_data) { ?>
+                                            <input class="styleTehButton" style="margin: 10px;" type="submit" name="skip" value="   Skip   ">
+                                        <? } ?>
+                                    </td>
                                 </tr>
                             </table>
                         </form>

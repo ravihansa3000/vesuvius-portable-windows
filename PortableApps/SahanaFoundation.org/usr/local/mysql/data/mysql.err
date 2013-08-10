@@ -2028,3 +2028,73 @@ Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 130810  2:28:36 [Note] Event Scheduler: Purging the queue. 0 events
 130810  2:28:36 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
 
+130810  2:43:25 [Note] Plugin 'FEDERATED' is disabled.
+130810  2:43:25 [Note] Plugin 'InnoDB' is disabled.
+130810  2:43:25 [Note] Event Scheduler: Loaded 0 events
+130810  2:43:25 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810  2:43:49 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810  2:43:49 [Note] Event Scheduler: Purging the queue. 0 events
+130810  2:43:49 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130810 18:36:28 [Note] Plugin 'FEDERATED' is disabled.
+130810 18:36:28 [Note] Plugin 'InnoDB' is disabled.
+130810 18:36:28 [Note] Event Scheduler: Loaded 0 events
+130810 18:36:28 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810 18:37:36 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810 18:37:36 [Note] Event Scheduler: Purging the queue. 0 events
+130810 18:37:36 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130810 18:37:41 [Note] Plugin 'FEDERATED' is disabled.
+130810 18:37:41 [Note] Plugin 'InnoDB' is disabled.
+130810 18:37:42 [Note] Event Scheduler: Loaded 0 events
+130810 18:37:42 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810 18:38:40 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810 18:38:40 [Note] Event Scheduler: Purging the queue. 0 events
+130810 18:38:40 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130810 18:38:46 [Note] Plugin 'FEDERATED' is disabled.
+130810 18:38:46 [Note] Plugin 'InnoDB' is disabled.
+130810 18:38:46 [Note] Event Scheduler: Loaded 0 events
+130810 18:38:46 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810 19:03:38 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810 19:03:38 [Note] Event Scheduler: Purging the queue. 0 events
+130810 19:03:38 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130810 19:03:45 [Note] Plugin 'FEDERATED' is disabled.
+130810 19:03:45 [Note] Plugin 'InnoDB' is disabled.
+130810 19:03:45 [Note] Event Scheduler: Loaded 0 events
+130810 19:03:45 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810 19:34:53 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810 19:34:53 [Note] Event Scheduler: Purging the queue. 0 events
+130810 19:34:53 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130810 19:35:00 [Note] Plugin 'FEDERATED' is disabled.
+130810 19:35:00 [Note] Plugin 'InnoDB' is disabled.
+130810 19:35:01 [Note] Event Scheduler: Loaded 0 events
+130810 19:35:01 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810 19:35:09 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810 19:35:09 [Note] Event Scheduler: Purging the queue. 0 events
+130810 19:35:09 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130810 19:35:31 [Note] Plugin 'FEDERATED' is disabled.
+130810 19:35:31 [Note] Plugin 'InnoDB' is disabled.
+130810 19:35:31 [Note] Event Scheduler: Loaded 0 events
+130810 19:35:31 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130810 20:13:54 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130810 20:13:54 [Note] Event Scheduler: Purging the queue. 0 events
+130810 20:13:54 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+

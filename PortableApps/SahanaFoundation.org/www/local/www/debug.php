@@ -19,7 +19,7 @@ require_once($global['portable.approot']."/www/theme/footer.php");
 
 // First check whether Vesuvius Portable is registered
 if (file_exists($global['portable.conf_file']) && isUUIDMatch() ) {	
-	$host_entry = get_host_entry();
+	$host_entry = get_win_machine_name();
 	// Redirect client to the debug URL
 	header('Location: http://'.$host_entry.'?XDEBUG_SESSION_START=xdebug');
 	exit();

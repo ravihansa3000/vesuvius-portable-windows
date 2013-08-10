@@ -68,8 +68,10 @@ if (file_exists($dbdump_file)) { // db dump file must exist
         }
         unlink($dbdump_file_tmp);
 
+        // remove dbdump only if db import is success
         if (!file_exists($output_file)) {
-            // remove dbdump only if db import is success
+            if (file_exists($global['portable.db_dump_file'] . '.bak'))
+                unlink($global['portable.db_dump_file'] . '.bak');
             rename($global['portable.db_dump_file'], $global['portable.db_dump_file'] . '.bak');
 
             // create host_uuid file with a dummy UUID, this will trigger a machine movement in Vesuvius Portable Manager
