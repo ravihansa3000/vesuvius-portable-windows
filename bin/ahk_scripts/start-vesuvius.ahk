@@ -1,20 +1,13 @@
-; Restart Portable Vesuvius instance
+; Launch Portable Vesuvius instance
 ; Copyright Sahana Software Foundation
 
 #SingleInstance force
-#Include %A_ScriptDir%
 SetWorkingDir %A_ScriptDir%
-SplashImage, ..\images\splash-screen.png, b, Restarting...Please wait
-
-; Stop portable servers
-RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe -n  "..\..\..\unicon\main\stop_servers.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide, STOP_PID
-Sleep 500
-
+SplashImage, ..\images\splash-screen.png, b, Loading...Please wait
+#Include %A_ScriptDir%
 #Include main.inc.ahk
 
-RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\check_ports.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide
-
-; Start portable servers	
+; Start portable servers
 RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe -n  "..\..\..\unicon\main\start_servers.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide, START_PID
 
 ; Import MySQL database dump
@@ -39,5 +32,4 @@ IfExist, %InitErrorLog%
 {	
 	MsgBox 0, Vesuvius Portable, Warning! Some errors occured when initializing Vesuvius Portable. See %InitErrorLog% for more details. 	
 }
-
 ExitApp

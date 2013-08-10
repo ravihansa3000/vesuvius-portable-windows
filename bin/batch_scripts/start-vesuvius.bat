@@ -1,0 +1,1 @@
+..\AutoHotkey.exe ..\ahk_scripts\start-vesuvius.ahk

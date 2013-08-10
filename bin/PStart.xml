@@ -3,25 +3,26 @@
 		<file name="Launch in Default Browser">
 			<path>batch_scripts\launch-url-vesuvius.bat</path>
 			<icon>icons\vesuvius.ico</icon>
-			<runcount>28</runcount>
-			<rundate>2013/08/08 16:29:39</rundate>
+			<runcount>29</runcount>
+			<rundate>2013/08/11 02:15:17</rundate>
 		</file>
 		<file name="Stop Vesuvius Portable">
-			<path>stop-vesuvius.exe</path>
+			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>111</runcount>
-			<rundate>2013/08/10 20:13:53</rundate>
+			<runcount>119</runcount>
+			<rundate>2013/08/11 02:41:51</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
-			<path>restart-vesuvius.exe</path>
-			<runcount>118</runcount>
-			<rundate>2013/08/10 19:35:25</rundate>
+			<path>batch_scripts\restart-vesuvius.bat</path>
+			<icon>icons\restart.ico</icon>
+			<runcount>120</runcount>
+			<rundate>2013/08/11 02:14:56</rundate>
 		</file>
 		<file name="Re-setup Vesuvius Portable">
-			<path>resetup-vesuvius.exe</path>
+			<path>batch_scripts\resetup-vesuvius.bat</path>
 			<icon>icons\resetup.ico</icon>
-			<runcount>39</runcount>
-			<rundate>2013/08/10 19:42:38</rundate>
+			<runcount>40</runcount>
+			<rundate>2013/08/11 02:13:46</rundate>
 		</file>
 		<file name="View Owner Details">
 			<path>batch_scripts\launch-url-view-owner.bat</path>
@@ -46,10 +47,10 @@
 			<rundate>2013/07/12 18:25:21</rundate>
 		</file>
 		<file name="Check Server Status">
-			<path>check-ports.exe</path>
+			<path>batch_scripts\check-ports.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>24</runcount>
-			<rundate>2013/07/17 23:30:38</rundate>
+			<runcount>25</runcount>
+			<rundate>2013/08/11 02:41:03</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -75,9 +76,10 @@
 				<rundate>2013/08/10 19:46:15</rundate>
 			</file>
 			<file name="Clear Log Files">
-				<path>clear-logs.exe</path>
-				<runcount>6</runcount>
-				<rundate>2013/08/10 20:13:44</rundate>
+				<path>batch_scripts\clear-logs.bat</path>
+				<icon>icons\clear.ico</icon>
+				<runcount>7</runcount>
+				<rundate>2013/08/11 02:41:00</rundate>
 			</file>
 			<separator>
 			</separator>
@@ -162,8 +164,8 @@ Password: Vesuvius2012</text>
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>78</count>
-		<overalltime>150:49:13.263</overalltime>
+		<count>83</count>
+		<overalltime>151:11:32.445</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>

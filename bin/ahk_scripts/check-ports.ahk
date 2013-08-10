@@ -2,10 +2,10 @@
 ; Copyright Sahana Software Foundation
 
 #SingleInstance force
-ConflictsFile = logs\portconflicts.txt
-RunningFile = logs\running.txt
+ConflictsFile = ..\logs\portconflicts.txt
+RunningFile = ..\logs\running.txt
 
-RunWait, ..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\check_ports.php", ..\PortableApps\SahanaFoundation.org\usr\local\php, Hide
+RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\check_ports.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide
 
 IfExist, %ConflictsFile%
 {
@@ -13,7 +13,7 @@ IfExist, %ConflictsFile%
 	{
 		FileData = %FileData%  `n  %A_LoopReadLine%
 	}
-	MsgBox 0, Vesuvius Portable Port Checker, Error! Some ports required by Vesuvius Portable are being used by other processes. Please close the following programs and try again. `n %FileData%
+	MsgBox 0, Vesuvius Portable, Error! Some ports required by Vesuvius Portable are being used by other processes. Please close the following programs and try again. `n %FileData%
 }
 else
 {
@@ -24,7 +24,7 @@ else
 	}
 	else 
 	{
-		MsgBox 0, Vesuvius Portable Port Checker, Vesuvius Portable is currently stopped.`n`nPort Checker test passed! All the required ports are free to use. You can start Vesuvius Portable.
+		MsgBox 0, Vesuvius Portable, Vesuvius Portable is currently stopped.`n`nPort Checker test passed! All the required ports are free to use. You can start Vesuvius Portable.
 	}
 }
 

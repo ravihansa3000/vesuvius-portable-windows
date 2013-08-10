@@ -1,0 +1,1 @@
+..\AutoHotkey.exe ..\ahk_scripts\check-ports.ahk

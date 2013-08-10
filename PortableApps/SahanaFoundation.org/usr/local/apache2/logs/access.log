@@ -1,2 +1,0 @@
-192.168.0.2 - - [10/Aug/2013:20:13:46 +0530] "POST /test/index.php?stream=ajax&mod=xst&act=xajax HTTP/1.1" 200 139 "http://akila-123/test/arrivals" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"
-192.168.0.2 - - [10/Aug/2013:20:13:51 +0530] "POST /test/index.php?stream=ajax&mod=xst&act=xajax HTTP/1.1" 200 139 "http://akila-123/test/arrivals" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36"

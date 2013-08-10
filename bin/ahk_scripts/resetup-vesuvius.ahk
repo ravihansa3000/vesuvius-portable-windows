@@ -3,7 +3,7 @@
 
 #SingleInstance force
 
-RunWait, ..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\resetup-vesuvius.php", ..\PortableApps\SahanaFoundation.org\usr\local\php
+RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\resetup-vesuvius.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php
 
 Run http://localhost
 

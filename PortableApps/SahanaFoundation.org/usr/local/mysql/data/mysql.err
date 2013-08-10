@@ -1,4 +1,5 @@
-130607 23:56:54 [Note] Plugin 'FEDERATED' is disabled.
+Got exception in exception handler!
+ATED' is disabled.
 130607 23:56:54 [Note] Plugin 'InnoDB' is disabled.
 130607 23:56:54 [Note] Event Scheduler: Loaded 0 events
 130607 23:56:54 [Note] C:/Users/Akila/Desktop/Uniform7/UniServer/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
@@ -2097,4 +2098,82 @@ Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 
 130810 20:13:54 [Note] Event Scheduler: Purging the queue. 0 events
 130810 20:13:54 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:07:00 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:07:00 [Note] Plugin 'InnoDB' is disabled.
+130811  2:07:00 [Note] Event Scheduler: Loaded 0 events
+130811  2:07:00 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:13:01 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:13:01 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:13:02 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:13:36 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:13:36 [Note] Plugin 'InnoDB' is disabled.
+130811  2:13:36 [Note] Event Scheduler: Loaded 0 events
+130811  2:13:36 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:14:37 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:14:37 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:14:37 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:15:04 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:15:04 [Note] Plugin 'InnoDB' is disabled.
+130811  2:15:04 [Note] Event Scheduler: Loaded 0 events
+130811  2:15:04 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:15:12 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:15:12 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:15:12 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:15:39 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:15:39 [Note] Plugin 'InnoDB' is disabled.
+130811  2:15:39 [Note] Event Scheduler: Loaded 0 events
+130811  2:15:39 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:18:06 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:18:06 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:18:06 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:18:16 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:18:16 [Note] Plugin 'InnoDB' is disabled.
+130811  2:18:16 [Note] Event Scheduler: Loaded 0 events
+130811  2:18:16 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:21:48 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:21:48 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:21:48 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:25:20 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:25:20 [Note] Plugin 'InnoDB' is disabled.
+130811  2:25:20 [Note] Event Scheduler: Loaded 0 events
+130811  2:25:20 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:33:32 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:33:32 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:33:32 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:36:23 [Note] Plugin 'FEDERATED' is disabled.
+130811  2:36:23 [Note] Plugin 'InnoDB' is disabled.
+130811  2:36:23 [Note] Event Scheduler: Loaded 0 events
+130811  2:36:23 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: ready for connections.
+Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+130811  2:37:21 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Normal shutdown
+
+130811  2:37:21 [Note] Event Scheduler: Purging the queue. 0 events
+130811  2:37:21 [Note] D:/Sahana/vesuvius-portable/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt.exe: Shutdown complete
+
+130811  2:37:21 - mysqld got exception 0xc0000005 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+We will try our best to scrape up some info that will hopefully help diagnose
+the problem, but since we have already crashed, something is definitely wrong
+and this may fail.
 
