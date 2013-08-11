@@ -8,7 +8,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0810
+ * @lastModified 2013.0811
  */
 require_once(realpath(dirname(__FILE__) . '/../') . '/PortableApps/SahanaFoundation.org/www/local/lib/main.inc.php');
 ini_set('memory_limit', '512M');
@@ -24,6 +24,13 @@ $FILE_FILTERS[] = realpath($base_dir . '/.bzrignore');
 $FILE_FILTERS[] = realpath($global['portable.conf_file']);
 $FILE_FILTERS[] = realpath($global['portable.host_uuid_file']);
 $FILE_FILTERS[] = realpath($global['portable.db_dump_file']);
+
+// Drop the database if it already exists
+$mysql_exec = '"' . $global['portable.mysql.bin'] . '\mysql.exe"';
+exec($mysql_exec . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' --execute="DROP DATABASE IF EXISTS ' . $global['portable.dbname'] . ';"');
+
+// Clean log files
+require_once(realpath(dirname(__FILE__) . '/../') . '/bin/php_scripts/clear-logs.php');
 
 if ($argv[1] === "gz") {
     $dest_file = dirname(__FILE__) . '/portable-wrapper_win.tar';

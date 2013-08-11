@@ -1,4 +1,7 @@
-; AHK Script include
+; Name: Main include script
+; Auhor: Akila Ravihansa Perera <ravihansa3000@gmail.com>
+; LastModified: 2013.0811
+; License: http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
 ; Copyright Sahana Software Foundation
 
 ConflictsFile = ..\logs\portconflicts.txt
@@ -7,11 +10,12 @@ DBImportErrorLog = ..\logs\import_error_log.txt
 InitErrorLog = ..\logs\init_error_log.txt
 InstallDir = %A_ScriptDir%
 
-; Check whether path contains spaces
-if InStr(InstallDir , " ")
+; Check whether path contains spaces or special characters
+FoundInvalidDir := RegExMatch(InstallDir, "[^\w&._:\-\\]")
+if FoundInvalidDir <> 0
 {
 	SplashImage, Off
-    MsgBox 0, Vesuvius Portable, Error! A space is detected in folder names leading to folder where Vesuvius Portable is located.`n`nUnfortunately spaces are not allowed in path names. Please move Vesuvius Portable to a directory location without spaces and try again.`nFor eg. D:\Sahana
+    MsgBox 0, Vesuvius Portable,Sorry, a space or special character was detected in folder names leading to the folder where Vesuvius Portable is located.`n"%InstallDir%" at index %FoundInvalidDir%`n`nUnfortunately spaces and special characters are not allowed in path names to avoid known issues with some versions of Windows. Please move Vesuvius Portable to a directory location without spaces and try again.`nFor eg. D:\sahana\vesuvius-portable
 	ExitApp
 }
 
