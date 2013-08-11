@@ -97,7 +97,6 @@
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
         <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\php\php_errors.log" />
         <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\access.log" />
         <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\access_ssl.log" />
         <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\error.log" />

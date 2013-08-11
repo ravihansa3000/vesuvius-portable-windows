@@ -13,6 +13,7 @@
  */
 function shn_theme_body_register_form($error_list) {
     global $global;
+    $portable_conf_data = false;
     if ($error_list === false) {
         $portable_conf_data = get_portable_conf_data();
         $owner_name = ($portable_conf_data === false) ? '' : $portable_conf_data['owner_name'];
@@ -105,7 +106,7 @@ function shn_theme_body_register_form($error_list) {
                                     <td></td>
                                     <td>
                                         <input class="styleTehButton" style="margin: 10px;" type="submit" name="submit" value="   Submit   ">
-                                        <? if ($portable_conf_data) { ?>
+                                        <? if ($portable_conf_data !== false) { ?>
                                             <input class="styleTehButton" style="margin: 10px;" type="submit" name="skip" value="   Skip   ">
                                         <? } ?>
                                     </td>

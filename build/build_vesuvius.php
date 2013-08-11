@@ -25,10 +25,6 @@ $FILE_FILTERS[] = realpath($global['portable.conf_file']);
 $FILE_FILTERS[] = realpath($global['portable.host_uuid_file']);
 $FILE_FILTERS[] = realpath($global['portable.db_dump_file']);
 
-// Drop the database if it already exists
-$mysql_exec = '"' . $global['portable.mysql.bin'] . '\mysql.exe"';
-exec($mysql_exec . ' --user=' . $global['portable.dbuser'] . ' --password=' . $global['portable.dbpasswd'] . ' --host=' . $global['portable.host'] . ' --port=' . $global['portable.dbport'] . ' --execute="DROP DATABASE IF EXISTS ' . $global['portable.dbname'] . ';"');
-
 // Clean log files
 require_once(realpath(dirname(__FILE__) . '/../') . '/bin/php_scripts/clear-logs.php');
 
