@@ -8,7 +8,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0808
+ * @lastModified 2013.0811
  */
 require_once(realpath(dirname(__FILE__) . '/../') . '/lib/main.inc.php');
 require_once($global['portable.approot'] . '/lib/lib_uuid.php');
@@ -18,9 +18,9 @@ require_once($global['portable.approot'] . "/www/theme/head.php");
 require_once($global['portable.approot'] . "/www/theme/body.php");
 require_once($global['portable.approot'] . "/www/theme/footer.php");
 
-/* * *****  Block access to Vesuvius from external devices if not registered by the owner ****** */
+// Block access to Vesuvius from external devices if not registered by the owner
 if ($_SERVER['REMOTE_ADDR'] !== '127.0.0.1' && $_SERVER['REMOTE_ADDR'] !== '::1') {
-    if (file_exists($global['portable.conf_file']) && isUUIDMatch()) {
+    if (file_exists($global['portable.conf_file'])) {
         $host_entry = get_win_machine_name();
         header('Location: http://' . $host_entry);
         exit();
@@ -30,51 +30,45 @@ if ($_SERVER['REMOTE_ADDR'] !== '127.0.0.1' && $_SERVER['REMOTE_ADDR'] !== '::1'
         exit();
     }
 }
-/* * ************************* End Access Control *********************************** */
 
-
-/* * ********** Action requests from external modules *********** */
+/********** Action requests from external modules ************/
 if (isset($_GET['action']) && $_GET['action'] === "CHECK_VESUVIUS_STATUS") {
     echo "RUNNING";
     exit();
 }
-/* * ********** End Action requests ***************************** */
+/********** End Action requests ******************************/
 
 // Global error list container
 $global['error_list'] = array();
 
-// Step 1 - Validate sahana.conf file
+// Validate sahana.conf file
 if (!file_exists($global['sahana.conf_file'])) {
     add_error("sahana.conf file is missing! Please download a fresh copy and try again.");
 } else {
     require_once($global['sahana.conf_file']);
-    if (trim($conf['base_uuid']) === '' || trim($conf['base_uuid']) === '/' || substr($conf['base_uuid'], -1) !== '/') {
+    if (!isset($conf['base_uuid']) || trim($conf['base_uuid']) === '') {
         add_error("Invalid sahana.conf file! Please download a fresh copy and try again.");
     } else {
         $global['sahana.base_uuid'] = $conf['base_uuid'];
     }
 }
 
-// Step 2 - Check whether host_uuid file exists
+// Check whether host_uuid file exists
 if (!file_exists($global['portable.host_uuid_file'])) {
     add_error("host_uuid file is missing! Please download a fresh copy and try again.");
 }
 
-// Step 3 - Check whether Vesuvius Portable is registered by the owner
-if ($global['portable.state'] !== STATE_ERROR && isUUIDMatch()) {
-    if (!file_exists($global['portable.conf_file'])) { // portable configuration file must exist
-        add_error($global['portable.conf_file'] . " file is missing! Please download a fresh copy and try again.");
-    } else {
-        $global['portable.state'] = STATE_READY;
-        $host_entry = get_win_machine_name();
-        header('Location: http://' . $host_entry); // redirect to Vesuvius home page
-        exit();
-    }
+// Check whether Vesuvius Portable is registered by the owner
+if ($global['portable.state'] !== STATE_ERROR && file_exists($global['portable.conf_file']) && isUUIDMatch()) {
+    $global['portable.state'] = STATE_READY;
+    $host_entry = get_win_machine_name();
+    header('Location: http://' . $host_entry); // redirect to Vesuvius home page
+    exit();
 } else if ($global['portable.state'] !== STATE_ERROR) { // Machine UUID has been changed from last recorded
     $global['portable.state'] = STATE_MACHINEMOVE;
 }
 
-// Step 4 - Prompt the owner to register this instance
+// Prompt the owner to register this instance
 if ($global['portable.state'] === STATE_MACHINEMOVE && isset($_POST['submit'])) { // registration form is submitted
     $res = validateRegistrationForm(); // Validate user input
     if ($res === true) {
@@ -105,6 +99,7 @@ if ($global['portable.state'] === STATE_MACHINEMOVE && isset($_POST['submit'])) 
         shn_theme_body_register_form($res);
     }
 } else if ($global['portable.state'] === STATE_MACHINEMOVE && isset($_POST['skip']) && file_exists($global['portable.conf_file'])) {
+    // If previous registration is found allow skipping registration
     setup_sahana_conf();
     if ($global['portable.state'] !== STATE_ERROR) {
         createHostUUID();

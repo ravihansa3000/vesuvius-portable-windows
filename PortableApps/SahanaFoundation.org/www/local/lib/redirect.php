@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0809
+ * @lastModified 2013.0811
  */
 require_once(realpath(dirname(__FILE__) . '/../') . '/lib/main.inc.php');
 require_once(realpath(dirname(__FILE__) . '/../') . '/lib/lib_uuid.php');
@@ -20,7 +20,7 @@ if (file_exists($global['sahana.conf_file']) && file_exists($global['portable.co
 }else {
     // Vesuvius Portable is not yet registered, display the blocked message
     ?>
-    <h2>Vesuvius Portable has not been registered. Please inform the instance owner.</h2><br/><br/>
+    <h2>Vesuvius Portable instance has not been registered. Please inform the instance owner.</h2><br/><br/>
     <h3>If you are the owner please follow <a href="http://localhost">this link</a></h3>
     <?
 }?>

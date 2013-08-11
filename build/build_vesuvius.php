@@ -26,7 +26,7 @@ $FILE_FILTERS[] = realpath($global['portable.host_uuid_file']);
 $FILE_FILTERS[] = realpath($global['portable.db_dump_file']);
 
 if ($argv[1] === "gz") {
-    $dest_file = dirname(__FILE__) . '/vesuvius-portable_win.tar';
+    $dest_file = dirname(__FILE__) . '/portable-wrapper_win.tar';
     @unlink($dest_file);
     @unlink($dest_file . '.gz');
     $phar = new PharData($dest_file);
@@ -36,7 +36,7 @@ if ($argv[1] === "gz") {
     $phar = $phar->compress(Phar::GZ);
     @unlink($dest_file);
 } else if ($argv[1] === "zip") {
-    $dest_file = dirname(__FILE__) . '/vesuvius-portable_win.zip';
+    $dest_file = dirname(__FILE__) . '/portable-wrapper_win.zip';
     @unlink($dest_file);
     $zip = new ZipArchive();
     $zip->open($dest_file, ZipArchive::CREATE);
@@ -67,7 +67,7 @@ function zip_add_dir($dir, $dpa_zip) {
             if (($file !== '.') && ($file !== '..')) {
                 // Skip unselected modules
                 if (!in_array($item, $DIR_FILTERS)) {
-                    // Recursive call to add subdirectories
+                    // Recursive call to add subdirectories        
                     $dpa_zip->addEmptyDir(str_replace($base_dir . '\\', '', $item));
                     zip_add_dir($dir . $file . '/', $dpa_zip);
                 }

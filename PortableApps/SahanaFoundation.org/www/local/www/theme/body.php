@@ -9,7 +9,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0808
+ * @lastModified 2013.0811
  */
 function shn_theme_body_register_form($error_list) {
     global $global;
@@ -154,15 +154,15 @@ function shn_theme_body_block() {
 }
 
 function shn_theme_body_view_owner() {
-
-    global $global;
     $portable_conf_data = get_portable_conf_data();
-    $owner_name = ($portable_conf_data === false) ? '' : $portable_conf_data['owner_name'];
-    $portable_id = ($portable_conf_data === false) ? get_rand_portable_id() : $portable_conf_data['portable_id'];
-    $organization = ($portable_conf_data === false) ? '' : $portable_conf_data['organization'];
-    $parent_base_uuid = ($portable_conf_data === false) ? $global['sahana.base_uuid'] : $portable_conf_data['parent_base_uuid'];
-    $owner_email = ($portable_conf_data === false) ? '' : $portable_conf_data['owner_email'];
-    $portable_base_uuid = ($portable_conf_data === false) ? '' : $portable_conf_data['portable_base_uuid'];
+    if ($portable_conf_data !== false) {
+        $owner_name = $portable_conf_data['owner_name'];
+        $portable_desc = $portable_conf_data['portable_desc'];
+        $organization = $portable_conf_data['organization'];
+        $parent_base_uuid = $portable_conf_data['parent_base_uuid'];
+        $owner_email = $portable_conf_data['owner_email'];
+        $portable_base_uuid = $portable_conf_data['portable_base_uuid'];
+    }
     ?><body>
         <div id="container">
             <div id="header" class="clearfix">
@@ -182,42 +182,47 @@ function shn_theme_body_view_owner() {
                 <!-- Left hand side menus & login form -->
                 <div id="content" class="clearfix">
                     <div style="padding: 0px 0px 0px 36px;">
-                        <h3>Vesuvius Portable Owner Details</h3>
+                        <? if ($portable_conf_data !== false) { ?>
+                            <h3>Vesuvius Portable Owner Details</h3>
+                            <div style="margin-top: 50px;">					
+                                <table id="owner_view" >
+                                    <tr>
+                                        <td>Owner's name</td>
+                                        <td><b><? echo $owner_name; ?></b></td>							
+                                    </tr>
+                                    <tr>
+                                        <td>Description</td>
+                                        <td><b><? echo $portable_desc; ?></b></td>							
+                                    </tr>
+                                    <tr>
+                                        <td>Organization Name</td>
+                                        <td><b><? echo $organization; ?></b></td>							
+                                    </tr>
+                                    <tr>
+                                        <td>Parent instance base_uuid</td>
+                                        <td><b><? echo $parent_base_uuid; ?></b></td>							
+                                    </tr>
+                                    <tr>
+                                        <td>Owner's email</td>
+                                        <td><b><? echo $owner_email; ?></b></td>							
+                                    </tr>
+                                    <tr>
+                                        <td>Portable instance base_uuid</td>
+                                        <td><b><? echo $portable_base_uuid; ?></b></td>							
+                                    </tr>
+                                    <tr>
+                                        <td></td>							
+                                    </tr>
+                                </table>					
+                            </div>
+                        <? } else { ?>
+                            <h3>Vesuvius Portable instance has not been registered.</h3>
+                        <? } ?>
                     </div>
-                    <div style="margin-top: 50px;">					
-                        <table id="owner_view" >
-                            <tr>
-                                <td>Owner's name</td>
-                                <td><b><? echo $owner_name; ?></b></td>							
-                            </tr>
-                            <tr>
-                                <td>Portable instance ID</td>
-                                <td><b><? echo $portable_id; ?></b></td>							
-                            </tr>
-                            <tr>
-                                <td>Organization Name</td>
-                                <td><b><? echo $organization; ?></b></td>							
-                            </tr>
-                            <tr>
-                                <td>Parent instance base_uuid</td>
-                                <td><b><? echo $parent_base_uuid; ?></b></td>							
-                            </tr>
-                            <tr>
-                                <td>Owner's email</td>
-                                <td><b><? echo $owner_email; ?></b></td>							
-                            </tr>
-                            <tr>
-                                <td>Portable instance base_uuid</td>
-                                <td><b><? echo $portable_base_uuid; ?></b></td>							
-                            </tr>
-                            <tr>
-                                <td></td>							
-                            </tr>
-                        </table>					
-                    </div>
+
                 </div><!-- /content -->
             </div><!-- /wrapper -->		
-            <? shn_theme_footer(); // Print HTML Footer  ?>
+            <? shn_theme_footer(); // Print HTML Footer   ?>
         </div>
     </body>
     </html>
@@ -245,10 +250,10 @@ function shn_theme_body_error() {
                 <!-- Left hand side menus & login form -->
                 <div id="content" class="clearfix">
                     <div style="padding: 20px 0px 0px 36px;">
-                        <h3>Failed to initialize Vesuvius. Vesuvius Portable encountered following errors,</h3>	
+                        <h3>Failed to initialize Vesuvius. The following errors were encountered.</h3>	
                         <br/>
                         <?
-                        foreach ($global['portable.state'] as $err) {
+                        foreach ($global['error_list'] as $err) {
                             echo "<li>" . $err . "</li>";
                         }
                         ?>
@@ -256,7 +261,7 @@ function shn_theme_body_error() {
                 </div><!-- /content -->			
             </div><!-- /wrapper -->		
 
-            <? shn_theme_footer(); // Print HTML Footer ?>
+            <? shn_theme_footer(); // Print HTML Footer  ?>
         </div>
     </body>
     </html>

@@ -20,7 +20,7 @@ else
 	IfExist, %RunningFile% 
 	{		
 		Run PStart.exe
-		MsgBox 0, Vesuvius Portable, Vesuvius Portable instance is already running. Use Vesuvius Portable Dashboard to launch FireFox.
+		MsgBox 0, Vesuvius Portable, Vesuvius Portable instance is already running. Use Vesuvius Portable Dashboard to launch web browser.
 	}
 	else 
 	{

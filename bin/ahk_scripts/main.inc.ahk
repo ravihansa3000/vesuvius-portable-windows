@@ -1,4 +1,4 @@
-; Main include
+; AHK Script include
 ; Copyright Sahana Software Foundation
 
 ConflictsFile = ..\logs\portconflicts.txt
@@ -36,7 +36,7 @@ IfExist, %RunningFile%
 {
 	SplashImage, Off
 	Run ..\PStart.exe
-	MsgBox 0, Vesuvius Portable, Vesuvius Portable instance is already running. Use Vesuvius Portable Dashboard to access.
+	MsgBox 0, Vesuvius Portable, Vesuvius Portable instance is already running. Use Vesuvius Portable Dashboard to launch web browser.
 	
 	ExitApp
 }

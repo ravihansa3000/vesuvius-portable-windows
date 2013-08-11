@@ -13,6 +13,7 @@ RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe -n  "..\.
 ; Import MySQL database dump
 RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\import_dbdump.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide
 
+; Check whether database import errors were recorded
 IfExist, %DBImportErrorLog%
 {
 	SplashImage, Off

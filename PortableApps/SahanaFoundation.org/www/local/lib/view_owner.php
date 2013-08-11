@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0811
  */
  
 require_once(realpath(dirname(__FILE__).'/../').'/lib/main.inc.php');
@@ -18,7 +18,7 @@ require_once($global['portable.approot']."/www/theme/body.php");
 require_once($global['portable.approot']."/www/theme/footer.php");
 
 // First check whether Vesuvius Portable is registered 
-if (file_exists($global['portable.conf_file']) && isUUIDMatch()){	
+if (file_exists($global['portable.conf_file'])){	
 	shn_theme_head();
 	shn_theme_body_view_owner();	
 	shn_theme_footer();

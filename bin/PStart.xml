@@ -9,8 +9,8 @@
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>119</runcount>
-			<rundate>2013/08/11 02:41:51</rundate>
+			<runcount>120</runcount>
+			<rundate>2013/08/11 19:46:45</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -21,36 +21,36 @@
 		<file name="Re-setup Vesuvius Portable">
 			<path>batch_scripts\resetup-vesuvius.bat</path>
 			<icon>icons\resetup.ico</icon>
-			<runcount>40</runcount>
-			<rundate>2013/08/11 02:13:46</rundate>
+			<runcount>42</runcount>
+			<rundate>2013/08/11 19:38:31</rundate>
 		</file>
 		<file name="View Owner Details">
 			<path>batch_scripts\launch-url-view-owner.bat</path>
 			<icon>icons\view-owner.ico</icon>
-			<runcount>3</runcount>
-			<rundate>2013/08/08 17:00:59</rundate>
+			<runcount>5</runcount>
+			<rundate>2013/08/11 19:07:11</rundate>
 		</file>
 		<file name="Help">
 			<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 			<parameters>README.txt</parameters>
 			<directory>..\</directory>
 			<icon>icons\help.ico</icon>
-			<runcount>9</runcount>
-			<rundate>2013/07/15 21:51:23</rundate>
+			<runcount>11</runcount>
+			<rundate>2013/08/11 19:06:19</rundate>
 		</file>
 		<separator>
 		</separator>
 		<file name="Portable Server Admin">
 			<path>batch_scripts\launch-url-UniApanel.bat</path>
 			<icon>icons\admin.ico</icon>
-			<runcount>7</runcount>
-			<rundate>2013/07/12 18:25:21</rundate>
+			<runcount>8</runcount>
+			<rundate>2013/08/11 19:06:11</rundate>
 		</file>
 		<file name="Check Server Status">
 			<path>batch_scripts\check-ports.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>25</runcount>
-			<rundate>2013/08/11 02:41:03</rundate>
+			<runcount>27</runcount>
+			<rundate>2013/08/11 19:05:53</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -60,8 +60,8 @@
 				<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 				<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php</parameters>
 				<directory>..\</directory>
-				<runcount>13</runcount>
-				<rundate>2013/06/09 13:41:52</rundate>
+				<runcount>14</runcount>
+				<rundate>2013/08/11 19:03:34</rundate>
 			</file>
 			<file name="Debug in Default Browser">
 				<path>batch_scripts\launch-url-vesuvius-debug.bat</path>
@@ -78,8 +78,8 @@
 			<file name="Clear Log Files">
 				<path>batch_scripts\clear-logs.bat</path>
 				<icon>icons\clear.ico</icon>
-				<runcount>7</runcount>
-				<rundate>2013/08/11 02:41:00</rundate>
+				<runcount>10</runcount>
+				<rundate>2013/08/11 19:46:48</rundate>
 			</file>
 			<separator>
 			</separator>
@@ -122,15 +122,15 @@
 					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 					<parameters>PortableApps\SahanaFoundation.org\usr\local\apache2\logs</parameters>
 					<directory>..\</directory>
-					<runcount>9</runcount>
-					<rundate>2013/07/15 21:50:50</rundate>
+					<runcount>10</runcount>
+					<rundate>2013/08/11 19:03:20</rundate>
 				</file>
 				<file name="View PHP Error Log">
 					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 					<parameters>PortableApps\SahanaFoundation.org\usr\local\php\php_errors.log</parameters>
 					<directory>..\</directory>
-					<runcount>9</runcount>
-					<rundate>2013/08/10 19:46:35</rundate>
+					<runcount>11</runcount>
+					<rundate>2013/08/11 19:03:11</rundate>
 				</file>
 			</files>
 		</files>
@@ -164,8 +164,8 @@ Password: Vesuvius2012</text>
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>83</count>
-		<overalltime>151:11:32.445</overalltime>
+		<count>84</count>
+		<overalltime>151:56:29.796</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
