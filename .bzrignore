@@ -3,7 +3,6 @@ PortableApps/SahanaFoundation.org/www/vesuvius
 PortableApps/SahanaFoundation.org/usr/local/php/xdebug/*
 PortableApps/SahanaFoundation.org/www/local/conf/*
 PortableApps/SahanaFoundation.org/www/local/db_dump/*
-PortableApps/SahanaFoundation.org/usr/local/mysql/data/*
 PortableApps/SahanaFoundation.org/usr/local/apache2/server_certs/*
 PortableApps/SahanaFoundation.org/usr/local/apache2/logs/*
 bin/logs/*
