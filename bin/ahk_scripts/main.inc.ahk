@@ -23,17 +23,17 @@ PreCheck(){
 		ExitApp
 	}
 	
-	; Check whether Vesuvius Portable instance is already running
+	; Check ports and server status
+	RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\check_ports.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide		
+	
 	IfExist, %RunningFile% 
 	{
 		SplashImage, Off
 		Run ..\PStart.exe
 		MsgBox 0, Vesuvius Portable, Vesuvius Portable instance is already running. Use Vesuvius Portable Dashboard to launch web browser.		
 		ExitApp
-	}	
+	}
 
-	; Check whether ports 80, 443, 3306 are free to use
-	RunWait, ..\..\PortableApps\SahanaFoundation.org\usr\local\php\php.exe "..\..\..\..\..\bin\php_scripts\check_ports.php", ..\..\PortableApps\SahanaFoundation.org\usr\local\php, Hide	
 	IfExist, %ConflictsFile%
 	{
 		SplashImage, Off

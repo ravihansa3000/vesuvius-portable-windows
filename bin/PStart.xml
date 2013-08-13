@@ -49,14 +49,14 @@
 		<file name="Check Vesuvius Status">
 			<path>batch_scripts\check-ports.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>32</runcount>
-			<rundate>2013/08/13 12:24:50</rundate>
+			<runcount>33</runcount>
+			<rundate>2013/08/13 16:16:54</rundate>
 		</file>
 		<file name="Check Server Status">
 			<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>6</runcount>
-			<rundate>2013/08/13 12:25:00</rundate>
+			<runcount>7</runcount>
+			<rundate>2013/08/13 16:16:46</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -84,8 +84,8 @@
 			<file name="Clear Log Files">
 				<path>batch_scripts\clear-logs.bat</path>
 				<icon>icons\clear.ico</icon>
-				<runcount>11</runcount>
-				<rundate>2013/08/12 00:50:22</rundate>
+				<runcount>12</runcount>
+				<rundate>2013/08/13 16:16:41</rundate>
 			</file>
 			<separator>
 			</separator>
@@ -135,8 +135,8 @@
 					<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 					<parameters>PortableApps\SahanaFoundation.org\usr\local\php\php_errors.log</parameters>
 					<directory>..\</directory>
-					<runcount>13</runcount>
-					<rundate>2013/08/13 12:10:29</rundate>
+					<runcount>15</runcount>
+					<rundate>2013/08/13 16:18:07</rundate>
 				</file>
 			</files>
 		</files>
@@ -170,8 +170,8 @@ Password: Vesuvius2012</text>
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>93</count>
-		<overalltime>156:17:43.817</overalltime>
+		<count>94</count>
+		<overalltime>156:21:12.868</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
