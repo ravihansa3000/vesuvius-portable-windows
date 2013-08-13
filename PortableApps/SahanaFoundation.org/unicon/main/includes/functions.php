@@ -101,7 +101,7 @@ function get_apache_port(){
   if ($filearray=file(USF_APACHE_CNF)) {     // read file into array
     foreach ($filearray as $txt) {           // scan array for port
                                              // check $text line save $matches 
-     if(preg_match("/^Listen\s+(\d+)/", $txt,$matches)){  
+     if(preg_match("/^\s*Listen\s+(\d+)/", $txt,$matches)){  
        $apache_port =  $matches[1];          // match found save port number 
        break;                                // give up nothing else to do
      }
@@ -119,7 +119,7 @@ function get_apache_ssl_port(){
   if ($filearray=file(USF_APACHE_SSL_CNF)) { // read file into array
     foreach ($filearray as $txt) {           // scan array for port
                                              // check $text line save $matches 
-     if(preg_match("/^Listen\s+(\d+)/", $txt,$matches)){  
+     if(preg_match("/^\s*Listen\s+(\d+)/", $txt,$matches)){  
        $apache_port =  $matches[1];          // match found save port number 
        break;                                // give up nothing else to do
      }
@@ -137,7 +137,7 @@ function get_apache_ssl_port(){
 function get_apache_exe(){
   $dir_handle=opendir(US_APACHE_BIN);         // Get handle to Apache bin 
   while($file=readdir($dir_handle)){           // Loop through folder names 
-    if(preg_match("/^Apache.+exe/", $file)){   // Search for executable name 
+    if(preg_match("/^Apache_US_1.+exe/", $file)){   // Search for executable name 
      $Apache_exe=$file;                        // Match found save
      break;                                    // Noting else to do give up 
     }
@@ -286,7 +286,7 @@ function get_mysql_port(){
 function get_mysql_exe(){
   $dir_handle=opendir(US_MYSQL_BIN);             // Get handle to MySQL bin 
   while($file=readdir($dir_handle)){              // Loop through folder names 
-    if(preg_match("/^mysqld-opt.+exe/", $file)){  // Search for executable name 
+    if(preg_match("/^mysqld-opt_US_1.+exe/", $file)){  // Search for executable name 
      $MySQL_exe=$file;                            // Match found save
      break;                                       // Noting else to do give up 
     }

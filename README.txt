@@ -1,6 +1,6 @@
 Sahana Vesuvius Portable (beta release)
 http://sahanafoundation.org/
-10th June 2013
+10th Aug 2013
 
 Vesuvius Portable 
 ===========================
@@ -14,16 +14,6 @@ The portable app version of Vesuvius does not need to be installed as it is a se
 
 To launch Vesuvius run the vesuvius.exe file at the root of this folder
 
-Enabling Security
------------------
-
-By default security is disabled to make the system more accessible, however you can enable security in the adminstration section of the application. Once you do you will be asked to login and the following username have been pre-setup:
-
-Administrator:  
-  username: root
-  password: Vesuvius2012
-
-
 Installing to Hard disk
 -----------------------
 
@@ -36,7 +26,7 @@ The PortableApp version of Vesuvius can be run from a USB 2.0 disk. To install i
 
 Installation to USB
 
-   1.download Portable App version from sourceforge
+   1.download Portable App version
    2.get USB version 2.0 “fast” flash drive with at least 200 Mb of space
    3.unzip the downloaded file into the root directory of the USB disk
    4.run vesuvius.exe from the base directory
@@ -54,24 +44,25 @@ Troubleshooting
 
 Vesuvius not starting up could be one of the following issues:
 
-    * Vesuvius launches a web server on port 80 and MySQL on 3306. If these ports are currently being utilized by your operating system, Vesuvius will not be able to start. To check what ports are available click on Check Available Ports in the menu and shutdown those respective non-Vesuvius processes
+	* Vesuvius Portable must be located in a directory path that does not contain spaces or special characters. This is to avoid known issues with some versions of Windows. Move Vesuvius Portable to a directory path without spaces or special characters and launch vesuvius.exe. For eg. D:\Sahana\vesuvius-portable
+
+    * Vesuvius launches a web server on port 80 and MySQL on 3306. If these ports are currently being utilized by your operating system, Vesuvius will not be able to start. To check what ports are available click on Check Status in the menu and shutdown those respective non-Vesuvius processes
 
     * Skype occupies Apache HTTPS 443 - you may have to shut own Skype before using the Portable Applet version of Vesuvius
 
-    * If you have problems with response click on Restart Vesuvius Server
+    * If you have problems with response click on Restart Vesuvius Portable
 
 2) Vesuvius is too slow
 
     * Vesuvius needs a fast USB disk (2.0 at least) as it runs off this disk.
 
-Check if the WebServer (Apache) and Database (MySQL) has started by clicking on the 'Check Server Ports' menu items. You should see a report as below indicating port 80 and port 3306 is taken by programs Apache.exe and mysqld-opt.exe from the W: drive
+Check if the WebServer (Apache) and Database (MySQL) has started by clicking on the 'Check Server Status' menu item. You should see a report as below indicating port 80 and port 3306 is taken by programs Apache.exe and mysqld-opt.exe from the W: drive
 
 Apache (HTTP)          80   w:\usr\local\apache2\bin\Apache.exe
 Apache (HTTPS)        443   free
-
 MySQL                3306   W:\usr\local\mysql\bin\mysqld-opt.exe
 
-If you don't see the above click on 'Stop Vesuvius Server' followed by 'Re-Start Vesuvius Server'. If instead the above ports are taken by another program you need to stop that program before Vesuvius works. This could be another installation of Apache or MySQL that is creating the conflict. 
+If you don't see the above click on 'Stop Vesuvius Portable' followed by 'Restart Vesuvius Portable'. If instead the above ports are taken by another program you need to stop that program before Vesuvius works. This could be another installation of Apache or MySQL that is creating the conflict. 
 
 Portable Developer Environment
 ------------------------------
@@ -85,7 +76,7 @@ Here are the steps to get you started debugging on Vesuvius. Most of it already 
 
    1.Click on Launch IDE/Debugger button, which launches Notepad++ on the main Vesuvius index.php
    2.Click on Plugins -> Dbg -> Debug menu item in Notepad++.
-   3.Now click on Debug in Firefox Portable (or default browser), this will launch Vesuvius in Debug mode by appending the ?XDEBUG_SESSION_START=xdebug variable that attaches itself to the Notepad++ debugger. You can now step through the code and set breakpoints, watches, etc as required
+   3.Now click on Debug in default browser, this will launch Vesuvius in Debug mode by appending the ?XDEBUG_SESSION_START=xdebug variable that attaches itself to the Notepad++ debugger. You can now step through the code and set breakpoints, watches, etc as required
 
 
 Vesuvius version and license details 

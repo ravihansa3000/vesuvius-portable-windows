@@ -1,0 +1,106 @@
+[Mon Aug 12 01:09:38 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Mon Aug 12 01:09:38 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Mon Aug 12 01:09:38 2013] [notice] Parent: Created child process 2400
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Child process is running
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Acquired the start mutex.
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Starting 250 worker threads.
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Starting thread to listen on port 443.
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Starting thread to listen on port 443.
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Starting thread to listen on port 80.
+[Mon Aug 12 01:09:40 2013] [notice] Child 2400: Starting thread to listen on port 80.
+[Tue Aug 13 02:04:17 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 02:04:17 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 02:04:17 2013] [notice] Parent: Created child process 7284
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Child process is running
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Acquired the start mutex.
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Starting 250 worker threads.
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Starting thread to listen on port 443.
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Starting thread to listen on port 443.
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Starting thread to listen on port 80.
+[Tue Aug 13 02:04:18 2013] [notice] Child 7284: Starting thread to listen on port 80.
+[Tue Aug 13 02:11:56 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 02:11:56 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 02:11:56 2013] [notice] Parent: Created child process 4104
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Child process is running
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Acquired the start mutex.
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Starting 250 worker threads.
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Starting thread to listen on port 443.
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Starting thread to listen on port 443.
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Starting thread to listen on port 80.
+[Tue Aug 13 02:11:57 2013] [notice] Child 4104: Starting thread to listen on port 80.
+[Tue Aug 13 02:13:19 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 02:13:19 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 02:13:19 2013] [notice] Parent: Created child process 2248
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Child process is running
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Acquired the start mutex.
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Starting 250 worker threads.
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Starting thread to listen on port 443.
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Starting thread to listen on port 443.
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Starting thread to listen on port 80.
+[Tue Aug 13 02:13:19 2013] [notice] Child 2248: Starting thread to listen on port 80.
+[Tue Aug 13 11:59:40 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 11:59:40 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 11:59:40 2013] [notice] Parent: Created child process 7212
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Child process is running
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Acquired the start mutex.
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Starting 250 worker threads.
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Starting thread to listen on port 443.
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Starting thread to listen on port 443.
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Starting thread to listen on port 80.
+[Tue Aug 13 11:59:42 2013] [notice] Child 7212: Starting thread to listen on port 80.
+[Tue Aug 13 14:46:09 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:46:09 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:46:09 2013] [notice] Parent: Created child process 5164
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Child process is running
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Acquired the start mutex.
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Starting 250 worker threads.
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Starting thread to listen on port 443.
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Starting thread to listen on port 443.
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Starting thread to listen on port 80.
+[Tue Aug 13 14:46:10 2013] [notice] Child 5164: Starting thread to listen on port 80.
+[Tue Aug 13 14:46:31 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:46:31 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:46:31 2013] [notice] Parent: Created child process 4924
+[Tue Aug 13 14:48:01 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:48:01 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:48:01 2013] [notice] Parent: Created child process 9048
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Child process is running
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Acquired the start mutex.
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Starting 250 worker threads.
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Starting thread to listen on port 443.
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Starting thread to listen on port 443.
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Starting thread to listen on port 80.
+[Tue Aug 13 14:48:02 2013] [notice] Child 9048: Starting thread to listen on port 80.
+[Tue Aug 13 14:49:10 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:49:10 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:49:10 2013] [notice] Parent: Created child process 9136
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Child process is running
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Acquired the start mutex.
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Starting 250 worker threads.
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Starting thread to listen on port 443.
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Starting thread to listen on port 443.
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Starting thread to listen on port 80.
+[Tue Aug 13 14:49:11 2013] [notice] Child 9136: Starting thread to listen on port 80.
+[Tue Aug 13 14:49:53 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:49:53 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:49:53 2013] [notice] Parent: Created child process 7576
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Child process is running
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Acquired the start mutex.
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Starting 250 worker threads.
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Starting thread to listen on port 443.
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Starting thread to listen on port 443.
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Starting thread to listen on port 80.
+[Tue Aug 13 14:49:54 2013] [notice] Child 7576: Starting thread to listen on port 80.
+[Tue Aug 13 14:50:36 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:50:36 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:50:36 2013] [notice] Parent: Created child process 7424
+[Tue Aug 13 14:51:20 2013] [notice] Apache/2.2.21 (Win32) mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 DAV/2 configured -- resuming normal operations
+[Tue Aug 13 14:51:20 2013] [notice] Server built: Sep 10 2011 11:34:11
+[Tue Aug 13 14:51:20 2013] [notice] Parent: Created child process 8336
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Child process is running
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Acquired the start mutex.
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Starting 250 worker threads.
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Starting thread to listen on port 443.
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Starting thread to listen on port 443.
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Starting thread to listen on port 80.
+[Tue Aug 13 14:51:22 2013] [notice] Child 8336: Starting thread to listen on port 80.

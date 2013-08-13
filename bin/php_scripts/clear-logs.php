@@ -7,7 +7,7 @@
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0715
+ * @lastModified 2013.0813
  */
  
  
@@ -23,6 +23,12 @@ file_put_contents($APACHE_ERROR_LOG, "");
 file_put_contents($APACHE_SSL_ERROR_LOG, "");
 file_put_contents($APACHE_ACCESS_LOG, "");
 file_put_contents($APACHE_SSL_ACCESS_LOG, "");
+
+$files = glob(dirname(__FILE__) . '/../logs/*'); // get all file names in logs directory
+foreach($files as $file){ // iterate files
+  if(is_file($file))
+    unlink($file); // delete file
+}
 
 $xdebug_dir = new DirectoryIterator($PHP_XDEBUG);
 foreach ($xdebug_dir as $fileinfo) {

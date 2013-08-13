@@ -1,21 +1,21 @@
 <?php
 
 /**
- * @name         Initialize Vesuvius Portable
+ * @name         Generate SSL Certificates
  * @version      0.1
  * @author       Akila Ravihansa Perera <ravihansa3000@gmail.com>
  * @about        Developed in whole or part by the U.S. National Library of Medicine
  * @link         https://pl.nlm.nih.gov/about
  * @link         http://sahanafoundation.org
  * @license	 http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
- * @lastModified 2013.0725
+ * @lastModified 2013.0813
  */
 require_once(realpath(dirname(__FILE__) . '/../../') . '/PortableApps/SahanaFoundation.org/www/local/lib/main.inc.php');
 require_once(realpath(dirname(__FILE__) . '/../../') . '/PortableApps/SahanaFoundation.org/www/local/lib/lib_uuid.php');
 require_once (realpath(dirname(__FILE__) . '/../../') . "/PortableApps/SahanaFoundation.org/unicon/main/includes/config.inc.php");
 require_once (realpath(dirname(__FILE__) . '/../../') . "/PortableApps/SahanaFoundation.org/unicon/main/includes/functions.php");
 
-$output_file = realpath(dirname(__FILE__) . '/../logs') . '/init_error_log.txt';
+$output_file = realpath(dirname(__FILE__) . '/../logs') . '/ssl_cert_error_log.txt';
 if (file_exists($output_file)) {
     unlink($output_file);
 }

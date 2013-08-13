@@ -4,5 +4,5 @@
 ; License: http://www.gnu.org/licenses/lgpl-2.1.html GNU Lesser General Public License (LGPL)
 ; Copyright Sahana Software Foundation
 
-Run start-vesuvius.bat, bin\batch_scripts, Hide
+Run bin\AutoHotkey.exe "bin\ahk_scripts\start-vesuvius.ahk"
 ExitApp
