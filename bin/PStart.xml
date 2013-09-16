@@ -3,14 +3,14 @@
 		<file name="Launch in Default Browser">
 			<path>batch_scripts\launch-url-vesuvius.bat</path>
 			<icon>icons\vesuvius.ico</icon>
-			<runcount>29</runcount>
-			<rundate>2013/08/11 02:15:17</rundate>
+			<runcount>30</runcount>
+			<rundate>2013/09/10 19:40:44</rundate>
 		</file>
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>131</runcount>
-			<rundate>2013/08/13 14:52:15</rundate>
+			<runcount>135</runcount>
+			<rundate>2013/09/10 22:38:15</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -27,16 +27,16 @@
 		<file name="View Owner Details">
 			<path>batch_scripts\launch-url-view-owner.bat</path>
 			<icon>icons\view-owner.ico</icon>
-			<runcount>8</runcount>
-			<rundate>2013/08/13 12:00:12</rundate>
+			<runcount>9</runcount>
+			<rundate>2013/09/10 19:45:03</rundate>
 		</file>
 		<file name="Help">
 			<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 			<parameters>README.txt</parameters>
 			<directory>..\</directory>
 			<icon>icons\help.ico</icon>
-			<runcount>14</runcount>
-			<rundate>2013/08/13 00:52:24</rundate>
+			<runcount>16</runcount>
+			<rundate>2013/09/10 19:49:29</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -66,14 +66,14 @@
 				<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 				<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php</parameters>
 				<directory>..\</directory>
-				<runcount>14</runcount>
-				<rundate>2013/08/11 19:03:34</rundate>
+				<runcount>18</runcount>
+				<rundate>2013/09/10 18:52:08</rundate>
 			</file>
 			<file name="Debug in Default Browser">
 				<path>batch_scripts\launch-url-vesuvius-debug.bat</path>
 				<icon>icons\browser.ico</icon>
-				<runcount>10</runcount>
-				<rundate>2013/07/14 10:47:52</rundate>
+				<runcount>14</runcount>
+				<rundate>2013/09/10 19:45:51</rundate>
 			</file>
 			<file name="Launch phpMyAdmin">
 				<path>batch_scripts\launch-url-phpmyadmin.bat</path>
@@ -143,10 +143,9 @@
 	</files>
 	<notes>
 		<note name="Help">
-			<text>Login details:
+			<text>Admin Account
 
-Username: root
-Password: Vesuvius2012</text>
+You will be prompted to create a new admin account on the first run. If you want to reset the admin account launch &#x27;Re-setup Vesuvius Portable&#x27; dashboard menu item.</text>
 		</note>
 	</notes>
 	<colors>
@@ -170,8 +169,8 @@ Password: Vesuvius2012</text>
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>94</count>
-		<overalltime>156:21:12.868</overalltime>
+		<count>97</count>
+		<overalltime>170:26:42.033</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
@@ -267,17 +266,17 @@ Password: Vesuvius2012</text>
 	</search>
 	<style>
 		<additionaltextcolor>000000h</additionaltextcolor>
-		<backgroundimage></backgroundimage>
+		<backgroundimage>images\background.png</backgroundimage>
 		<captioncolor>000000h</captioncolor>
-		<iconsize>1</iconsize>
+		<iconsize>0</iconsize>
 		<iteminfomode>0</iteminfomode>
 	</style>
 	<tray>
 		<doubleclick>1</doubleclick>
-		<hotkey>False</hotkey>
-		<hotkeycode>12</hotkeycode>
+		<hotkey>True</hotkey>
+		<hotkeycode>21</hotkeycode>
 		<hotkeymodifier>7</hotkeymodifier>
-		<hover>0</hover>
+		<hover>1</hover>
 		<iconimage>2</iconimage>
 		<iconvisibility>0</iconvisibility>
 		<leftclick>2</leftclick>
@@ -285,12 +284,12 @@ Password: Vesuvius2012</text>
 	<window>
 		<main>
 			<position>
-				<x>928</x>
-				<y>430</y>
+				<x>912</x>
+				<y>419</y>
 			</position>
 			<size>
-				<x>313</x>
-				<y>519</y>
+				<x>328</x>
+				<y>530</y>
 			</size>
 		</main>
 	</window>

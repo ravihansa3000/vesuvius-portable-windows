@@ -87,6 +87,7 @@
         <GUIConfig name="stylerTheme" path="D:\Sahana\vesuvius-portable\PortableApps\Notepad++Portable\App\Notepad++\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
+            <PluginDlg pluginName="dbgpPlugin.dll" id="0" curr="3" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
@@ -96,12 +97,9 @@
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" />
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\access.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\access_ssl.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\error.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\error_ssl.log" />
-        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\usr\local\apache2\logs\httpd.pid" />
+        <File filename="D:\Sahana\vesuvius\vesuvius\www\index.php" />
+        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\res\translation_log.inc" />
+        <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php" />
         <File filename="D:\Sahana\vesuvius-portable\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php" />
     </History>
     <ProjectPanels>

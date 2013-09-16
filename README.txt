@@ -1,4 +1,4 @@
-Sahana Vesuvius Portable (beta release)
+Sahana Vesuvius Portable
 http://sahanafoundation.org/
 10th Aug 2013
 
@@ -26,17 +26,17 @@ The PortableApp version of Vesuvius can be run from a USB 2.0 disk. To install i
 
 Installation to USB
 
-   1.download Portable App version
-   2.get USB version 2.0 “fast” flash drive with at least 200 Mb of space
-   3.unzip the downloaded file into the root directory of the USB disk
-   4.run vesuvius.exe from the base directory
+   1.Download Portable App version
+   2.Get USB version 2.0 “fast” flash drive with at least 200 Mb of space
+   3.Unzip the downloaded file into the root directory of the USB disk
+   4.Run vesuvius.exe from the base directory
    5.When done make sure Vesuvius has been shutdown and safely remove the USB disk
 
 Installation to Harddisk
 
-   1.download Portable App version
-   2.unzip the downloaded file into any directory of the harddisk
-   3.run vesuvius.exe from the base of the directory in which you unzipped Vesuvius
+   1.Download Portable App version
+   2.Unzip the downloaded file into any directory of the harddisk
+   3.Run vesuvius.exe from the base of the directory in which you unzipped Vesuvius
 
 Troubleshooting
 ---------------
@@ -58,7 +58,7 @@ Vesuvius not starting up could be one of the following issues:
 
 Check if the WebServer (Apache) and Database (MySQL) has started by clicking on the 'Check Server Status' menu item. You should see a report as below indicating port 80 and port 3306 is taken by programs Apache.exe and mysqld-opt.exe from the W: drive
 
-Apache (HTTP)          80   w:\usr\local\apache2\bin\Apache.exe
+Apache (HTTP)          80   W:\usr\local\apache2\bin\Apache.exe
 Apache (HTTPS)        443   free
 MySQL                3306   W:\usr\local\mysql\bin\mysqld-opt.exe
 
@@ -82,9 +82,9 @@ Here are the steps to get you started debugging on Vesuvius. Most of it already 
 Vesuvius version and license details 
 -----------------------------------------------------------
 
-Vesuvius is Free and Open Source software released under an LGPL license. This portable package also contains other componentes that are released under other free and Open Source Licenses thus the four freedoms to you as a user are maintained. Freedom to run, study, improve and redistribute. Please also do join our open community and help improve Sahana products at http://sahanafoundation.org/community/developers/
+Vesuvius is Free and Open Source software released under an LGPL license. This portable package also contains other components that are released under other free and Open Source Licenses thus the four freedoms to you as a user are maintained. Freedom to run, study, improve and redistribute. Please also do join our open community and help improve Sahana products at http://sahanafoundation.org/community/developers/
 
-Copyright (C) 2013  Sahana Software Foundation [http://sahanafoundation.org/]
+Copyright (C) 2013  Sahana Software Foundation [http://sahanafoundation.org]
 
 This software is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public
