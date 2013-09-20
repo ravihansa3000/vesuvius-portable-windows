@@ -9,20 +9,20 @@
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>135</runcount>
-			<rundate>2013/09/10 22:38:15</rundate>
+			<runcount>137</runcount>
+			<rundate>2013/09/21 00:57:56</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
 			<icon>icons\restart.ico</icon>
-			<runcount>123</runcount>
-			<rundate>2013/08/13 12:09:27</rundate>
+			<runcount>124</runcount>
+			<rundate>2013/09/20 00:29:09</rundate>
 		</file>
 		<file name="Re-setup Vesuvius Portable">
 			<path>batch_scripts\resetup-vesuvius.bat</path>
 			<icon>icons\resetup.ico</icon>
-			<runcount>44</runcount>
-			<rundate>2013/08/13 02:13:09</rundate>
+			<runcount>45</runcount>
+			<rundate>2013/09/20 00:29:17</rundate>
 		</file>
 		<file name="View Owner Details">
 			<path>batch_scripts\launch-url-view-owner.bat</path>
@@ -49,14 +49,14 @@
 		<file name="Check Vesuvius Status">
 			<path>batch_scripts\check-ports.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>33</runcount>
-			<rundate>2013/08/13 16:16:54</rundate>
+			<runcount>34</runcount>
+			<rundate>2013/09/19 23:50:40</rundate>
 		</file>
 		<file name="Check Server Status">
 			<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>7</runcount>
-			<rundate>2013/08/13 16:16:46</rundate>
+			<runcount>9</runcount>
+			<rundate>2013/09/20 00:31:47</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -66,14 +66,14 @@
 				<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
 				<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php</parameters>
 				<directory>..\</directory>
-				<runcount>18</runcount>
-				<rundate>2013/09/10 18:52:08</rundate>
+				<runcount>19</runcount>
+				<rundate>2013/09/21 00:50:49</rundate>
 			</file>
 			<file name="Debug in Default Browser">
 				<path>batch_scripts\launch-url-vesuvius-debug.bat</path>
 				<icon>icons\browser.ico</icon>
-				<runcount>14</runcount>
-				<rundate>2013/09/10 19:45:51</rundate>
+				<runcount>16</runcount>
+				<rundate>2013/09/21 00:54:57</rundate>
 			</file>
 			<file name="Launch phpMyAdmin">
 				<path>batch_scripts\launch-url-phpmyadmin.bat</path>
@@ -169,8 +169,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>97</count>
-		<overalltime>170:26:42.033</overalltime>
+		<count>100</count>
+		<overalltime>172:18:32.521</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
@@ -284,8 +284,8 @@ You will be prompted to create a new admin account on the first run. If you want
 	<window>
 		<main>
 			<position>
-				<x>912</x>
-				<y>419</y>
+				<x>926</x>
+				<y>445</y>
 			</position>
 			<size>
 				<x>328</x>
