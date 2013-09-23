@@ -25,5 +25,5 @@ rem ### restore original working directory
 popd
 
 
-
+pause
 exit

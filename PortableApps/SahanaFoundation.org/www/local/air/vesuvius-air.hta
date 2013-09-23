@@ -60,9 +60,52 @@
 		posLeft = (screenWidth - 700) / 2
 		posTop = (screenHeight - 450) / 2		
 		window.moveTo posLeft, posTop
+		
+		Set fso = CreateObject("Scripting.FileSystemObject")
+		If (fso.FileExists("config.xml")) Then
+			Set objXMLDoc = CreateObject("Microsoft.XMLDOM") 
+			objXMLDoc.async = False 
+			objXMLDoc.load("config.xml")
+			Set Root = objXMLDoc.documentElement 
+			Set objNodeList = Root.getElementsByTagName("ssid")
+			ssid = objNodeList.item(0).Text
+			Set objNodeList = Root.getElementsByTagName("password")
+			password = objNodeList.item(0).Text 
+			txt_ssid.Value = ssid
+			txt_password.Value = password
+		End If
 	End Sub
  
-	Sub StartHotspot 
+	Sub StartHotspot 	
+		If (Len(txt_ssid.Value) < 5) then
+			MsgBox "Please enter a network name at least 5 characters long (alpha-numericals only)"
+			Exit Sub
+		End if	
+		
+		If (Len(txt_password.Value) < 8) then
+			MsgBox "Please enter a password at least 8 characters long (alpha-numericals only)"
+			Exit Sub
+		End if
+		
+		Set r = New RegExp
+		r.Pattern = "[a-zA-Z0-9]"
+		
+		For i=1 to Len(txt_password.Value)
+			t = Mid(txt_password.Value,i,1)
+			if not (CStr(r.Test(t))) then			
+				MsgBox "Please enter a password that only contains alpha-numericals"
+				Exit Sub
+			end if
+		Next
+		
+		For i=1 to Len(txt_ssid.Value)
+			t = Mid(txt_ssid.Value,i,1)
+			if not (CStr(r.Test(t))) then
+				MsgBox "Please enter a network name that only contains alpha-numericals"
+				Exit Sub
+			end if
+		Next
+		
 		Set xmlDoc = CreateObject("Microsoft.XMLDOM")  
   
 		Set objRoot = xmlDoc.createElement("Vesuvius-Air")  
@@ -79,16 +122,24 @@
 		objDate.Text =  txt_password.Value
 		objRecord.appendChild objDate  
 
-		Set objIntro = xmlDoc.createProcessingInstruction("xml","version='1.0'")  
-		xmlDoc.insertBefore objIntro,xmlDoc.childNodes(0)  
-
-		xmlDoc.Save "config.xml"  
-		'Set oShell = CreateObject("Shell.Application")
-		'oShell.ShellExecute "cmd.exe", "/c ""net start ""WLAN AutoConfig"" "" ", , "runas", 1
+		Set objIntro = xmlDoc.createProcessingInstruction("xml", "version='1.0'")  
+		xmlDoc.insertBefore objIntro,xmlDoc.childNodes(0)
+		xmlDoc.Save "config.xml"
 		
-	End Sub
+		set fso = CreateObject("Scripting.FileSystemObject")
+		Set objShell = CreateObject("Shell.Application")
+		currDir = fso.GetAbsolutePathName(".")
+
+		objShell.ShellExecute "wscript.exe", currDir & "\start_wifi_hotspot.vbs -1", "", "runas", 1
+		
  
+	End Sub
+	
 	Sub StopHotspot 
+		set fso = CreateObject("Scripting.FileSystemObject")
+		Set objShell = CreateObject("Shell.Application")
+		currDir = fso.GetAbsolutePathName(".")
+		objShell.ShellExecute "wscript.exe", currDir & "\stop_wifi_hotspot.vbs -1", "", "runas", 1
 		
 	End Sub 
 

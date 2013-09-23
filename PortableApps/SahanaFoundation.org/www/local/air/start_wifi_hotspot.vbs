@@ -19,19 +19,31 @@ else
 	oShell.Run "cmd.exe /c ""  "" " , 0, true
 end if
 
+Set fso = CreateObject("Scripting.FileSystemObject")
+currDir = fso.GetParentFolderName(Wscript.ScriptFullName)
 
-
-
-
+If not (fso.FileExists(currDir & "\config.xml")) Then
+	MsgBox "Error! config.xml file is missing"
+	WScript.Quit
+End If
+		
 Set objXMLDoc = CreateObject("Microsoft.XMLDOM") 
 objXMLDoc.async = False 
-objXMLDoc.load("config.xml")
+objXMLDoc.load(currDir & "\config.xml")
 
 Set Root = objXMLDoc.documentElement 
 Set objNodeList = Root.getElementsByTagName("ssid")
 ssid = objNodeList.item(0).Text
-MsgBox ssid
 Set objNodeList = Root.getElementsByTagName("password")
 password = objNodeList.item(0).Text 
-MsgBox password
 
+'MsgBox "netsh interface ip set address name=""" & connID & """ source=static addr=192.168.0.1 mask=255.255.255.0"
+oShell.Run "netsh wlan stop hostednetwork" , 0, true
+
+oShell.Run "netsh wlan set hostednetwork mode=allow ssid=" & ssid & " key=" & password , 0, true
+oShell.Run "netsh interface ip set address name=""" & connID & """ source=static addr=192.168.0.1 mask=255.255.255.0" , 0, true
+oShell.Run "netsh wlan start hostednetwork" , 0, true
+
+'oShell.Run currDir & "\DualServer\RunStandAlone.bat" , 0, true
+Set objShell = CreateObject("Shell.Application")
+objShell.ShellExecute currDir & "\DualServer\DualServer.exe", "-v", "", , 0
