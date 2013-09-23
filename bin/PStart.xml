@@ -9,8 +9,8 @@
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>138</runcount>
-			<rundate>2013/09/24 02:22:20</rundate>
+			<runcount>139</runcount>
+			<rundate>2013/09/24 02:44:29</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -21,8 +21,8 @@
 		<file name="Re-setup Vesuvius Portable">
 			<path>batch_scripts\resetup-vesuvius.bat</path>
 			<icon>icons\resetup.ico</icon>
-			<runcount>46</runcount>
-			<rundate>2013/09/24 02:20:15</rundate>
+			<runcount>47</runcount>
+			<rundate>2013/09/24 02:35:29</rundate>
 		</file>
 		<file name="View Owner Details">
 			<path>batch_scripts\launch-url-view-owner.bat</path>
@@ -61,8 +61,8 @@
 		<file name="Check Server Status">
 			<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>11</runcount>
-			<rundate>2013/09/24 02:08:14</rundate>
+			<runcount>12</runcount>
+			<rundate>2013/09/24 02:36:58</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -84,8 +84,8 @@
 			<file name="Launch phpMyAdmin">
 				<path>batch_scripts\launch-url-phpmyadmin.bat</path>
 				<icon>icons\phpmyadmin.ico</icon>
-				<runcount>20</runcount>
-				<rundate>2013/09/24 02:20:48</rundate>
+				<runcount>22</runcount>
+				<rundate>2013/09/24 02:44:14</rundate>
 			</file>
 			<file name="Clear Log Files">
 				<path>batch_scripts\clear-logs.bat</path>
@@ -175,8 +175,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>103</count>
-		<overalltime>182:49:24.011</overalltime>
+		<count>104</count>
+		<overalltime>182:59:20.171</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>

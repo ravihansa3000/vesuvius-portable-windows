@@ -205,3 +205,291 @@
 [23-Sep-2013 21:50:37] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
 [23-Sep-2013 21:50:38] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_aagta753hhv1rm2mk9k7j3op46, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
 [23-Sep-2013 21:50:38] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:41] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_aagta753hhv1rm2mk9k7j3op46, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:41] PHP Stack trace:
+[23-Sep-2013 22:04:41] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:41] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:41] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:41] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:41] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:42] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_m9h19gr1865akndrvpicgb5n31, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:42] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:42] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_m9h19gr1865akndrvpicgb5n31, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:42] PHP Stack trace:
+[23-Sep-2013 22:04:42] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:42] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:42] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:42] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:42] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:42] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_9b1pqoradmuo602j1h80bg1k02, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:42] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:45] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_9b1pqoradmuo602j1h80bg1k02, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:45] PHP Stack trace:
+[23-Sep-2013 22:04:45] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:45] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:45] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:45] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:45] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:45] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_rtirhe922q79ppprfqli64hv67, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:45] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:45] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_rtirhe922q79ppprfqli64hv67, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:45] PHP Stack trace:
+[23-Sep-2013 22:04:45] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:45] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:45] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:45] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:45] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:45] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_qv7c66rbcrs7gabv6mj4c0ni35, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:45] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:49] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_qv7c66rbcrs7gabv6mj4c0ni35, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:49] PHP Stack trace:
+[23-Sep-2013 22:04:49] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:49] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:49] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:49] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:49] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:49] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_vf0geaj14vo5svjcnbc66gdl51, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:49] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:49] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_vf0geaj14vo5svjcnbc66gdl51, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:49] PHP Stack trace:
+[23-Sep-2013 22:04:49] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:49] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:49] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:49] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:49] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:50] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_5m2lm5m9qmpekif1at40dg8jf2, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:50] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:50] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_5m2lm5m9qmpekif1at40dg8jf2, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:50] PHP Stack trace:
+[23-Sep-2013 22:04:50] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:50] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:50] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:50] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:50] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:50] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_q4956uaaa834spscj90ig1q036, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:50] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:55] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_q4956uaaa834spscj90ig1q036, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:55] PHP Stack trace:
+[23-Sep-2013 22:04:55] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:55] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:55] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:55] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:55] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:55] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_p70gdtq3co45f83trbgeir6aq6, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:55] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:04:55] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_p70gdtq3co45f83trbgeir6aq6, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:04:55] PHP Stack trace:
+[23-Sep-2013 22:04:55] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:04:55] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:04:55] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:04:55] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:04:55] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:04:55] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_hbqm6nkvrspokl99gkdmpbluj2, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:04:56] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:05] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_hbqm6nkvrspokl99gkdmpbluj2, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:05] PHP Stack trace:
+[23-Sep-2013 22:05:05] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:05] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:05] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:05] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:05] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:06] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_1sqdeaso1o7r9i16hivjhhlda4, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:06] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:06] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_1sqdeaso1o7r9i16hivjhhlda4, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:06] PHP Stack trace:
+[23-Sep-2013 22:05:06] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:06] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:06] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:06] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:06] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:06] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_4te2eiecjc2nhqnph1g9s6u8t6, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:06] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:06] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_4te2eiecjc2nhqnph1g9s6u8t6, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:06] PHP Stack trace:
+[23-Sep-2013 22:05:06] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:06] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:06] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:06] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:06] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:06] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_9oomka3v9fd0bd2u942rv4qod1, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:06] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:10] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_9oomka3v9fd0bd2u942rv4qod1, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:10] PHP Stack trace:
+[23-Sep-2013 22:05:10] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:10] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:10] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:10] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:10] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:10] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_1c85v979fumfjessvi3t2oe395, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:10] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:10] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_1c85v979fumfjessvi3t2oe395, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:10] PHP Stack trace:
+[23-Sep-2013 22:05:10] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:10] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:10] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:10] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:10] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:10] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_696gf2nq7g6nq8pnpu8hcn48n7, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:10] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:13] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_696gf2nq7g6nq8pnpu8hcn48n7, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:13] PHP Stack trace:
+[23-Sep-2013 22:05:13] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:13] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:13] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:13] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:13] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:13] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_emp73mjeljbt23sgusppg9g5i6, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:13] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:13] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_emp73mjeljbt23sgusppg9g5i6, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:13] PHP Stack trace:
+[23-Sep-2013 22:05:13] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:13] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:13] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:13] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:13] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:14] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_v6bbj3o2r8aac86bqohi59fs65, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:14] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:38] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_v6bbj3o2r8aac86bqohi59fs65, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:38] PHP Stack trace:
+[23-Sep-2013 22:05:38] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:38] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:38] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:38] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:38] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:38] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_9e555imu8l5r250u9fhe09kq43, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:38] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:38] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_9e555imu8l5r250u9fhe09kq43, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:38] PHP Stack trace:
+[23-Sep-2013 22:05:38] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:38] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:38] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:38] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:38] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:39] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_dl1umipk0ivieb86knt1373p33, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:39] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:41] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_dl1umipk0ivieb86knt1373p33, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:41] PHP Stack trace:
+[23-Sep-2013 22:05:41] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:41] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:41] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:41] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:41] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:42] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_uq6prgs2qr2oeepf54dvjrdjv3, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:42] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:42] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_uq6prgs2qr2oeepf54dvjrdjv3, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:42] PHP Stack trace:
+[23-Sep-2013 22:05:42] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:42] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:42] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:42] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:42] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:42] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_4h6pse3hk86dgd516ph0ll97p6, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:42] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:46] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_4h6pse3hk86dgd516ph0ll97p6, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:46] PHP Stack trace:
+[23-Sep-2013 22:05:46] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:46] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:46] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:46] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:46] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:46] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_1jbue0rfo63ob23ne1f1dfaah5, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:46] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:46] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_1jbue0rfo63ob23ne1f1dfaah5, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:46] PHP Stack trace:
+[23-Sep-2013 22:05:46] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:46] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:46] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:46] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:46] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:47] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_v49fl97rhglllsguqf3vmjsva3, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:47] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:05:47] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_v49fl97rhglllsguqf3vmjsva3, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:05:47] PHP Stack trace:
+[23-Sep-2013 22:05:47] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:05:47] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:05:47] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:05:47] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:05:47] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:05:47] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_bn3b69cfig3esfp8kuudc6ca35, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:05:47] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:09:39] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_bn3b69cfig3esfp8kuudc6ca35, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:09:39] PHP Stack trace:
+[23-Sep-2013 22:09:39] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:09:39] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:09:39] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:09:39] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:09:39] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:09:39] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_gj1npktji041jvqafrrv84prq7, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:09:39] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:09:40] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_gj1npktji041jvqafrrv84prq7, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:09:40] PHP Stack trace:
+[23-Sep-2013 22:09:40] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:09:40] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:09:40] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:09:40] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:09:40] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:09:40] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_m55mmmvnu406rkk9kqiccb65e6, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:09:40] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:09:44] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_m55mmmvnu406rkk9kqiccb65e6, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:09:44] PHP Stack trace:
+[23-Sep-2013 22:09:44] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:09:44] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:09:44] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:09:44] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:09:44] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:09:44] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_94tqmotjd0so4o634kkesmhdt2, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:09:44] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:09:44] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_94tqmotjd0so4o634kkesmhdt2, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:09:44] PHP Stack trace:
+[23-Sep-2013 22:09:44] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:09:44] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:09:44] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:09:44] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:09:44] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:09:44] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_fc63u33b9cil651dbdbh1annt1, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:09:44] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:09:44] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_fc63u33b9cil651dbdbh1annt1, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:09:44] PHP Stack trace:
+[23-Sep-2013 22:09:44] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:09:44] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:09:44] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:09:44] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:09:44] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:09:45] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_8covfjkb18mnse22a8eanq6ik4, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:09:45] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:10:34] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_8covfjkb18mnse22a8eanq6ik4, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:10:34] PHP Stack trace:
+[23-Sep-2013 22:10:34] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:10:34] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:10:34] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:10:34] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:10:34] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:10:34] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_91f8j9jh40s4tir7slap21ur82, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:10:34] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:10:34] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_91f8j9jh40s4tir7slap21ur82, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:10:34] PHP Stack trace:
+[23-Sep-2013 22:10:34] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:10:34] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:10:34] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:10:34] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:10:34] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:10:34] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_p4jsbahdmj4g2bgh0aqgur17l4, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:10:34] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:10:36] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_p4jsbahdmj4g2bgh0aqgur17l4, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:10:36] PHP Stack trace:
+[23-Sep-2013 22:10:36] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:10:36] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:10:36] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:10:36] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:10:36] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:10:37] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_bm9gdmrcdmtlio206khtjaeee4, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:10:37] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
+[23-Sep-2013 22:10:37] PHP Warning:  session_start(): open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_bm9gdmrcdmtlio206khtjaeee4, O_RDWR) failed: No such file or directory (2) in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc on line 83
+[23-Sep-2013 22:10:37] PHP Stack trace:
+[23-Sep-2013 22:10:37] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[23-Sep-2013 22:10:37] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[23-Sep-2013 22:10:37] PHP   3. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:57
+[23-Sep-2013 22:10:37] PHP   4. shn_session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:23
+[23-Sep-2013 22:10:37] PHP   5. session_start() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_session.inc:83
+[23-Sep-2013 22:10:37] PHP Warning:  Unknown: open(D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp\sess_ieio20v7o65cmsslb1fhmremf4, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[23-Sep-2013 22:10:37] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/tmp) in Unknown on line 0
