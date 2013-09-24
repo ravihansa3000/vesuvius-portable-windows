@@ -31,10 +31,10 @@
 			<rundate>2013/09/10 19:45:03</rundate>
 		</file>
 		<file name="Vesuvius Air">
-			<path>..\PortableApps\SahanaFoundation.org\www\local\air\vesuvius-air.hta</path>
+			<path>air\vesuvius-air.hta</path>
 			<icon>icons\wifi.ico</icon>
-			<runcount>44</runcount>
-			<rundate>2013/09/24 02:54:26</rundate>
+			<runcount>47</runcount>
+			<rundate>2013/09/24 13:29:06</rundate>
 		</file>
 		<file name="Help">
 			<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
@@ -175,8 +175,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>105</count>
-		<overalltime>183:04:57.389</overalltime>
+		<count>107</count>
+		<overalltime>183:06:43.912</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>

@@ -1,1 +1,0 @@
-@DualServer.exe -v
