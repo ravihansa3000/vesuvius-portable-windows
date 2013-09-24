@@ -119,3 +119,37 @@
 [24-Sep-13 02:02:05] Lease Status URL: http://127.0.0.1:6789
 [24-Sep-13 02:02:06] No Static Entry found for BOOTPREQUEST from Host 00:ab:00:00:00:00
 [24-Sep-13 02:16:36] Host 5c:f8:a1:da:14:1e (android-7c7d56d08186c042) allotted 192.168.0.3 for 36000 seconds
+[24-Sep-13 02:54:30] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 02:54:30] Accept Failed, WSAError 10038
+[24-Sep-13 02:54:30] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 02:54:30] No Static Interface ready, Waiting...
+[24-Sep-13 02:54:30] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 02:54:30] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 02:54:30] No Static Interface ready, Waiting...
+[24-Sep-13 02:54:30] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 02:54:30] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 02:54:30] No Static Interface ready, Waiting...
+[24-Sep-13 02:54:30] Retrying failed Listening Interfaces..
+[24-Sep-13 02:54:30] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 02:54:30] No Static Interface ready, Waiting...
+[24-Sep-13 02:54:30] Retrying failed Listening Interfaces..
+[24-Sep-13 02:54:30] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 02:54:30] No Static Interface ready, Waiting...
+[24-Sep-13 02:54:30] Retrying failed Listening Interfaces..
+[24-Sep-13 02:54:30] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 02:54:32] Starting DNS Service
+[24-Sep-13 02:54:30] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 02:54:32] Starting DHCP Service
+[24-Sep-13 02:54:32] DHCP Logging: Normal
+[24-Sep-13 02:54:30] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 02:54:32] DNS Logging: Normal
+[24-Sep-13 02:54:30] No Static Interface ready, Waiting...
+[24-Sep-13 02:54:32] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 02:54:32] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 02:54:32] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 02:54:32] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 02:54:30] Retrying failed Listening Interfaces..
+[24-Sep-13 02:54:30] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 02:54:30] Listening On: 192.168.0.1
+[24-Sep-13 02:54:36] Host 5c:f8:a1:da:14:1e (android-7c7d56d08186c042) allotted 192.168.0.3 for 36000 seconds
+[24-Sep-13 02:54:36] No Static Entry found for BOOTPREQUEST from Host 00:ab:00:00:00:00
