@@ -1009,3 +1009,135 @@
 [23-Sep-2013 22:25:32] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
 [23-Sep-2013 22:25:32] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
 [23-Sep-2013 22:25:32] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:214
+[24-Sep-2013 09:02:25] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/import.out in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 201
+[24-Sep-2013 09:02:25] PHP Stack trace:
+[24-Sep-2013 09:02:25] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:25] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:25] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:25] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:25] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:25] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:25] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:25] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:25] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:201
+[24-Sep-2013 09:02:25] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/import.out in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 202
+[24-Sep-2013 09:02:25] PHP Stack trace:
+[24-Sep-2013 09:02:25] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:25] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:25] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:25] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:25] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:25] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:25] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:25] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:25] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:202
+[24-Sep-2013 09:02:25] PHP Warning:  filesize(): stat failed for /pl/tmp/pfif_logs/export.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 209
+[24-Sep-2013 09:02:25] PHP Stack trace:
+[24-Sep-2013 09:02:25] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:25] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:25] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:25] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:25] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:25] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:25] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:25] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:25] PHP   9. filesize() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:209
+[24-Sep-2013 09:02:25] PHP Warning:  filesize(): stat failed for /pl/tmp/pfif_logs/import.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 209
+[24-Sep-2013 09:02:25] PHP Stack trace:
+[24-Sep-2013 09:02:25] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:25] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:25] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:25] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:25] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:25] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:25] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:25] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:25] PHP   9. filesize() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:209
+[24-Sep-2013 09:02:25] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/import.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 213
+[24-Sep-2013 09:02:25] PHP Stack trace:
+[24-Sep-2013 09:02:25] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:25] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:25] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:25] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:25] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:25] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:25] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:25] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:25] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:213
+[24-Sep-2013 09:02:25] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/export.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 214
+[24-Sep-2013 09:02:25] PHP Stack trace:
+[24-Sep-2013 09:02:25] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:25] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:25] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:25] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:25] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:25] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:25] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:25] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:25] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:214
+[24-Sep-2013 09:02:31] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/import.out in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 201
+[24-Sep-2013 09:02:31] PHP Stack trace:
+[24-Sep-2013 09:02:31] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:31] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:31] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:31] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:31] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:31] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:31] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:31] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:31] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:201
+[24-Sep-2013 09:02:31] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/import.out in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 202
+[24-Sep-2013 09:02:31] PHP Stack trace:
+[24-Sep-2013 09:02:31] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:31] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:31] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:31] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:31] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:31] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:31] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:31] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:31] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:202
+[24-Sep-2013 09:02:31] PHP Warning:  filesize(): stat failed for /pl/tmp/pfif_logs/export.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 209
+[24-Sep-2013 09:02:31] PHP Stack trace:
+[24-Sep-2013 09:02:31] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:31] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:31] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:31] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:31] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:31] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:31] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:31] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:31] PHP   9. filesize() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:209
+[24-Sep-2013 09:02:31] PHP Warning:  filesize(): stat failed for /pl/tmp/pfif_logs/import.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 209
+[24-Sep-2013 09:02:32] PHP Stack trace:
+[24-Sep-2013 09:02:32] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:32] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:32] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:32] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:32] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:32] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:32] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:32] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:32] PHP   9. filesize() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:209
+[24-Sep-2013 09:02:32] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/import.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 213
+[24-Sep-2013 09:02:32] PHP Stack trace:
+[24-Sep-2013 09:02:32] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:32] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:32] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:32] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:32] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:32] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:32] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:32] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:32] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:213
+[24-Sep-2013 09:02:32] PHP Warning:  filemtime(): stat failed for /pl/tmp/pfif_logs/export.err in D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc on line 214
+[24-Sep-2013 09:02:32] PHP Stack trace:
+[24-Sep-2013 09:02:32] PHP   1. {main}() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[24-Sep-2013 09:02:32] PHP   2. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[24-Sep-2013 09:02:32] PHP   3. shn_main_front_controller() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:62
+[24-Sep-2013 09:02:32] PHP   4. shn_stream_init() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php:234
+[24-Sep-2013 09:02:32] PHP   5. shn_include_page_section() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_stream_html.inc:49
+[24-Sep-2013 09:02:32] PHP   6. require_once() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_modules.inc:181
+[24-Sep-2013 09:02:32] PHP   7. shn_mainmenuitem() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\handler_mainmenu.inc:55
+[24-Sep-2013 09:02:32] PHP   8. shn_pfif_status_code() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\inc\lib_menu.inc:80
+[24-Sep-2013 09:02:32] PHP   9. filemtime() D:\Sahana\vesuvius-portable\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\mod\pfif\main.inc:214

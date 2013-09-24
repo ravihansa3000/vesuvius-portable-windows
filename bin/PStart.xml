@@ -9,8 +9,8 @@
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>141</runcount>
-			<rundate>2013/09/24 02:55:53</rundate>
+			<runcount>142</runcount>
+			<rundate>2013/09/24 13:32:52</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -175,8 +175,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>107</count>
-		<overalltime>183:06:43.912</overalltime>
+		<count>108</count>
+		<overalltime>183:07:30.543</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
