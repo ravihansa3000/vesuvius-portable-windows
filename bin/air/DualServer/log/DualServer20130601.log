@@ -1,0 +1,78 @@
+[01-Jun-13 18:48:25] Starting DNS Service
+[01-Jun-13 18:48:25] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 18:48:25] Starting DHCP Service
+[01-Jun-13 18:48:25] DHCP Logging: Normal
+[01-Jun-13 18:48:25] DNS Logging: Normal
+[01-Jun-13 18:48:25] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[01-Jun-13 18:48:25] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[01-Jun-13 18:48:25] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[01-Jun-13 18:48:25] DHCP Range: 192.168.0.1-192.168.0.254/255.255.255.0
+[01-Jun-13 18:48:25] Server Name: Akila-Lap
+[01-Jun-13 18:48:25] Max Lease: 36000 (sec)
+[01-Jun-13 18:48:25] Default Host Expiry: 36000 (sec)
+[01-Jun-13 18:48:25] Domain Name: workgroup
+[01-Jun-13 18:48:25] Default Forwarding Server: 192.168.1.1
+[01-Jun-13 18:48:25] Detecting Static Interfaces..
+[01-Jun-13 18:48:25] Lease Status URL: http://127.0.0.1:6789
+[01-Jun-13 18:48:25] Listening On: 192.168.142.1
+[01-Jun-13 18:51:54] Client 127.0.0.1, HTTP Message Receive failed
+[01-Jun-13 19:03:53] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 19:03:53] Starting DNS Service
+[01-Jun-13 19:03:53] DNS Logging: Normal
+[01-Jun-13 19:03:53] Server Name: Akila-Lap
+[01-Jun-13 19:03:53] Domain Name: workgroup
+[01-Jun-13 19:03:53] Default Host Expiry: 36000 (sec)
+[01-Jun-13 19:03:53] Detecting Static Interfaces..
+[01-Jun-13 19:03:53] Default Forwarding Server: 192.168.1.1
+[01-Jun-13 19:03:53] Listening On: 192.168.142.1
+[01-Jun-13 19:05:18] Network changed, re-detecting Static Interfaces..
+[01-Jun-13 19:05:18] Listening On: 192.168.142.1
+[01-Jun-13 19:05:59] DNS Logging: Normal
+[01-Jun-13 19:05:59] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 19:05:59] Starting DNS Service
+[01-Jun-13 19:05:59] Server Name: Akila-Lap
+[01-Jun-13 19:05:59] Domain Name: workgroup
+[01-Jun-13 19:05:59] Default Forwarding Server: 255.255.255.255
+[01-Jun-13 19:05:59] Default Host Expiry: 36000 (sec)
+[01-Jun-13 19:05:59] Detecting Static Interfaces..
+[01-Jun-13 19:05:59] Listening On: 192.168.142.1
+[01-Jun-13 19:07:01] DNS Logging: Normal
+[01-Jun-13 19:07:01] Starting DNS Service
+[01-Jun-13 19:07:01] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 19:07:01] Server Name: Akila-Lap
+[01-Jun-13 19:07:01] Domain Name: workgroup
+[01-Jun-13 19:07:01] Default Host Expiry: 36000 (sec)
+[01-Jun-13 19:07:01] Default Forwarding Server: 255.255.255.255
+[01-Jun-13 19:07:01] Detecting Static Interfaces..
+[01-Jun-13 19:07:01] Listening On: 192.168.142.1
+[01-Jun-13 19:08:01] DNS Logging: Normal
+[01-Jun-13 19:08:01] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 19:08:01] Starting DNS Service
+[01-Jun-13 19:08:01] Domain Name: workgroup
+[01-Jun-13 19:08:01] Server Name: Akila-Lap
+[01-Jun-13 19:08:01] Default Host Expiry: 36000 (sec)
+[01-Jun-13 19:08:01] Default Forwarding Server: 255.255.255.255
+[01-Jun-13 19:08:01] Detecting Static Interfaces..
+[01-Jun-13 19:08:01] Listening On: 192.168.142.1
+[01-Jun-13 19:11:07] Network changed, re-detecting Static Interfaces..
+[01-Jun-13 19:11:07] Listening On: 192.168.142.1
+[01-Jun-13 19:14:53] Starting DNS Service
+[01-Jun-13 19:14:53] DNS Logging: Normal
+[01-Jun-13 19:14:53] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 19:14:53] Server Name: Akila-Lap
+[01-Jun-13 19:14:53] Domain Name: workgroup
+[01-Jun-13 19:14:53] Default Forwarding Server: 192.168.1.1
+[01-Jun-13 19:14:53] Default Host Expiry: 36000 (sec)
+[01-Jun-13 19:14:53] Detecting Static Interfaces..
+[01-Jun-13 19:14:53] Warning: Section [LISTEN_ON], Interface 192.168.1.1 not available, ignored
+[01-Jun-13 19:14:53] No Static Interface ready, Waiting...
+[01-Jun-13 19:15:25] DNS Logging: Normal
+[01-Jun-13 19:15:25] Dual DHCP DNS Server Version 7.03 Windows Build 7020 Starting...
+[01-Jun-13 19:15:25] Starting DNS Service
+[01-Jun-13 19:15:25] Server Name: Akila-Lap
+[01-Jun-13 19:15:25] Domain Name: workgroup
+[01-Jun-13 19:15:25] Default Host Expiry: 36000 (sec)
+[01-Jun-13 19:15:25] Detecting Static Interfaces..
+[01-Jun-13 19:15:25] Default Forwarding Server: 255.255.255.255
+[01-Jun-13 19:15:25] Warning: Section [LISTEN_ON], Interface 192.168.1.1 not available, ignored
+[01-Jun-13 19:15:25] No Static Interface ready, Waiting...

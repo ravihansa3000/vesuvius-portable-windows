@@ -1,0 +1,179 @@
+<html> 
+<head>	
+	<title>Vesuvius Air</title>
+	<HTA:APPLICATION 
+		 APPLICATIONNAME="Vesuvius Air"
+		 SCROLL="no"
+		 SINGLEINSTANCE="yes"
+		 WINDOWSTATE="normal"
+		 ICON="..\..\..\..\..\bin\icons\wifi.ico"
+		 
+	>
+</head>
+ 
+<style>
+ 
+	body{
+		background-color: #BFD4E3;
+		Font: arial,sans-serif
+		margin-top: 10px;`
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-bottom: 5px;
+		font-family: Arial, 'Arial Unicode MS';
+		
+	}
+	 
+	#wrap{
+		
+	}
+	 
+	.button{        
+		width: 91px;
+		height: 25px;       
+		font-size: 10pt;
+	}
+	 
+	td{
+		font-family: arial,sans-serif;
+		font-size: 10pt;        
+	}                     
+
+	.message_container {
+		margin: 0 0 20px 0;
+		padding: 5px;
+		border: #E5EAEF 1px solid;
+		background-color: #fcfcfc;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;		
+		box-shadow: 0px 0px 5px rgba(191,191,191,0.4);
+	}
+	
+</style>
+ 
+<script language="VBScript">
+	Sub Window_OnLoad		
+		window.resizeTo 700,450 
+		screenWidth = Document.ParentWindow.Screen.AvailWidth
+		screenHeight = Document.ParentWindow.Screen.AvailHeight
+		posLeft = (screenWidth - 700) / 2
+		posTop = (screenHeight - 450) / 2		
+		window.moveTo posLeft, posTop
+		
+		Set fso = CreateObject("Scripting.FileSystemObject")
+		If (fso.FileExists("config.xml")) Then
+			Set objXMLDoc = CreateObject("Microsoft.XMLDOM") 
+			objXMLDoc.async = False 
+			objXMLDoc.load("config.xml")
+			Set Root = objXMLDoc.documentElement 
+			Set objNodeList = Root.getElementsByTagName("ssid")
+			ssid = objNodeList.item(0).Text
+			Set objNodeList = Root.getElementsByTagName("password")
+			password = objNodeList.item(0).Text 
+			txt_ssid.Value = ssid
+			txt_password.Value = password
+		End If
+	End Sub
+ 
+	Sub StartHotspot 	
+		If (Len(txt_ssid.Value) < 5) then
+			MsgBox "Please enter a network name at least 5 characters long (alpha-numericals only)"
+			Exit Sub
+		End if	
+		
+		If (Len(txt_password.Value) < 8) then
+			MsgBox "Please enter a password at least 8 characters long (alpha-numericals only)"
+			Exit Sub
+		End if
+		
+		Set r = New RegExp
+		r.Pattern = "[a-zA-Z0-9]"
+		
+		For i=1 to Len(txt_password.Value)
+			t = Mid(txt_password.Value,i,1)
+			if not (CStr(r.Test(t))) then			
+				MsgBox "Please enter a password that only contains alpha-numericals"
+				Exit Sub
+			end if
+		Next
+		
+		For i=1 to Len(txt_ssid.Value)
+			t = Mid(txt_ssid.Value,i,1)
+			if not (CStr(r.Test(t))) then
+				MsgBox "Please enter a network name that only contains alpha-numericals"
+				Exit Sub
+			end if
+		Next
+		
+		Set xmlDoc = CreateObject("Microsoft.XMLDOM")  
+  
+		Set objRoot = xmlDoc.createElement("Vesuvius-Air")  
+		xmlDoc.appendChild objRoot  
+
+		Set objRecord = xmlDoc.createElement("WiFi-Network") 
+		objRoot.appendChild objRecord 
+		  
+		Set objName = xmlDoc.createElement("ssid")  
+		objName.Text = txt_ssid.Value
+		objRecord.appendChild objName  
+
+		Set objDate = xmlDoc.createElement("password")  
+		objDate.Text =  txt_password.Value
+		objRecord.appendChild objDate  
+
+		Set objIntro = xmlDoc.createProcessingInstruction("xml", "version='1.0'")  
+		xmlDoc.insertBefore objIntro,xmlDoc.childNodes(0)
+		xmlDoc.Save "config.xml"
+		
+		set fso = CreateObject("Scripting.FileSystemObject")
+		Set objShell = CreateObject("Shell.Application")
+		currDir = fso.GetAbsolutePathName(".")
+
+		objShell.ShellExecute "wscript.exe", currDir & "\start_wifi_hotspot.vbs -1", "", "runas", 1
+		
+ 
+	End Sub
+	
+	Sub StopHotspot 
+		set fso = CreateObject("Scripting.FileSystemObject")
+		Set objShell = CreateObject("Shell.Application")
+		currDir = fso.GetAbsolutePathName(".")
+		objShell.ShellExecute "wscript.exe", currDir & "\stop_wifi_hotspot.vbs -1", "", "runas", 1
+		
+	End Sub 
+
+</script>
+ 
+<body>
+	<div id="wrap">
+		<h3 style="text-align: center; color: rgb(0, 51, 153);">Vesuvius Air</h3>
+		<div style="margin: 10px 0;" class="message_container">
+			<p style="text-align:justify; color: black; font-size:13px; font-weight: bold; line-height:200%">
+				Vesuvius Air is a tool that lets you create a WiFi hotspot and allow external users to connect with this portable instance. Set your network name that will appear on other users' PDA or laptop device and also set a password to protect your network. To access this portable instance open a web browser in an external device and enter "vesuvius" as the URL.
+			</p>
+		</div>	
+	 
+		<table width="90%" style="border: 0px; padding: 5px; border-spacing: 5px;" >
+			<tr>
+				<td width="30%" valign="center"><b>Network Name (SSID)</b></td>
+				<td width="70%" valign="center"><input type="textbox" name="txt_ssid" style="width: 300px;" /></td>
+			</tr>
+			<tr>
+			
+			<tr>
+				<td width="30%" valign="center"><b>Password</b></td>
+				<td width="70%" valign="center"><input type="textbox" name="txt_password" style="width: 300px;" /></td>
+			</tr>		
+		</table>
+		
+		<br/><br/>
+		
+		<div style="text-align: center">
+			<input class="button" TYPE=BUTTON value="Start" name="btnStart"  onClick="StartHotspot">			
+			<input style="margin-left: 20px;" class="button" TYPE=BUTTON value="Stop" name="btnStop"  onClick="StopHotspot">	
+		</div>
+	</div>
+</body>
+
+</html>
