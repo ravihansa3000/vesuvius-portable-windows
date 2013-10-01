@@ -183,3 +183,488 @@
 [24-Sep-13 13:29:29] Network changed, re-detecting Static Interfaces..
 [24-Sep-13 13:29:29] No Static Interface ready, Waiting...
 [24-Sep-13 13:29:29] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 15:16:46] DNS Logging: Normal
+[24-Sep-13 15:16:46] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:16:46] Starting DHCP Service
+[24-Sep-13 15:16:46] DHCP Logging: Normal
+[24-Sep-13 15:16:46] Starting DNS Service
+[24-Sep-13 15:16:46] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:16:46] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:16:46] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:16:46] Max Lease: 36000 (sec)
+[24-Sep-13 15:16:46] Domain Name: workgroup
+[24-Sep-13 15:16:46] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:16:46] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:16:46] Server Name: Akila-Lap
+[24-Sep-13 15:16:46] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:16:46] Detecting Static Interfaces..
+[24-Sep-13 15:16:46] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 15:16:46] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 15:16:46] No Static Interface ready, Waiting...
+[24-Sep-13 15:16:46] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 15:16:46] Retrying failed Listening Interfaces..
+[24-Sep-13 15:16:46] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:16:46] Listening On: 192.168.0.1
+[24-Sep-13 15:16:49] Accept Failed, WSAError 10038
+[24-Sep-13 15:16:49] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:16:49] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:16:49] Listening On: 192.168.0.1
+[24-Sep-13 15:16:50] No Static Entry found for BOOTPREQUEST from Host 00:ab:00:00:00:00
+[24-Sep-13 15:17:17] DHCPREQUEST from Host 00:13:e8:22:58:51 (RANJAN-LAP) without Discover, NAKed
+[24-Sep-13 15:17:17] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:18:57] Starting DHCP Service
+[24-Sep-13 15:18:57] DHCP Logging: Normal
+[24-Sep-13 15:18:57] Starting DNS Service
+[24-Sep-13 15:18:57] DNS Logging: Normal
+[24-Sep-13 15:18:57] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:18:57] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:18:57] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:18:57] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:18:57] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:18:57] Max Lease: 36000 (sec)
+[24-Sep-13 15:18:57] Domain Name: workgroup
+[24-Sep-13 15:18:57] Default Forwarding Server: 8.8.8.8
+[24-Sep-13 15:18:57] Server Name: Akila-Lap
+[24-Sep-13 15:18:57] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:18:57] Detecting Static Interfaces..
+[24-Sep-13 15:18:57] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:18:57] Listening On: 192.168.0.1
+[24-Sep-13 15:20:07] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:27:25] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:27:25] Accept Failed, WSAError 10038
+[24-Sep-13 15:27:44] Starting DHCP Service
+[24-Sep-13 15:27:44] DHCP Logging: Normal
+[24-Sep-13 15:27:44] Starting DNS Service
+[24-Sep-13 15:27:44] DNS Logging: Normal
+[24-Sep-13 15:27:44] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:27:44] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:27:44] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:27:44] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:27:44] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:27:44] Server Name: Akila-Lap
+[24-Sep-13 15:27:44] Max Lease: 36000 (sec)
+[24-Sep-13 15:27:44] Domain Name: workgroup
+[24-Sep-13 15:27:44] Default Forwarding Server: 8.8.8.8
+[24-Sep-13 15:27:44] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:27:44] Detecting Static Interfaces..
+[24-Sep-13 15:27:44] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 15:27:44] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 15:27:44] No Static Interface ready, Waiting...
+[24-Sep-13 15:27:44] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 15:27:44] Retrying failed Listening Interfaces..
+[24-Sep-13 15:27:44] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:27:44] Listening On: 192.168.0.1
+[24-Sep-13 15:27:48] No Static Entry found for BOOTPREQUEST from Host 00:ab:00:00:00:00
+[24-Sep-13 15:27:55] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:29:02] TCP Client 192.168.0.1, Server is not authority for zone www.microsoft.com
+[24-Sep-13 15:30:01] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:30:01] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 15:30:01] Accept Failed, WSAError 10038
+[24-Sep-13 15:30:01] No Static Interface ready, Waiting...
+[24-Sep-13 15:30:26] Starting DHCP Service
+[24-Sep-13 15:30:26] DHCP Logging: Normal
+[24-Sep-13 15:30:26] Starting DNS Service
+[24-Sep-13 15:30:26] DNS Logging: Normal
+[24-Sep-13 15:30:26] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:30:26] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:30:26] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:30:26] Server Name: Akila-Lap
+[24-Sep-13 15:30:26] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:30:26] Detecting Static Interfaces..
+[24-Sep-13 15:30:26] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:30:26] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:30:26] Max Lease: 36000 (sec)
+[24-Sep-13 15:30:26] Domain Name: workgroup
+[24-Sep-13 15:30:26] Default Forwarding Server: 8.8.8.8
+[24-Sep-13 15:30:26] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 15:30:26] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 15:30:26] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 15:30:26] No Static Interface ready, Waiting...
+[24-Sep-13 15:30:26] Retrying failed Listening Interfaces..
+[24-Sep-13 15:30:26] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:30:26] Listening On: 192.168.0.1
+[24-Sep-13 15:30:26] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:30:26] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:30:26] Listening On: 192.168.0.1
+[24-Sep-13 15:31:27] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:34:51] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:34:51] Accept Failed, WSAError 10038
+[24-Sep-13 15:34:51] No Static Interface ready, Waiting...
+[24-Sep-13 15:34:51] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 15:35:13] DHCP Logging: Normal
+[24-Sep-13 15:35:13] Starting DHCP Service
+[24-Sep-13 15:35:13] Starting DNS Service
+[24-Sep-13 15:35:13] DNS Logging: Normal
+[24-Sep-13 15:35:13] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:35:13] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:35:13] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:35:13] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:35:13] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:35:13] Server Name: Akila-Lap
+[24-Sep-13 15:35:13] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:35:13] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:35:13] Max Lease: 36000 (sec)
+[24-Sep-13 15:35:13] Domain Name: workgroup
+[24-Sep-13 15:35:13] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:35:13] Detecting Static Interfaces..
+[24-Sep-13 15:35:13] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 15:35:13] No Static Interface ready, Waiting...
+[24-Sep-13 15:35:13] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 15:35:13] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 15:35:13] Retrying failed Listening Interfaces..
+[24-Sep-13 15:35:13] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:35:16] Listening On: 192.168.0.1
+[24-Sep-13 15:35:38] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:38:20] Accept Failed, WSAError 10038
+[24-Sep-13 15:38:20] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:38:20] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 15:38:20] No Static Interface ready, Waiting...
+[24-Sep-13 15:38:31] Starting DHCP Service
+[24-Sep-13 15:38:31] DHCP Logging: Normal
+[24-Sep-13 15:38:31] Starting DNS Service
+[24-Sep-13 15:38:31] DNS Logging: Normal
+[24-Sep-13 15:38:31] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:38:31] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:38:31] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:38:31] Max Lease: 36000 (sec)
+[24-Sep-13 15:38:31] Domain Name: workgroup
+[24-Sep-13 15:38:31] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:38:31] Detecting Static Interfaces..
+[24-Sep-13 15:38:31] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:38:31] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:38:31] Server Name: Akila-Lap
+[24-Sep-13 15:38:31] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:38:31] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:38:31] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 15:38:31] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 15:38:31] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 15:38:31] No Static Interface ready, Waiting...
+[24-Sep-13 15:38:31] Retrying failed Listening Interfaces..
+[24-Sep-13 15:38:31] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:38:31] Listening On: 192.168.0.1
+[24-Sep-13 15:38:35] Accept Failed, WSAError 10038
+[24-Sep-13 15:38:35] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:38:35] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:38:35] Listening On: 192.168.0.1
+[24-Sep-13 15:38:36] No Static Entry found for BOOTPREQUEST from Host 00:ab:00:00:00:00
+[24-Sep-13 15:38:36] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:40:48] Accept Failed, WSAError 10038
+[24-Sep-13 15:40:48] No Static Interface ready, Waiting...
+[24-Sep-13 15:40:48] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:40:48] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:40:48] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:40:48] Retrying failed Listening Interfaces..
+[24-Sep-13 15:40:48] No Static Interface ready, Waiting...
+[24-Sep-13 15:40:48] Retrying failed Listening Interfaces..
+[24-Sep-13 15:40:48] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:40:48] No Static Interface ready, Waiting...
+[24-Sep-13 15:41:24] Starting DHCP Service
+[24-Sep-13 15:41:24] DHCP Logging: Normal
+[24-Sep-13 15:41:24] Starting DNS Service
+[24-Sep-13 15:41:24] DNS Logging: Normal
+[24-Sep-13 15:41:24] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:41:24] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:41:24] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:41:24] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:41:24] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:41:24] Server Name: Akila-Lap
+[24-Sep-13 15:41:24] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:41:24] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:41:24] Max Lease: 36000 (sec)
+[24-Sep-13 15:41:24] Domain Name: workgroup
+[24-Sep-13 15:41:24] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:41:24] Detecting Static Interfaces..
+[24-Sep-13 15:41:24] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:41:24] No Static Interface ready, Waiting...
+[24-Sep-13 15:41:47] DNS Logging: Normal
+[24-Sep-13 15:41:47] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:41:47] Starting DHCP Service
+[24-Sep-13 15:41:47] DHCP Logging: Normal
+[24-Sep-13 15:41:47] Starting DNS Service
+[24-Sep-13 15:41:47] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:41:47] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:41:47] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:41:47] Max Lease: 36000 (sec)
+[24-Sep-13 15:41:47] Domain Name: workgroup
+[24-Sep-13 15:41:47] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:41:47] Detecting Static Interfaces..
+[24-Sep-13 15:41:47] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:41:47] Server Name: Akila-Lap
+[24-Sep-13 15:41:47] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:41:47] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:41:47] Warning: 192.168.0.1 UDP Port 67 already in use
+[24-Sep-13 15:41:47] Warning: 192.168.0.1 UDP Port 53 already in use
+[24-Sep-13 15:41:47] No Static Interface ready, Waiting...
+[24-Sep-13 15:41:47] Warning: 192.168.0.1 TCP Port 53 already in use
+[24-Sep-13 15:41:47] Retrying failed Listening Interfaces..
+[24-Sep-13 15:41:47] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:41:47] Listening On: 192.168.0.1
+[24-Sep-13 15:41:50] Accept Failed, WSAError 10038
+[24-Sep-13 15:41:50] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:41:50] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:41:50] Listening On: 192.168.0.1
+[24-Sep-13 15:41:51] No Static Entry found for BOOTPREQUEST from Host 00:ab:00:00:00:00
+[24-Sep-13 15:41:58] Starting DHCP Service
+[24-Sep-13 15:41:58] DHCP Logging: Normal
+[24-Sep-13 15:41:58] Starting DNS Service
+[24-Sep-13 15:41:58] DNS Logging: Normal
+[24-Sep-13 15:41:58] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:41:58] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:01 specified
+[24-Sep-13 15:41:58] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:02 specified
+[24-Sep-13 15:41:58] Warning: No IP Address for DHCP Static Host ff:00:27:78:7b:03 specified
+[24-Sep-13 15:41:58] DHCP Range: 192.168.0.2-192.168.0.254/255.255.255.0
+[24-Sep-13 15:41:58] Server Name: Akila-Lap
+[24-Sep-13 15:41:58] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:41:58] Detecting Static Interfaces..
+[24-Sep-13 15:41:58] Max Lease: 36000 (sec)
+[24-Sep-13 15:41:58] Domain Name: workgroup
+[24-Sep-13 15:41:58] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:41:58] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 15:41:58] Listening On: 192.168.0.1
+[24-Sep-13 15:42:02] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:47:02] Host 00:13:e8:22:58:51 (RANJAN-LAP) renewed 192.168.0.2 for 36000 seconds
+[24-Sep-13 15:50:10] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 15:50:10] Accept Failed, WSAError 10038
+[24-Sep-13 15:50:10] Warning: Section [LISTEN_ON], Interface 192.168.0.1 is not Static, ignored
+[24-Sep-13 15:50:10] No Static Interface ready, Waiting...
+[24-Sep-13 15:50:36] Starting DHCP Service
+[24-Sep-13 15:50:36] DHCP Logging: Normal
+[24-Sep-13 15:50:36] DNS Logging: Normal
+[24-Sep-13 15:50:36] Starting DNS Service
+[24-Sep-13 15:50:36] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:50:36] Max Lease: 36000 (sec)
+[24-Sep-13 15:50:36] Domain Name: workgroup
+[24-Sep-13 15:50:36] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:50:36] Detecting Static Interfaces..
+[24-Sep-13 15:50:36] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 15:50:36] Server Name: Akila-Lap
+[24-Sep-13 15:50:36] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:50:36] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:50:36] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:50:36] No Static Interface ready, Waiting...
+[24-Sep-13 15:50:36] Retrying failed Listening Interfaces..
+[24-Sep-13 15:50:36] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:50:36] No Static Interface ready, Waiting...
+[24-Sep-13 15:50:36] Retrying failed Listening Interfaces..
+[24-Sep-13 15:50:36] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:50:36] No Static Interface ready, Waiting...
+[24-Sep-13 15:50:36] Retrying failed Listening Interfaces..
+[24-Sep-13 15:50:36] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:50:36] No Static Interface ready, Waiting...
+[24-Sep-13 15:50:36] Retrying failed Listening Interfaces..
+[24-Sep-13 15:50:36] No Static Interface ready, Waiting...
+[24-Sep-13 15:50:36] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:54:53] Starting DHCP Service
+[24-Sep-13 15:54:53] DHCP Logging: Normal
+[24-Sep-13 15:54:53] Starting DNS Service
+[24-Sep-13 15:54:53] DNS Logging: Normal
+[24-Sep-13 15:54:53] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:54:53] Max Lease: 36000 (sec)
+[24-Sep-13 15:54:53] Domain Name: workgroup
+[24-Sep-13 15:54:53] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 15:54:53] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:54:53] Detecting Static Interfaces..
+[24-Sep-13 15:54:53] Server Name: Akila-Lap
+[24-Sep-13 15:54:53] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:54:53] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:54:53] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:54:53] No Static Interface ready, Waiting...
+[24-Sep-13 15:54:53] Retrying failed Listening Interfaces..
+[24-Sep-13 15:54:53] No Static Interface ready, Waiting...
+[24-Sep-13 15:54:53] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:54:53] Retrying failed Listening Interfaces..
+[24-Sep-13 15:54:53] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:54:53] No Static Interface ready, Waiting...
+[24-Sep-13 15:55:58] Starting DNS Service
+[24-Sep-13 15:55:58] Starting DHCP Service
+[24-Sep-13 15:55:58] DHCP Logging: Normal
+[24-Sep-13 15:55:58] DNS Logging: Normal
+[24-Sep-13 15:55:58] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:55:58] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 15:55:58] Max Lease: 36000 (sec)
+[24-Sep-13 15:55:58] Server Name: Akila-Lap
+[24-Sep-13 15:55:58] Domain Name: workgroup
+[24-Sep-13 15:55:58] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:55:58] Detecting Static Interfaces..
+[24-Sep-13 15:55:58] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:55:58] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:55:58] Warning: Section [LISTEN_ON], Interface 192.168.0.1 not available, ignored
+[24-Sep-13 15:55:58] No Static Interface ready, Waiting...
+[24-Sep-13 15:56:19] Starting DHCP Service
+[24-Sep-13 15:56:19] DHCP Logging: Normal
+[24-Sep-13 15:56:19] Starting DNS Service
+[24-Sep-13 15:56:19] DNS Logging: Normal
+[24-Sep-13 15:56:19] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:56:19] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 15:56:19] Max Lease: 36000 (sec)
+[24-Sep-13 15:56:19] Domain Name: workgroup
+[24-Sep-13 15:56:19] Default Forwarding Server: 192.168.0.1
+[24-Sep-13 15:56:19] Detecting Static Interfaces..
+[24-Sep-13 15:56:19] Server Name: Akila-Lap
+[24-Sep-13 15:56:19] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:56:19] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:56:19] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:56:19] No Static Interface ready, Waiting...
+[24-Sep-13 15:56:39] Retrying failed Listening Interfaces..
+[24-Sep-13 15:56:39] Accept Failed, WSAError 10038
+[24-Sep-13 15:56:39] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:56:39] No Static Interface ready, Waiting...
+[24-Sep-13 15:57:19] Accept Failed, WSAError 10038
+[24-Sep-13 15:57:19] Retrying failed Listening Interfaces..
+[24-Sep-13 15:57:19] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:57:19] No Static Interface ready, Waiting...
+[24-Sep-13 15:58:39] Retrying failed Listening Interfaces..
+[24-Sep-13 15:58:39] Accept Failed, WSAError 10038
+[24-Sep-13 15:58:39] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:58:39] No Static Interface ready, Waiting...
+[24-Sep-13 15:59:06] Starting DNS Service
+[24-Sep-13 15:59:06] Starting DHCP Service
+[24-Sep-13 15:59:06] DHCP Logging: Normal
+[24-Sep-13 15:59:06] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 15:59:06] DNS Logging: Normal
+[24-Sep-13 15:59:06] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 15:59:06] Server Name: Akila-Lap
+[24-Sep-13 15:59:06] Default Host Expiry: 36000 (sec)
+[24-Sep-13 15:59:06] Detecting Static Interfaces..
+[24-Sep-13 15:59:06] Max Lease: 36000 (sec)
+[24-Sep-13 15:59:06] Domain Name: workgroup
+[24-Sep-13 15:59:06] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 15:59:06] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:59:06] Warning: 192.168.173.1 UDP Port 53 already in use
+[24-Sep-13 15:59:06] Warning: 192.168.173.1 TCP Port 53 already in use
+[24-Sep-13 15:59:06] No Static Interface ready, Waiting...
+[24-Sep-13 15:59:06] Retrying failed Listening Interfaces..
+[24-Sep-13 15:59:06] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:59:06] No Static Interface ready, Waiting...
+[24-Sep-13 15:59:46] Retrying failed Listening Interfaces..
+[24-Sep-13 15:59:46] Accept Failed, WSAError 10038
+[24-Sep-13 15:59:46] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 15:59:46] No Static Interface ready, Waiting...
+[24-Sep-13 16:01:06] Retrying failed Listening Interfaces..
+[24-Sep-13 16:01:06] Accept Failed, WSAError 10038
+[24-Sep-13 16:01:06] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 16:01:06] No Static Interface ready, Waiting...
+[24-Sep-13 16:01:27] Starting DHCP Service
+[24-Sep-13 16:01:27] Starting DNS Service
+[24-Sep-13 16:01:27] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 16:01:27] DHCP Logging: Normal
+[24-Sep-13 16:01:27] DNS Logging: Normal
+[24-Sep-13 16:01:27] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 16:01:27] Max Lease: 36000 (sec)
+[24-Sep-13 16:01:27] Server Name: Akila-Lap
+[24-Sep-13 16:01:27] Domain Name: workgroup
+[24-Sep-13 16:01:27] Default Host Expiry: 36000 (sec)
+[24-Sep-13 16:01:27] Detecting Static Interfaces..
+[24-Sep-13 16:01:27] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 16:01:27] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 16:01:27] No Static Interface ready, Waiting...
+[24-Sep-13 16:01:47] Retrying failed Listening Interfaces..
+[24-Sep-13 16:01:47] Accept Failed, WSAError 10038
+[24-Sep-13 16:01:47] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 16:01:47] No Static Interface ready, Waiting...
+[24-Sep-13 16:05:01] DNS Logging: Normal
+[24-Sep-13 16:05:01] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 16:05:01] Starting DHCP Service
+[24-Sep-13 16:05:01] DHCP Logging: Normal
+[24-Sep-13 16:05:01] Starting DNS Service
+[24-Sep-13 16:05:01] DHCP Range: 192.168.173.2-192.168.173.254/255.255.255.0
+[24-Sep-13 16:05:01] Server Name: Akila-Lap
+[24-Sep-13 16:05:01] Default Host Expiry: 36000 (sec)
+[24-Sep-13 16:05:01] Detecting Static Interfaces..
+[24-Sep-13 16:05:01] Max Lease: 36000 (sec)
+[24-Sep-13 16:05:01] Domain Name: workgroup
+[24-Sep-13 16:05:01] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 16:05:01] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 16:05:01] No Static Interface ready, Waiting...
+[24-Sep-13 16:05:21] Retrying failed Listening Interfaces..
+[24-Sep-13 16:05:21] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 16:05:21] No Static Interface ready, Waiting...
+[24-Sep-13 16:06:01] Retrying failed Listening Interfaces..
+[24-Sep-13 16:06:01] Accept Failed, WSAError 10038
+[24-Sep-13 16:06:01] Warning: 192.168.173.1 UDP Port 67 already in use
+[24-Sep-13 16:06:01] No Static Interface ready, Waiting...
+[24-Sep-13 16:07:21] Retrying failed Listening Interfaces..
+[24-Sep-13 16:07:21] Accept Failed, WSAError 10038
+[24-Sep-13 16:07:21] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:07:21] No Static Interface ready, Waiting...
+[24-Sep-13 16:07:21] Retrying failed Listening Interfaces..
+[24-Sep-13 16:07:21] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:07:21] No Static Interface ready, Waiting...
+[24-Sep-13 16:08:21] Starting DNS Service
+[24-Sep-13 16:08:21] DNS Logging: Normal
+[24-Sep-13 16:08:21] DHCP Logging: Normal
+[24-Sep-13 16:08:21] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 16:08:21] Starting DHCP Service
+[24-Sep-13 16:08:21] DHCP Range: 192.168.183.2-192.168.183.254/255.255.255.0
+[24-Sep-13 16:08:21] Max Lease: 36000 (sec)
+[24-Sep-13 16:08:21] Domain Name: workgroup
+[24-Sep-13 16:08:21] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 16:08:21] Server Name: Akila-Lap
+[24-Sep-13 16:08:21] Default Host Expiry: 36000 (sec)
+[24-Sep-13 16:08:21] Detecting Static Interfaces..
+[24-Sep-13 16:08:21] Listening On: 192.168.183.1
+[24-Sep-13 16:08:21] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 16:08:29] DHCPREQUEST from Host 00:13:e8:22:58:51 (RANJAN-LAP) without Discover, NAKed
+[24-Sep-13 16:08:29] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.183.2 for 36000 seconds
+[24-Sep-13 16:09:58] Accept Failed, WSAError 10038
+[24-Sep-13 16:09:58] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 16:09:58] Warning: Section [LISTEN_ON], Interface 192.168.183.1 is not Static, ignored
+[24-Sep-13 16:09:58] No Static Interface ready, Waiting...
+[24-Sep-13 16:10:43] Starting DHCP Service
+[24-Sep-13 16:10:43] DHCP Logging: Normal
+[24-Sep-13 16:10:43] Starting DNS Service
+[24-Sep-13 16:10:43] DNS Logging: Normal
+[24-Sep-13 16:10:43] Dual DHCP DNS Server Version 7.11 Windows Build 7022 Starting...
+[24-Sep-13 16:10:43] DHCP Range: 192.168.183.2-192.168.183.254/255.255.255.0
+[24-Sep-13 16:10:43] Domain Name: workgroup
+[24-Sep-13 16:10:43] Default Forwarding Server: 192.168.1.1
+[24-Sep-13 16:10:43] Max Lease: 36000 (sec)
+[24-Sep-13 16:10:43] Server Name: Akila-Lap
+[24-Sep-13 16:10:43] Default Host Expiry: 36000 (sec)
+[24-Sep-13 16:10:43] Detecting Static Interfaces..
+[24-Sep-13 16:10:43] Lease Status URL: http://127.0.0.1:6789
+[24-Sep-13 16:10:43] Listening On: 192.168.183.1
+[24-Sep-13 16:10:54] Host 00:13:e8:22:58:51 (RANJAN-LAP) allotted 192.168.183.2 for 36000 seconds
+[24-Sep-13 16:27:59] Accept Failed, WSAError 10038
+[24-Sep-13 16:27:59] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 is not Static, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 not available, ignored
+[24-Sep-13 16:27:59] Retrying failed Listening Interfaces..
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 is not Static, ignored
+[24-Sep-13 16:27:59] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 is not Static, ignored
+[24-Sep-13 16:27:59] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 is not Static, ignored
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Network changed, re-detecting Static Interfaces..
+[24-Sep-13 16:27:59] No Static Interface ready, Waiting...
+[24-Sep-13 16:27:59] Warning: Section [LISTEN_ON], Interface 192.168.183.1 is not Static, ignored

@@ -3,14 +3,14 @@
 		<file name="Launch in Default Browser">
 			<path>batch_scripts\launch-url-vesuvius.bat</path>
 			<icon>icons\vesuvius.ico</icon>
-			<runcount>30</runcount>
-			<rundate>2013/09/10 19:40:44</rundate>
+			<runcount>32</runcount>
+			<rundate>2013/09/25 22:46:50</rundate>
 		</file>
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>142</runcount>
-			<rundate>2013/09/24 13:32:52</rundate>
+			<runcount>147</runcount>
+			<rundate>2013/09/28 18:26:30</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -33,8 +33,8 @@
 		<file name="Vesuvius Air">
 			<path>air\vesuvius-air.hta</path>
 			<icon>icons\wifi.ico</icon>
-			<runcount>47</runcount>
-			<rundate>2013/09/24 13:29:06</rundate>
+			<runcount>90</runcount>
+			<rundate>2013/09/28 16:28:48</rundate>
 		</file>
 		<file name="Help">
 			<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
@@ -175,8 +175,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>108</count>
-		<overalltime>183:07:30.543</overalltime>
+		<count>113</count>
+		<overalltime>280:39:50.528</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>

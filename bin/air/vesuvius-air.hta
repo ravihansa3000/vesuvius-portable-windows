@@ -6,7 +6,7 @@
 		 SCROLL="no"
 		 SINGLEINSTANCE="yes"
 		 WINDOWSTATE="normal"
-		 ICON="..\..\..\..\..\bin\icons\wifi.ico"
+		 ICON="..\icons\wifi.ico"
 		 
 	>
 </head>
@@ -27,7 +27,19 @@
 	#wrap{
 		
 	}
-	 
+	
+	.popup{
+		position: absolute;
+		width:650px;
+		height: 300px;		
+		top: 50px;
+		left: 20px;		
+		background:#E4E2E2;		
+		padding: 120px 0;
+		display: none;
+		text-align: center;
+	}
+
 	.button{        
 		width: 91px;
 		height: 25px;       
@@ -88,7 +100,7 @@
 		End if
 		
 		Set r = New RegExp
-		r.Pattern = "[a-zA-Z0-9]"
+		r.Pattern = "[a-zA-Z0-9\-]"
 		
 		For i=1 to Len(txt_password.Value)
 			t = Mid(txt_password.Value,i,1)
@@ -105,7 +117,8 @@
 				Exit Sub
 			end if
 		Next
-		
+		Dim popupEl : set popupEl = document.getElementById("popup")
+		popupEl.style.display = "block"
 		Set xmlDoc = CreateObject("Microsoft.XMLDOM")  
   
 		Set objRoot = xmlDoc.createElement("Vesuvius-Air")  
@@ -131,9 +144,16 @@
 		currDir = fso.GetAbsolutePathName(".")
 
 		objShell.ShellExecute "wscript.exe", currDir & "\start_wifi_hotspot.vbs -1", "", "runas", 1
+		idTimer = window.setTimeout("PausedSection", 20000, "VBScript")
 		
  
 	End Sub
+	
+	Sub PausedSection
+		Dim popupEl : set popupEl = document.getElementById("popup")
+        popupEl.style.display = "none"
+        window.clearTimeout(idTimer)
+    End Sub
 	
 	Sub StopHotspot 
 		set fso = CreateObject("Scripting.FileSystemObject")
@@ -146,6 +166,10 @@
 </script>
  
 <body>
+	<div id="popup" name="popup" class="popup">
+		<span style="font-weight: bold;">Please wait...</span>
+	</div>
+	
 	<div id="wrap">
 		<h3 style="text-align: center; color: rgb(0, 51, 153);">Vesuvius Air</h3>
 		<div style="margin: 10px 0;" class="message_container">
@@ -174,6 +198,8 @@
 			<input style="margin-left: 20px;" class="button" TYPE=BUTTON value="Stop" name="btnStop"  onClick="StopHotspot">	
 		</div>
 	</div>
+	
+	
 </body>
 
 </html>
