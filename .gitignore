@@ -11,3 +11,5 @@ bin/air/DualServer/log/*
 bin/air/log.txt
 build/portable-wrapper_win.zip
 build/portable-wrapper_win.gz
+# Keep empty directories:
+!*/.git*
