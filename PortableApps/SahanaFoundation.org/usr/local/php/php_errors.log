@@ -826,3 +826,51 @@
 [27-Feb-2014 20:24:02] PHP   7. shn_mainmenuitem() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_mainmenu.inc:55
 [27-Feb-2014 20:24:02] PHP   8. shn_pfif_status_code() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\lib_menu.inc:80
 [27-Feb-2014 20:24:02] PHP   9. filemtime() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\mod\pfif\main.inc:215
+[28-Feb-2014 06:52:07] PHP Warning:  mysql_connect(): Access denied for user 'sahana'@'localhost' (using password: YES) in C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php on line 365
+[28-Feb-2014 06:52:07] PHP Stack trace:
+[28-Feb-2014 06:52:07] PHP   1. {main}() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[28-Feb-2014 06:52:07] PHP   2. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[28-Feb-2014 06:52:07] PHP   3. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php:58
+[28-Feb-2014 06:52:07] PHP   4. ADOConnection->Connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_db.inc:28
+[28-Feb-2014 06:52:07] PHP   5. ADODB_mysql->_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\adodb.inc.php:525
+[28-Feb-2014 06:52:07] PHP   6. mysql_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php:365
+[28-Feb-2014 06:52:07] PHP Warning:  mysql_connect(): Access denied for user 'sahana'@'localhost' (using password: YES) in C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php on line 365
+[28-Feb-2014 06:52:07] PHP Stack trace:
+[28-Feb-2014 06:52:07] PHP   1. {main}() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[28-Feb-2014 06:52:07] PHP   2. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[28-Feb-2014 06:52:07] PHP   3. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php:58
+[28-Feb-2014 06:52:07] PHP   4. ADOConnection->Connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_db.inc:28
+[28-Feb-2014 06:52:07] PHP   5. ADODB_mysql->_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\adodb.inc.php:525
+[28-Feb-2014 06:52:07] PHP   6. mysql_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php:365
+[28-Feb-2014 06:55:10] PHP Warning:  mysql_connect(): Access denied for user 'sahana'@'localhost' (using password: YES) in C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php on line 365
+[28-Feb-2014 06:55:10] PHP Stack trace:
+[28-Feb-2014 06:55:10] PHP   1. {main}() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[28-Feb-2014 06:55:10] PHP   2. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[28-Feb-2014 06:55:10] PHP   3. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php:58
+[28-Feb-2014 06:55:10] PHP   4. ADOConnection->Connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_db.inc:28
+[28-Feb-2014 06:55:10] PHP   5. ADODB_mysql->_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\adodb.inc.php:525
+[28-Feb-2014 06:55:10] PHP   6. mysql_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php:365
+[28-Feb-2014 06:55:10] PHP Warning:  mysql_connect(): Access denied for user 'sahana'@'localhost' (using password: YES) in C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php on line 365
+[28-Feb-2014 06:55:10] PHP Stack trace:
+[28-Feb-2014 06:55:10] PHP   1. {main}() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[28-Feb-2014 06:55:10] PHP   2. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[28-Feb-2014 06:55:10] PHP   3. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php:58
+[28-Feb-2014 06:55:10] PHP   4. ADOConnection->Connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_db.inc:28
+[28-Feb-2014 06:55:10] PHP   5. ADODB_mysql->_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\adodb.inc.php:525
+[28-Feb-2014 06:55:10] PHP   6. mysql_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php:365
+[28-Feb-2014 06:55:16] PHP Warning:  mysql_connect(): Access denied for user 'sahana'@'localhost' (using password: YES) in C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php on line 365
+[28-Feb-2014 06:55:16] PHP Stack trace:
+[28-Feb-2014 06:55:16] PHP   1. {main}() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[28-Feb-2014 06:55:16] PHP   2. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[28-Feb-2014 06:55:16] PHP   3. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php:58
+[28-Feb-2014 06:55:16] PHP   4. ADOConnection->Connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_db.inc:28
+[28-Feb-2014 06:55:16] PHP   5. ADODB_mysql->_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\adodb.inc.php:525
+[28-Feb-2014 06:55:16] PHP   6. mysql_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php:365
+[28-Feb-2014 06:55:16] PHP Warning:  mysql_connect(): Access denied for user 'sahana'@'localhost' (using password: YES) in C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php on line 365
+[28-Feb-2014 06:55:16] PHP Stack trace:
+[28-Feb-2014 06:55:16] PHP   1. {main}() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:0
+[28-Feb-2014 06:55:16] PHP   2. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\local\lib\redirect.php:19
+[28-Feb-2014 06:55:16] PHP   3. require_once() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php:58
+[28-Feb-2014 06:55:16] PHP   4. ADOConnection->Connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\inc\handler_db.inc:28
+[28-Feb-2014 06:55:16] PHP   5. ADODB_mysql->_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\adodb.inc.php:525
+[28-Feb-2014 06:55:16] PHP   6. mysql_connect() C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\3rd\adodb\drivers\adodb-mysql.inc.php:365
