@@ -9,8 +9,8 @@
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>151</runcount>
-			<rundate>2014/02/28 01:36:20</rundate>
+			<runcount>153</runcount>
+			<rundate>2014/02/28 11:49:49</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -61,8 +61,8 @@
 		<file name="Check Server Status">
 			<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>14</runcount>
-			<rundate>2014/02/28 00:43:34</rundate>
+			<runcount>16</runcount>
+			<rundate>2014/02/28 11:49:51</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -195,7 +195,7 @@ You will be prompted to create a new admin account on the first run. If you want
 	</configurationfile>
 	<execution>
 		<count>114</count>
-		<overalltime>289:36:06.733</overalltime>
+		<overalltime>292:04:06.236</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
