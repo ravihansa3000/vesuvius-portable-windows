@@ -11,6 +11,8 @@ bin/air/DualServer/log/*
 bin/air/log.txt
 build/portable-wrapper_win.zip
 build/portable-wrapper_win.gz
-PortableApps\SahanaFoundation.org\www\local\db_dump\*
+PortableApps/SahanaFoundation.org/www/local/db_dump/*
+PortableApps/SahanaFoundation.org/www/local/tmp/*
+PortableApps/SahanaFoundation.org/www/local/conf/*
 # Keep empty directories:
 !*/.git*
