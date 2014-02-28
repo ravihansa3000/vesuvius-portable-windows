@@ -17,7 +17,7 @@ define("STATE_ERROR", -1);
 define("STATE_INVALID_INPUT", -2);
 
 $global['portable.approot'] = realpath(dirname(__FILE__) . '/../');
-$global['sahana.approot'] = realpath(dirname(__FILE__) . '/../../vesuvius/');
+$global['sahana.approot'] = realpath(dirname(__FILE__) . '/../../vesuvius/vesuvius/');
 $global['portable.tmp_dir'] = realpath(dirname(__FILE__) . '/../tmp/');
 $global['portable.openssl_dir'] = realpath(dirname(__FILE__) . '/../../../../../bin/openssl');
 $global['portable.mysql.bin'] = realpath($global['portable.approot'] . '/../../usr/local/mysql/bin/');

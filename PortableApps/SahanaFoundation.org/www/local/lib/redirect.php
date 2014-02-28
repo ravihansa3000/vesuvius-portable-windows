@@ -16,7 +16,7 @@ require_once(realpath(dirname(__FILE__) . '/../') . '/lib/lib_uuid.php');
 if (file_exists($global['sahana.conf_file']) && file_exists($global['portable.conf_file']) && file_exists($global['portable.host_uuid_file'])) {
     if (!defined('LC_MESSAGES'))
         define('LC_MESSAGES', 6);
-    require_once(realpath(dirname(__FILE__) . '/../../') . '/vesuvius/www/index.php');
+    require_once(realpath(dirname(__FILE__) . '/../../') . '/vesuvius/vesuvius/www/index.php');
 }else {
     // Vesuvius Portable is not yet registered, display the blocked message
     ?>

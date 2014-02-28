@@ -2504,3 +2504,33 @@ Version: '5.5.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 130924 13:32:53 [Note] Event Scheduler: Purging the queue. 0 events
 130924 13:32:53 [Note] D:/Sahana/vesuvius-portable/vesuvius-portable-windows/PortableApps/SahanaFoundation.org/usr/local/mysql/bin/mysqld-opt_US_1.exe: Shutdown complete
 
+140228  0:40:37 [Note] Plugin 'FEDERATED' is disabled.
+140228  0:40:37 [Note] Plugin 'InnoDB' is disabled.
+140228  0:41:04 [Note] Plugin 'FEDERATED' is disabled.
+140228  0:41:04 [Note] Plugin 'InnoDB' is disabled.
+140228  0:43:47 [Note] Plugin 'FEDERATED' is disabled.
+140228  0:43:47 [Note] Plugin 'InnoDB' is disabled.
+140228  0:44:58 [Note] Plugin 'FEDERATED' is disabled.
+140228  0:44:58 [Note] Plugin 'InnoDB' is disabled.
+140228  0:45:55 [Note] Plugin 'FEDERATED' is disabled.
+140228  0:45:55 [Note] Plugin 'InnoDB' is disabled.
+140228  1:11:22 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:11:22 [Note] Plugin 'InnoDB' is disabled.
+140228  1:11:47 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:11:47 [Note] Plugin 'InnoDB' is disabled.
+140228  1:24:34 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:24:34 [Note] Plugin 'InnoDB' is disabled.
+140228  1:24:57 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:24:57 [Note] Plugin 'InnoDB' is disabled.
+140228  1:30:30 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:30:30 [Note] Plugin 'InnoDB' is disabled.
+140228  1:33:02 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:33:02 [Note] Plugin 'InnoDB' is disabled.
+140228  1:35:42 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:35:42 [Note] Plugin 'InnoDB' is disabled.
+140228  1:36:27 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:36:27 [Note] Plugin 'InnoDB' is disabled.
+140228  1:41:19 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:41:19 [Note] Plugin 'InnoDB' is disabled.
+140228  1:43:32 [Note] Plugin 'FEDERATED' is disabled.
+140228  1:43:32 [Note] Plugin 'InnoDB' is disabled.

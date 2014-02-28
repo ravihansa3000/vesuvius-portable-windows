@@ -3,26 +3,26 @@
 		<file name="Launch in Default Browser">
 			<path>batch_scripts\launch-url-vesuvius.bat</path>
 			<icon>icons\vesuvius.ico</icon>
-			<runcount>32</runcount>
-			<rundate>2013/09/25 22:46:50</rundate>
+			<runcount>38</runcount>
+			<rundate>2014/02/28 01:48:43</rundate>
 		</file>
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>147</runcount>
-			<rundate>2013/09/28 18:26:30</rundate>
+			<runcount>151</runcount>
+			<rundate>2014/02/28 01:36:20</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
 			<icon>icons\restart.ico</icon>
-			<runcount>124</runcount>
-			<rundate>2013/09/20 00:29:09</rundate>
+			<runcount>137</runcount>
+			<rundate>2014/02/28 01:43:30</rundate>
 		</file>
 		<file name="Re-setup Vesuvius Portable">
 			<path>batch_scripts\resetup-vesuvius.bat</path>
 			<icon>icons\resetup.ico</icon>
-			<runcount>48</runcount>
-			<rundate>2013/09/24 02:53:49</rundate>
+			<runcount>52</runcount>
+			<rundate>2014/02/28 01:48:11</rundate>
 		</file>
 		<file name="View Owner Details">
 			<path>batch_scripts\launch-url-view-owner.bat</path>
@@ -55,14 +55,14 @@
 		<file name="Check Vesuvius Status">
 			<path>batch_scripts\check-ports.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>34</runcount>
-			<rundate>2013/09/19 23:50:40</rundate>
+			<runcount>35</runcount>
+			<rundate>2014/02/28 00:43:29</rundate>
 		</file>
 		<file name="Check Server Status">
 			<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
 			<icon>icons\status.ico</icon>
-			<runcount>12</runcount>
-			<rundate>2013/09/24 02:36:58</rundate>
+			<runcount>14</runcount>
+			<rundate>2014/02/28 00:43:34</rundate>
 		</file>
 		<separator>
 		</separator>
@@ -84,14 +84,33 @@
 			<file name="Launch phpMyAdmin">
 				<path>batch_scripts\launch-url-phpmyadmin.bat</path>
 				<icon>icons\phpmyadmin.ico</icon>
-				<runcount>22</runcount>
-				<rundate>2013/09/24 02:44:14</rundate>
+				<runcount>23</runcount>
+				<rundate>2014/02/28 01:50:33</rundate>
 			</file>
 			<file name="Clear Log Files">
 				<path>batch_scripts\clear-logs.bat</path>
 				<icon>icons\clear.ico</icon>
 				<runcount>12</runcount>
 				<rundate>2013/08/13 16:16:41</rundate>
+			</file>
+			<file name="Clone Sahana Vesuvius">
+				<path>..\PortableApps\PortableGit\clone-vesuvius.bat</path>
+			</file>
+			<file name="Fetch from GitHub Main">
+				<path>..\PortableApps\PortableGit\fetch-vesuvius.bat</path>
+			</file>
+			<file name="Pull from GitHub Main">
+				<path>..\PortableApps\PortableGit\pull-vesuvius.bat</path>
+			</file>
+			<file name="Git Status">
+				<path>..\PortableApps\PortableGit\git-status.bat</path>
+				<runcount>1</runcount>
+				<rundate>2014/02/28 01:56:30</rundate>
+			</file>
+			<file name="Git GUI">
+				<path>..\PortableApps\PortableGit\gitk.bat</path>
+				<runcount>1</runcount>
+				<rundate>2014/02/28 01:57:17</rundate>
 			</file>
 			<separator>
 			</separator>
@@ -175,8 +194,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>113</count>
-		<overalltime>280:39:50.528</overalltime>
+		<count>114</count>
+		<overalltime>289:36:06.733</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
@@ -290,12 +309,12 @@ You will be prompted to create a new admin account on the first run. If you want
 	<window>
 		<main>
 			<position>
-				<x>926</x>
-				<y>230</y>
+				<x>1104</x>
+				<y>246</y>
 			</position>
 			<size>
 				<x>328</x>
-				<y>530</y>
+				<y>568</y>
 			</size>
 		</main>
 	</window>
