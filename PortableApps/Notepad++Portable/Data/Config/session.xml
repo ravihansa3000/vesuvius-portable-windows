@@ -1,7 +1,11 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="0">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="6328" startPos="174" endPos="174" selMode="0" lang="Normal Text" encoding="-1" filename="D:\Sahana\vesuvius-portable\README.txt" />
+        <mainView activeIndex="4">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="174" endPos="174" selMode="0" lang="Normal Text" encoding="-1" filename="C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\README.txt" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="760" startPos="757" endPos="757" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php" />
+            <File firstVisibleLine="255" xOffset="0" scrollWidth="616" startPos="7177" endPos="7177" selMode="0" lang="C++" encoding="-1" filename="C:\Users\AkilaRavihansa\Downloads\NPPGit.source\NPPGit\NPPGit.cpp" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="784" startPos="0" endPos="0" selMode="0" lang="C++" encoding="-1" filename="C:\Users\AkilaRavihansa\Downloads\NPPGit.source\NPPGit\stdafx.cpp" />
+            <File firstVisibleLine="18" xOffset="0" scrollWidth="1400" startPos="826" endPos="826" selMode="0" lang="XML" encoding="-1" filename="C:\Users\AkilaRavihansa\Documents\GitHub\vesuvius-portable-windows\PortableApps\Notepad++Portable\App\Notepad++\contextMenu.xml" />
         </mainView>
         <subView activeIndex="0" />
     </Session>

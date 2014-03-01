@@ -9,8 +9,8 @@
 		<file name="Stop Vesuvius Portable">
 			<path>batch_scripts\stop-vesuvius.bat</path>
 			<icon>icons\stop.ico</icon>
-			<runcount>158</runcount>
-			<rundate>2014/02/28 14:01:30</rundate>
+			<runcount>159</runcount>
+			<rundate>2014/03/01 17:31:30</rundate>
 		</file>
 		<file name="Restart Vesuvius Portable">
 			<path>batch_scripts\restart-vesuvius.bat</path>
@@ -46,34 +46,37 @@
 		</file>
 		<separator>
 		</separator>
-		<file name="Portable Server Admin">
-			<path>batch_scripts\launch-url-UniApanel.bat</path>
+		<files name="Tools">
 			<icon>icons\admin.ico</icon>
-			<runcount>8</runcount>
-			<rundate>2013/08/11 19:06:11</rundate>
-		</file>
-		<file name="Check Vesuvius Status">
-			<path>batch_scripts\check-ports.bat</path>
-			<icon>icons\status.ico</icon>
-			<runcount>35</runcount>
-			<rundate>2014/02/28 00:43:29</rundate>
-		</file>
-		<file name="Check Server Status">
-			<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
-			<icon>icons\status.ico</icon>
-			<runcount>17</runcount>
-			<rundate>2014/02/28 12:25:00</rundate>
-		</file>
+			<file name="Portable Server Admin">
+				<path>batch_scripts\launch-url-UniApanel.bat</path>
+				<icon>icons\admin.ico</icon>
+				<runcount>8</runcount>
+				<rundate>2013/08/11 19:06:11</rundate>
+			</file>
+			<file name="Check Vesuvius Status">
+				<path>batch_scripts\check-ports.bat</path>
+				<icon>icons\status.ico</icon>
+				<runcount>35</runcount>
+				<rundate>2014/02/28 00:43:29</rundate>
+			</file>
+			<file name="Check Server Status">
+				<path>..\PortableApps\SahanaFoundation.org\unicon\main\server_status.bat</path>
+				<icon>icons\status.ico</icon>
+				<runcount>17</runcount>
+				<rundate>2014/02/28 12:25:00</rundate>
+			</file>
+		</files>
 		<separator>
 		</separator>
 		<files name="Development Tools">
 			<icon>icons\development.ico</icon>
 			<file name="Launch IDE/Debugger">
 				<path>..\PortableApps\Notepad++Portable\Notepad++Portable.exe</path>
-				<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\www\index.php</parameters>
+				<parameters>PortableApps\SahanaFoundation.org\www\vesuvius\vesuvius\www\index.php</parameters>
 				<directory>..\</directory>
-				<runcount>19</runcount>
-				<rundate>2013/09/21 00:50:49</rundate>
+				<runcount>25</runcount>
+				<rundate>2014/03/01 15:17:23</rundate>
 			</file>
 			<file name="Debug in Default Browser">
 				<path>batch_scripts\launch-url-vesuvius-debug.bat</path>
@@ -92,27 +95,6 @@
 				<icon>icons\clear.ico</icon>
 				<runcount>12</runcount>
 				<rundate>2013/08/13 16:16:41</rundate>
-			</file>
-			<file name="Clone Sahana Vesuvius">
-				<path>..\PortableApps\PortableGit\clone-vesuvius.bat</path>
-				<runcount>1</runcount>
-				<rundate>2014/02/28 13:57:13</rundate>
-			</file>
-			<file name="Fetch from GitHub Main">
-				<path>..\PortableApps\PortableGit\fetch-vesuvius.bat</path>
-			</file>
-			<file name="Pull from GitHub Main">
-				<path>..\PortableApps\PortableGit\pull-vesuvius.bat</path>
-			</file>
-			<file name="Git Status">
-				<path>..\PortableApps\PortableGit\git-status.bat</path>
-				<runcount>2</runcount>
-				<rundate>2014/02/28 13:57:21</rundate>
-			</file>
-			<file name="Git GUI">
-				<path>..\PortableApps\PortableGit\gitk.bat</path>
-				<runcount>1</runcount>
-				<rundate>2014/02/28 01:57:17</rundate>
 			</file>
 			<separator>
 			</separator>
@@ -167,6 +149,35 @@
 				</file>
 			</files>
 		</files>
+		<separator>
+		</separator>
+		<files name="Git">
+			<icon>icons\git_logo.ico</icon>
+			<file name="Git GUI">
+				<path>..\PortableApps\PortableGit\gitk.bat</path>
+				<icon>icons\gitk.ico</icon>
+				<runcount>4</runcount>
+				<rundate>2014/03/01 13:38:39</rundate>
+			</file>
+			<file name="Git Status">
+				<path>..\PortableApps\PortableGit\git-status.bat</path>
+				<icon>icons\status.ico</icon>
+				<runcount>4</runcount>
+				<rundate>2014/03/01 13:17:19</rundate>
+			</file>
+			<file name="Fetch from GitHub Main">
+				<path>..\PortableApps\PortableGit\fetch-vesuvius.bat</path>
+			</file>
+			<file name="Pull from GitHub Main">
+				<path>..\PortableApps\PortableGit\pull-vesuvius.bat</path>
+			</file>
+			<file name="Git Bash">
+				<path>..\PortableApps\PortableGit\git-bash.bat</path>
+				<directory>..\PortableApps\SahanaFoundation.org\www\vesuvius</directory>
+				<runcount>2</runcount>
+				<rundate>2014/03/01 17:30:33</rundate>
+			</file>
+		</files>
 	</files>
 	<notes>
 		<note name="Help">
@@ -196,8 +207,8 @@ You will be prompted to create a new admin account on the first run. If you want
 		<backupmode>pbmTemporary</backupmode>
 	</configurationfile>
 	<execution>
-		<count>116</count>
-		<overalltime>293:42:07.625</overalltime>
+		<count>118</count>
+		<overalltime>318:48:28.458</overalltime>
 	</execution>
 	<general>
 		<executionaction>0</executionaction>
@@ -311,12 +322,12 @@ You will be prompted to create a new admin account on the first run. If you want
 	<window>
 		<main>
 			<position>
-				<x>1104</x>
-				<y>246</y>
+				<x>1139</x>
+				<y>272</y>
 			</position>
 			<size>
 				<x>328</x>
-				<y>568</y>
+				<y>539</y>
 			</size>
 		</main>
 	</window>
