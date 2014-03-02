@@ -16,11 +16,11 @@ $base_dir = realpath(dirname(__FILE__) . '/../');
 $DIR_FILTERS = array();
 $FILE_FILTERS = array();
 
-$DIR_FILTERS[] = realpath($base_dir . '/.bzr');
+$DIR_FILTERS[] = realpath($base_dir . '/.git');
 $DIR_FILTERS[] = realpath($base_dir . '/build');
-$DIR_FILTERS[] = realpath($base_dir . '/PortableApps/SahanaFoundation.org/www/vesuvius');
 
-$FILE_FILTERS[] = realpath($base_dir . '/.bzrignore');
+
+$FILE_FILTERS[] = realpath($base_dir . '/.gitignore');
 $FILE_FILTERS[] = realpath($global['portable.conf_file']);
 $FILE_FILTERS[] = realpath($global['portable.host_uuid_file']);
 $FILE_FILTERS[] = realpath($global['portable.db_dump_file']);
@@ -28,8 +28,16 @@ $FILE_FILTERS[] = realpath($global['portable.db_dump_file']);
 // Clean log files
 require_once(realpath(dirname(__FILE__) . '/../') . '/bin/php_scripts/clear-logs.php');
 
-if ($argv[1] === "gz") {
-    $dest_file = dirname(__FILE__) . '/portable-wrapper_win.tar';
+if ($argv[1] === "wrapper") {
+	$DIR_FILTERS[] = realpath($base_dir . '/PortableApps/SahanaFoundation.org/www/vesuvius');
+	$build_filename = "portable-wrapper_win";
+}else if ($argv[1] === "standalone") {
+	//$DIR_FILTERS[] = realpath($base_dir . '/PortableApps/SahanaFoundation.org/www/vesuvius');
+	$build_filename = "vesuvius-portable_win";
+}
+
+if ($argv[2] === "gz") {
+    $dest_file = dirname(__FILE__) . '/' . $build_filename . '.tar';
     @unlink($dest_file);
     @unlink($dest_file . '.gz');
     $phar = new PharData($dest_file);
@@ -38,8 +46,8 @@ if ($argv[1] === "gz") {
     $phar->buildFromIterator($itr, $base_dir);
     $phar = $phar->compress(Phar::GZ);
     @unlink($dest_file);
-} else if ($argv[1] === "zip") {
-    $dest_file = dirname(__FILE__) . '/portable-wrapper_win.zip';
+} else if ($argv[2] === "zip") {
+    $dest_file = dirname(__FILE__) . '/' . $build_filename . '.zip';
     @unlink($dest_file);
     $zip = new ZipArchive();
     $zip->open($dest_file, ZipArchive::CREATE);

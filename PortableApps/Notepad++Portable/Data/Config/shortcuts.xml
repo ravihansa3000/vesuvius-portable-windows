@@ -19,6 +19,7 @@
         <Command name="Open containing folder" Ctrl="no" Alt="no" Shift="no" Key="0">explorer $(CURRENT_DIRECTORY)</Command>
         <Command name="Open current dir cmd" Ctrl="no" Alt="no" Shift="no" Key="0">cmd /K cd /d $(CURRENT_DIRECTORY)</Command>
         <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Git Bash" Ctrl="yes" Alt="yes" Shift="no" Key="71">..\..\..\PortableGit\git-bash-vesuvius.bat</Command>
     </UserDefinedCommands>
     <PluginCommands />
     <ScintillaKeys />
